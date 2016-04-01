@@ -1,11 +1,11 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb/rules/best-practices',
-    'eslint-config-airbnb/rules/errors',
-    'eslint-config-airbnb/rules/legacy',
-    'eslint-config-airbnb/rules/node',
-    'eslint-config-airbnb/rules/style',
-    'eslint-config-airbnb/rules/variables'
+    'eslint-config-d3banking/rules/best-practices',
+    'eslint-config-d3banking/rules/errors',
+    'eslint-config-d3banking/rules/legacy',
+    'eslint-config-d3banking/rules/node',
+    'eslint-config-d3banking/rules/style',
+    'eslint-config-d3banking/rules/variables'
   ].map(require.resolve),
   env: {
     browser: true,

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-airbnb",
+  "name": "eslint-config-d3banking",
   "version": "6.2.0",
   "description": "Airbnb's ESLint config, following our styleguide",
   "main": "index.js",

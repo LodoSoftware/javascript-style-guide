@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb/legacy',
-    'eslint-config-airbnb/rules/es6',
-    'eslint-config-airbnb/rules/strict',
-    'eslint-config-airbnb/rules/d3overrides'
+    'eslint-config-d3banking/legacy',
+    'eslint-config-d3banking/rules/es6',
+    'eslint-config-d3banking/rules/strict',
+    'eslint-config-d3banking/rules/d3overrides'
   ].map(require.resolve),
   rules: {}
 };
