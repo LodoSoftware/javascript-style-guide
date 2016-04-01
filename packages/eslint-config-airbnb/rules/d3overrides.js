@@ -36,6 +36,9 @@ module.exports = {
     // require a capital letter for constructors
     'new-cap': [2, {'newIsCap': true, 'capIsNewExceptions': ['Deferred', 'SetOptions']}],
 
+    // require immediate function invocation to be wrapped in parentheses
+    'wrap-iife': [2, 'any'],
+
     ////////////////////////////////
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
     /////////////////////
@@ -50,9 +53,9 @@ module.exports = {
     // too many to change all at once
     'space-before-function-paren': [1, { 'anonymous': 'never', 'named': 'never' }],
     'one-var': [1, 'never'],
-    'indent': [1, 2, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+    'indent': [1, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
     'keyword-spacing': [1, { before: true, after: true }],
-    'key-spacing': [1, {'beforeColon': false, 'afterColon': true}],
+    'key-spacing': [1, { 'beforeColon': false, 'afterColon': true }],
     'array-bracket-spacing': [1, 'never'],
     'object-curly-spacing': [1, 'always'],
     'comma-spacing': [1, {'before': false, 'after': true}],
@@ -61,7 +64,9 @@ module.exports = {
     'no-use-before-define': 1,
     'strict': 1,
     'prefer-template': 1,
-    'prefer-arrow-callback': 1
+    'prefer-arrow-callback': 1,
+    'prefer-rest-params': 1,
+    'one-var-declaration-per-line': 1
   }
 
 };
