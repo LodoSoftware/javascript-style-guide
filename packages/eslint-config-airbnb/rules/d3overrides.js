@@ -39,6 +39,10 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     'wrap-iife': [2, 'any'],
 
+    // allow reassignment of function parameters
+    // allow parameter object manipulation
+    'no-param-reassign': 0,
+
     ////////////////////////////////
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
     /////////////////////
@@ -46,9 +50,6 @@ module.exports = {
     // ES6 warnings
     'no-var': 1,
     'object-shorthand': [1, 'always'],
-
-    // changing this to a warning so we don't break existing functionality
-    'no-param-reassign': [1, { 'props': true }],
 
     // too many to change all at once
     'space-before-function-paren': [1, { 'anonymous': 'never', 'named': 'never' }],
