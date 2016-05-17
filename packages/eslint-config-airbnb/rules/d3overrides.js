@@ -15,9 +15,6 @@ module.exports = {
     // allow trailing commas in object literals
     'comma-dangle': [2, 'never'],
 
-    // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': 0,
-
     // specify the maximum length of a line in your program
     'max-len': [1, 200, 2, {
       'ignoreUrls': true,
@@ -43,6 +40,9 @@ module.exports = {
     // allow parameter object manipulation
     'no-param-reassign': 0,
 
+    // enforce spacing inside array brackets
+    'array-bracket-spacing': [1, 'always'],
+
     ////////////////////////////////
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
     /////////////////////
@@ -57,7 +57,6 @@ module.exports = {
     'indent': [1, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
     'keyword-spacing': [1, { before: true, after: true }],
     'key-spacing': [1, { 'beforeColon': false, 'afterColon': true }],
-    'array-bracket-spacing': [1, 'never'],
     'object-curly-spacing': [1, 'always'],
     'comma-spacing': [1, {'before': false, 'after': true}],
     'quote-props': [1, 'as-needed', { 'keywords': false, 'unnecessary': true, 'numbers': false }],
