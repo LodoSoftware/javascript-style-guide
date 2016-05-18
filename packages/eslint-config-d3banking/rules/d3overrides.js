@@ -2,10 +2,6 @@ module.exports = {
 
   // D3 Overrides
 
-  'env': {
-    'amd': true
-  },
-
   'globals': {
     'd3': true,
     '$': true,
@@ -47,6 +43,9 @@ module.exports = {
     // enforce spacing inside array brackets
     'array-bracket-spacing': [ 1, 'always' ],
 
+    // allow dangling underscores in variable names
+    'no-underscore-dangle': 0,
+
 
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
 
@@ -70,6 +69,8 @@ module.exports = {
     'prefer-arrow-callback': 1,
     'prefer-rest-params': 1,
     'one-var-declaration-per-line': 1,
+    'newline-per-chained-call': [ 1, { 'ignoreChainWithDepth': 3 } ],
+    'global-require': 1,
 
 
     // These are showing as unused for some reason
