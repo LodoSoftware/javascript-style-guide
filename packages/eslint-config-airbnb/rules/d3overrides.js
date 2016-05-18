@@ -15,6 +15,9 @@ module.exports = {
     // allow trailing commas in object literals
     'comma-dangle': [2, 'never'],
 
+    // enforce newline at the end of file, with no multiple empty lines
+    'eol-last': 1,
+
     // specify the maximum length of a line in your program
     'max-len': [1, 200, 2, {
       'ignoreUrls': true,
