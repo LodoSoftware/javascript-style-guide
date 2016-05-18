@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-d3banking",
+  "version": "7.0.0",
+  "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "tests-only": "babel-tape-runner ./test/test-*.js",
+    "pretest": "eslint-find-rules --unused",
+    "test": "npm run --silent lint && npm run --silent tests-only"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LodoSoftware/javascript"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide",
+    "d3banking"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LodoSoftware/javascript/issues"
+  },
+  "homepage": "https://github.com/LodoSoftware/javascript",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-tape-runner": "^2.0.0",
+    "eslint": "^2.10.1",
+    "eslint-find-rules": "^1.9.2",
+    "eslint-plugin-import": "^1.8.0",
+    "tape": "^4.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^2.10.1",
+    "eslint-plugin-import": "^1.8.0"
+  }
+}
