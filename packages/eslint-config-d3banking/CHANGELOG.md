@@ -1,3 +1,7 @@
+7.0.4 / 2016-05-20
+==================
+- [patch] allow use of classes and functions before defined
+
 7.0.3 / 2016-05-18
 ==================
 - [deps] fixing up dependencies for the import plugin

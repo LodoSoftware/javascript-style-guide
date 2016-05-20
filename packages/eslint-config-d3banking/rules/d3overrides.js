@@ -46,6 +46,9 @@ module.exports = {
     // allow dangling underscores in variable names
     'no-underscore-dangle': 0,
 
+    // allow use of classes and functions before they are defined
+    'no-use-before-define': [ 1, { 'classes': false, 'functions': false } ],
+
 
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
 
@@ -63,7 +66,6 @@ module.exports = {
     'comma-spacing': [ 1, { 'before': false, 'after': true } ],
     'quote-props': [ 1, 'as-needed', { 'keywords': false, 'unnecessary': true, 'numbers': false } ],
     'no-nested-ternary': 1,
-    'no-use-before-define': 1,
     'strict': 1,
     'prefer-template': 1,
     'prefer-arrow-callback': 1,
