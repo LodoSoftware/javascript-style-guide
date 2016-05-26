@@ -1,3 +1,7 @@
+7.1.0 / 2016-05-26
+==================
+- [minor] Added legacy ES5 support via `d3banking/legacy`
+
 7.0.4 / 2016-05-20
 ==================
 - [patch] allow use of classes and functions before defined

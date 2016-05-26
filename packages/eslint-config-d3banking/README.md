@@ -8,10 +8,11 @@ This package provides D3 Banking's .eslintrc as an extensible shared config.
 
 ### eslint-config-d3banking
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires `eslint`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`.
 
 1. `npm install --save-dev eslint-config-d3banking eslint`
 2. add `"extends": "d3banking"` to your .eslintrc
+2. add `"extends": "d3banking/legacy"` to your .eslintrc for ES5 projects
 
 See [D3 Banking's Javascript styleguide](https://github.com/LodoSoftware/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
