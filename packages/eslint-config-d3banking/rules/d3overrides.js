@@ -57,7 +57,7 @@ module.exports = {
     'object-shorthand': [ 1, 'always' ],
 
     // too many to change all at once
-    'space-before-function-paren': [ 1, { 'anonymous': 'never', 'named': 'never' } ],
+    'space-before-function-paren': [ 1, { 'anonymous': 'always', 'named': 'never' } ],
     'one-var': [ 1, 'never' ],
     'indent': [ 1, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 } ],
     'keyword-spacing': [ 1, { before: true, after: true } ],

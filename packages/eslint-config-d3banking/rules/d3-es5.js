@@ -7,6 +7,7 @@ module.exports = {
     'prefer-arrow-callback': 0,
     'prefer-rest-params': 0,
     'import/no-amd': 0,
+    'func-names': 0,
 
     // Temp warnings
     'space-before-blocks': 1,

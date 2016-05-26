@@ -1,3 +1,8 @@
+7.1.1 / 2016-05-26
+==================
+- [patch] `space-before-function-paren` updated to be required for anonymous functions
+- [patch] [es5] `func-names` are no longer required
+
 7.1.0 / 2016-05-26
 ==================
 - [minor] Added legacy ES5 support via `d3banking/legacy`
