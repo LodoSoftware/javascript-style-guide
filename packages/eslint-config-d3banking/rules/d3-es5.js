@@ -37,7 +37,20 @@ module.exports = {
     'no-control-regex': 1,
     'array-callback-return': 1,
     'computed-property-spacing': [ 1, 'never' ],
-    'no-cond-assign': [ 1, 'always' ]
+    'no-cond-assign': [ 1, 'always' ],
+    'strict': [ 1, 'function' ],
+    'no-unused-vars': [ 1, { 'vars': 'local', 'args': 'after-used' } ],
+    'quotes': [ 1, 'single', { 'avoidEscape': true } ],
+    'no-trailing-spaces': 1,
+    'no-undef': 1,
+    'comma-dangle': [ 1, 'never' ],
+    'eqeqeq': [ 1, 'allow-null' ],
+    'curly': [ 1, 'multi-line' ],
+    'no-multiple-empty-lines': [ 1, { 'max': 2, 'maxEOF': 1 } ],
+    'block-scoped-var': 1,
+    'dot-notation': [ 1, { 'allowKeywords': true } ],
+    'no-unused-expressions': 1,
+    'no-sequences': 1,
   }
 
 };

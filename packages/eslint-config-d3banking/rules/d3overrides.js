@@ -66,7 +66,7 @@ module.exports = {
     'comma-spacing': [ 1, { 'before': false, 'after': true } ],
     'quote-props': [ 1, 'as-needed', { 'keywords': false, 'unnecessary': true, 'numbers': false } ],
     'no-nested-ternary': 1,
-    'strict': 1,
+    'strict': [ 1, 'never' ],
     'prefer-template': 1,
     'prefer-arrow-callback': 1,
     'prefer-rest-params': 1,
