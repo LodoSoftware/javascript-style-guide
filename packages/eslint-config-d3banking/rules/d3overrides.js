@@ -40,8 +40,8 @@ module.exports = {
     // allow parameter object manipulation
     'no-param-reassign': 0,
 
-    // enforce spacing inside array brackets
-    'array-bracket-spacing': [ 1, 'always' ],
+    // allow spacing inside array brackets
+    'array-bracket-spacing': 0,
 
     // allow dangling underscores in variable names
     'no-underscore-dangle': 0,

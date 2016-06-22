@@ -1,5 +1,9 @@
 7.1.2 / 2016-05-26
 ==================
+- [patch] disables the `array-bracket-spacing` rule since there are too many exceptions to the rule
+
+7.1.2 / 2016-05-26
+==================
 - [patch] updated the `strict` rule to use correct options
 - [patch] [es5] added additional rules to the es5 warnings list
 
