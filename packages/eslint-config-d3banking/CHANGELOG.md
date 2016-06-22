@@ -1,4 +1,4 @@
-7.1.2 / 2016-05-26
+7.1.3 / 2016-05-26
 ==================
 - [patch] disables the `array-bracket-spacing` rule since there are too many exceptions to the rule
 
