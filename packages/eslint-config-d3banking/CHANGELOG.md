@@ -1,3 +1,8 @@
+8.0.0 / 2016-08-01
+==================
+- [deps] Update `eslint` to `v3.2`
+- [breaking] Update `eslint-config-airbnb-base` to `v5.0.1`
+
 7.1.3 / 2016-05-26
 ==================
 - [patch] disables the `array-bracket-spacing` rule since there are too many exceptions to the rule
