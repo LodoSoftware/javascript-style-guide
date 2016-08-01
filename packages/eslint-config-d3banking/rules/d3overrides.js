@@ -2,12 +2,6 @@ module.exports = {
 
   // D3 Overrides
 
-  'globals': {
-    'd3': true,
-    '$': true,
-    'angular': true
-  },
-
   'rules': {
     // allow trailing commas in object literals
     'comma-dangle': [ 2, 'never' ],
@@ -47,7 +41,9 @@ module.exports = {
     'no-underscore-dangle': 0,
 
     // allow use of classes and functions before they are defined
-    'no-use-before-define': [ 1, { 'classes': false, 'functions': false } ],
+    'no-use-before-define': [1, { 'classes': false, 'functions': false }],
+
+    'no-prototype-builtins': [0],
 
 
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
@@ -74,16 +70,9 @@ module.exports = {
     'newline-per-chained-call': [ 1, { 'ignoreChainWithDepth': 3 } ],
     'global-require': 1,
 
-
-    // These are showing as unused for some reason
-
-    // Require modules with a single export to use a default export
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 1,
-
-    // enforce 'same line' or 'multiple line' on object properties.
-    // http://eslint.org/docs/rules/object-property-newline
-    'object-property-newline': [ 0, { 'allowMultiplePropertiesPerLine': true } ]
+    // disallow un-paren'd mixes of different operators
+    // eventually might want to add this in
+    'no-mixed-operators': 0
   }
 
 };
