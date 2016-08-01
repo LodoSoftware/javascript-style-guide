@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': {
+  rules: {
     // require trailing commas in multiline object literals
     'comma-dangle': [2, 'always-multiline'],
 
@@ -37,14 +37,15 @@ module.exports = {
     'no-ex-assign': 2,
 
     // disallow double-negation boolean casts in a boolean context
-    'no-extra-boolean-cast': 0,
+    // http://eslint.org/docs/rules/no-extra-boolean-cast
+    'no-extra-boolean-cast': 2,
 
     // disallow unnecessary parentheses
     // http://eslint.org/docs/rules/no-extra-parens
     'no-extra-parens': [0, 'all', {
-      'conditionalAssign': true,
-      'nestedBinaryExpressions': false,
-      'returnAssign': false,
+      conditionalAssign: true,
+      nestedBinaryExpressions: false,
+      returnAssign: false,
     }],
 
     // disallow unnecessary semicolons
@@ -68,6 +69,10 @@ module.exports = {
     // disallow the use of object properties of the global object (Math and JSON) as functions
     'no-obj-calls': 2,
 
+    // disallow use of Object.prototypes builtins directly
+    // http://eslint.org/docs/rules/no-prototype-builtins
+    'no-prototype-builtins': 2,
+
     // disallow multiple spaces in a regular expression literal
     'no-regex-spaces': 2,
 
@@ -75,7 +80,8 @@ module.exports = {
     'no-sparse-arrays': 2,
 
     // Avoid code that looks like two expressions but is actually one
-    'no-unexpected-multiline': 0,
+    // http://eslint.org/docs/rules/no-unexpected-multiline
+    'no-unexpected-multiline': 2,
 
     // disallow unreachable statements after a return, throw, continue, or break statement
     'no-unreachable': 2,

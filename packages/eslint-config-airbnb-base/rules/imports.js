@@ -1,29 +1,38 @@
 module.exports = {
-  'env': {
-    'es6': true
+  env: {
+    es6: true
   },
-  'parserOptions': {
-    'ecmaVersion': 6,
-    'sourceType': 'module'
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module'
   },
-  'plugins': [
+  plugins: [
     'import'
   ],
 
-  'settings': {
+  settings: {
     'import/resolver': {
-      'node': {
-        'extensions': ['.js', '.json']
+      node: {
+        extensions: ['.js', '.json']
       }
-    }
+    },
+    'import/extensions': [
+      'node_modules',
+    ],
+    'import/core-modules': [
+    ],
+    'import/ignore': [
+      'node_modules',
+      '\\.(coffee|scss|css|less|hbs|svg|json)$',
+    ],
   },
 
-  'rules': {
+  rules: {
     // Static analysis:
 
     // ensure imports point to files/modules that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': [2, { 'commonjs': true }],
+    'import/no-unresolved': [2, { commonjs: true }],
 
     // ensure named imports coupled with named exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
@@ -44,13 +53,11 @@ module.exports = {
 
     // do not allow a default import name to match a named export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
-    // TODO: enable
-    'import/no-named-as-default': 0,
+    'import/no-named-as-default': 2,
 
     // warn on accessing default export property names that are also named exports
-    // TODO: enable?
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
-    'import/no-named-as-default-member': 0,
+    'import/no-named-as-default-member': 2,
 
     // disallow use of jsdoc-marked-deprecated imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
@@ -58,10 +65,9 @@ module.exports = {
 
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
-    // TODO: enable
-    'import/no-extraneous-dependencies': [0, {
-      'devDependencies': false,
-      'optionalDependencies': false,
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: false,
+      optionalDependencies: false,
     }],
 
     // Forbid mutable exports
@@ -80,6 +86,7 @@ module.exports = {
 
     // No Node.js builtin modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
+    // TODO: enable?
     'import/no-nodejs-modules': 0,
 
     // Style guide:
@@ -99,25 +106,27 @@ module.exports = {
 
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-    // TODO: enable
+    // TODO: enable when https://github.com/benmosher/eslint-plugin-import/issues/390 is resolved
     'import/extensions': [0, 'never'],
 
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
     // TODO: enable?
     'import/order': [0, {
-      'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+      groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       'newlines-between': 'never',
     }],
 
     // Require a newline after the last import/require in a group
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-    // TODO: enable
-    'import/newline-after-import': 0,
+    'import/newline-after-import': 2,
 
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    // TODO: enable
-    'import/prefer-default-export': 0
-  }
+    'import/prefer-default-export': 2,
+
+    // Restrict which files can be imported in a given folder
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
+    'import/no-restricted-paths': 0,
+  },
 };
