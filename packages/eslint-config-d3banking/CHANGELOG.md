@@ -1,3 +1,7 @@
+8.0.2 / 2016-08-15
+==================
+- [deps] Lock down dependency versions
+
 8.0.1 / 2016-08-01
 ==================
 - [deps] Update `eslint` to `v3.2`
