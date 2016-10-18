@@ -16,14 +16,14 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
   ```sh
   (
     export PKG=eslint-config-airbnb-base;
-    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
   )
   ```
 
   Which produces and runs a command like:
 
   ```sh
-    npm install --save-dev eslint-config-airbnb-base eslint@^3.0.1 eslint-plugin-import@^1.10.3
+    npm install --save-dev eslint-config-airbnb-base eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
 2. Add `"extends": "airbnb-base"` to your .eslintrc

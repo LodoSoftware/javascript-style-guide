@@ -16,17 +16,18 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+ and
   ```sh
   (
     export PKG=eslint-config-airbnb;
-    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
   )
   ```
 
   Which produces and runs a command like:
 
   ```sh
-  npm install --save-dev eslint-config-airbnb eslint@^2.9.0 eslint-plugin-jsx-a11y@^1.2.0 eslint-plugin-import@^1.7.0 eslint-plugin-react@^5.0.1
+  npm install --save-dev eslint-config-airbnb eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
   ```
 
 2. Add `"extends": "airbnb"` to your .eslintrc
+
 ### eslint-config-airbnb/base
 
 This entry point is deprecated. See [eslint-config-airbnb-base](https://npmjs.com/eslint-config-airbnb-base).

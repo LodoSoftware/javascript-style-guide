@@ -1,3 +1,60 @@
+9.0.0 / 2016-10-16
+==================
+ - [breaking] Add `ForOfStatement` to `no-restricted-syntax` (#1122, #1134)
+ - [breaking] enable `import/no-webpack-loader-syntax` (#1123)
+ - [breaking] [deps] update `eslint` to `v3.8.0` (#1132)
+ - [breaking] [deps] update `eslint-plugin-import` to v2 (#1101)
+ - [patch] `new-cap`: add immutable.js exceptions
+ - [docs] ensure latest version of config is installed
+ - [dev deps] update `babel-preset-airbnb`, `eslint`, `eslint-find-rules`, `tape`, `safe-publish-latest`
+
+8.0.0 / 2016-09-24
+==================
+ - [breaking] enable rules: `no-restricted-properties`, `prefer-numeric-literals`, `lines-around-directive`, `import/extensions`, `import/no-absolute-path`, `import/no-dynamic-require`
+
+7.2.0 / 2016-09-23
+==================
+ - [new] set `ecmaVersion` to 2017; enable object rest/spread; update `babel-preset-airbnb`
+ - [patch] fix category of `no-restricted-properties`
+ - [deps] update `eslint`, `eslint-plugin-import`, `eslint-find-rules`, `safe-publish-latest`
+
+7.1.0 / 2016-09-11
+==================
+ - [minor] enable `arrow-parens` rule
+
+7.0.1 / 2016-09-10
+==================
+ - [patch] loosen `max-len` by ignoring strings
+ - [deps] update to `eslint` `v3.5.0`
+
+7.0.0 / 2016-09-06
+==================
+ - [breaking] Add no-plusplus in style.js and added explanation in README (#1012)
+
+6.0.0 / 2016-09-06
+==================
+ - [breaking] `valid-typeof`: enable `requireStringLiterals` option
+ - [breaking] enable `class-methods-use-this`
+ - [breaking] enable `symbol-description`
+ - [breaking] enable `no-bitwise`
+ - [breaking] enable `no-tabs`
+ - [breaking] enable `func-call-spacing`
+ - [breaking] enable `no-template-curly-in-string`
+ - [patch] remove redundant `DebuggerStatement` from `no-restricted-syntax` (#1031)
+ - [deps] update `eslint`, `eslint-find-rules`, `eslint-plugin-import`
+ - Update `ecmaVersion` to `2016`
+
+5.0.3 / 2016-08-21
+==================
+ - [fix] correct `import/extensions` list (#1013)
+ - [refactor] Changed ESLint rule configs to use 'off', 'warn', and 'error' instead of numbers for better readability (#946)
+ - [deps] update `eslint`, `eslint-plugin-react`
+
+5.0.2 / 2016-08-12
+==================
+ - [deps] update `eslint`, `eslint-find-rules`, `eslint-plugin-import`
+ - [tests] add `safe-publish-latest` to `prepublish`
+
 5.0.1 / 2016-07-29
 ==================
  - [patch] `no-unused-expressions`: flesh out options
