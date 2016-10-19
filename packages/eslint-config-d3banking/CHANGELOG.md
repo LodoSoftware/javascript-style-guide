@@ -1,3 +1,7 @@
+9.1.0 / 2016-10-19
+==================
+- [minor] Added overrides to d3Overrides and imports for new rules
+
 9.0.0 / 2016-10-18
 ==================
 - [breaking] Update `eslint-config-airbnb-base` to `v9.0.0`

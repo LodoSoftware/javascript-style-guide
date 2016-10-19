@@ -45,6 +45,19 @@ module.exports = {
 
     'no-prototype-builtins': [0],
 
+    // require parens in arrow function arguments unless only 1 argument
+    // http://eslint.org/docs/rules/arrow-parens
+    'arrow-parens': ['warn', 'as-needed'],
+
+    // allow use of unary operators, ++ and --
+    // http://eslint.org/docs/rules/no-plusplus
+    'no-plusplus': 'off',
+
+    // enforce that class methods use "this"
+    // http://eslint.org/docs/rules/class-methods-use-this
+    'class-methods-use-this': ['off', {
+      exceptMethods: [],
+    }],
 
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
 
