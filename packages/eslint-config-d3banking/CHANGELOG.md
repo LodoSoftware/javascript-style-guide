@@ -1,3 +1,7 @@
+9.0.0 / 2016-10-18
+==================
+- [breaking] Update `eslint-config-airbnb-base` to `v9.0.0`
+
 8.0.2 / 2016-08-15
 ==================
 - [deps] Lock down dependency versions

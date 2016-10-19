@@ -1,19 +1,24 @@
-const fs = require('fs');
-const path = require('path');
-const test = require('tape');
+import fs from 'fs';
+import path from 'path';
+import test from 'tape';
 
-const index = require('../');
+const base = require('../index');
 
-const files = { index };
+const files = { base };
 
-fs.readdirSync(path.join(__dirname, '../rules')).forEach(name => {
+fs.readdirSync(path.join(__dirname, '../rules')).forEach((name) => {
+  if (name === 'react.js' || name === 'react-a11y.js') {
+    return;
+  }
+
+  // eslint-disable-next-line import/no-dynamic-require
   files[name] = require(`../rules/${name}`); // eslint-disable-line global-require
 });
 
-Object.keys(files).forEach(name => {
+Object.keys(files).forEach((name) => {
   const config = files[name];
 
-  test(`${name}: does not reference react`, t => {
+  test(`${name}: does not reference react`, (t) => {
     t.plan(2);
 
     // scan plugins for react and fail if it is found
