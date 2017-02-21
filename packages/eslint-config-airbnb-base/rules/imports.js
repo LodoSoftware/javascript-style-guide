@@ -66,8 +66,23 @@ module.exports = {
 
     // Forbid the use of extraneous packages
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
+    // paths are treated both as absolute paths, and relative to process.cwd()
     'import/no-extraneous-dependencies': ['error', {
-      devDependencies: false,
+      devDependencies: [
+        'test/**', // tape, common npm pattern
+        'tests/**', // also common npm pattern
+        'spec/**', // mocha, rspec-like pattern
+        '**/__tests__/**', // jest pattern
+        'test.js', // repos with a single test file
+        'test-*.js', // repos with multiple top-level test files
+        '**/*.test.js', // tests where the extension denotes that it is a test
+        '**/webpack.config.js', // webpack config
+        '**/webpack.config.*.js', // webpack config
+        '**/rollup.config.js', // rollup config
+        '**/gulpfile.js', // gulp config
+        '**/gulpfile.*.js', // gulp config
+        '**/Gruntfile', // grunt config
+      ],
       optionalDependencies: false,
     }],
 
@@ -170,5 +185,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
     // importing for side effects is perfectly acceptable, if you need side effects.
     'import/no-unassigned-import': 'off',
+
+    // Prevent importing the default as if it were named
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-default.md
+    'import/no-named-default': 'error',
   },
 };

@@ -255,63 +255,63 @@ Other Style Guides
   <a name="objects--quoted-props"></a><a name="3.8"></a>
   - [3.6](#objects--quoted-props) Only quote properties that are invalid identifiers. eslint: [`quote-props`](http://eslint.org/docs/rules/quote-props.html) jscs: [`disallowQuotedKeysInObjects`](http://jscs.info/rule/disallowQuotedKeysInObjects)
 
-  > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
+    > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
 
-  ```javascript
-  // bad
-  const bad = {
-    'foo': 3,
-    'bar': 4,
-    'data-blah': 5,
-  };
+    ```javascript
+    // bad
+    const bad = {
+      'foo': 3,
+      'bar': 4,
+      'data-blah': 5,
+    };
 
-  // good
-  const good = {
-    foo: 3,
-    bar: 4,
-    'data-blah': 5,
-  };
-  ```
+    // good
+    const good = {
+      foo: 3,
+      bar: 4,
+      'data-blah': 5,
+    };
+    ```
 
   <a name="objects--prototype-builtins"></a>
   - [3.7](#objects--prototype-builtins) Do not call `Object.prototype` methods directly, such as `hasOwnProperty`, `propertyIsEnumerable`, and `isPrototypeOf`.
 
-  > Why? These methods may be shadowed by properties on the object in question - consider `{ hasOwnProperty: false }` - or, the object may be a null object (`Object.create(null)`).
+    > Why? These methods may be shadowed by properties on the object in question - consider `{ hasOwnProperty: false }` - or, the object may be a null object (`Object.create(null)`).
 
-  ```javascript
-  // bad
-  console.log(object.hasOwnProperty(key));
+    ```javascript
+    // bad
+    console.log(object.hasOwnProperty(key));
 
-  // good
-  console.log(Object.prototype.hasOwnProperty.call(object, key));
+    // good
+    console.log(Object.prototype.hasOwnProperty.call(object, key));
 
-  // best
-  const has = Object.prototype.hasOwnProperty; // cache the lookup once, in module scope.
-  /* or */
-  import has from 'has';
-  …
-  console.log(has.call(object, key));
-  ```
+    // best
+    const has = Object.prototype.hasOwnProperty; // cache the lookup once, in module scope.
+    /* or */
+    import has from 'has';
+    // ...
+    console.log(has.call(object, key));
+    ```
 
   <a name="objects--rest-spread"></a>
-  - [3.8](#objects--rest-spread) Prefer the object spread operator over `Object.assign` to shallow-copy objects. Use the object rest operator to get a new object with certain properties omitted.
+  - [3.8](#objects--rest-spread) Prefer the object spread operator over [`Object.assign`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to shallow-copy objects. Use the object rest operator to get a new object with certain properties omitted.
 
-  ```javascript
-  // very bad
-  const original = { a: 1, b: 2 };
-  const copy = Object.assign(original, { c: 3 }); // this mutates `original` ಠ_ಠ
-  delete copy.a; // so does this
+    ```javascript
+    // very bad
+    const original = { a: 1, b: 2 };
+    const copy = Object.assign(original, { c: 3 }); // this mutates `original` ಠ_ಠ
+    delete copy.a; // so does this
 
-  // bad
-  const original = { a: 1, b: 2 };
-  const copy = Object.assign({}, original, { c: 3 }); // copy => { a: 1, b: 2, c: 3 }
+    // bad
+    const original = { a: 1, b: 2 };
+    const copy = Object.assign({}, original, { c: 3 }); // copy => { a: 1, b: 2, c: 3 }
 
-  // good
-  const original = { a: 1, b: 2 };
-  const copy = { ...original, c: 3 }; // copy => { a: 1, b: 2, c: 3 }
+    // good
+    const original = { a: 1, b: 2 };
+    const copy = { ...original, c: 3 }; // copy => { a: 1, b: 2, c: 3 }
 
-  const { a, ...noA } = copy; // noA => { b: 2, c: 3 }
-  ```
+    const { a, ...noA } = copy; // noA => { b: 2, c: 3 }
+    ```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -350,7 +350,7 @@ Other Style Guides
     const itemsCopy = [];
     let i;
 
-    for (i = 0; i < len; i++) {
+    for (i = 0; i < len; i += 1) {
       itemsCopy[i] = items[i];
     }
 
@@ -565,7 +565,7 @@ Other Style Guides
 
     // good
     const foo = '\'this\' is "quoted"';
-    const foo = `'this' is "quoted"`;
+    const foo = `my name is '${name}'`;
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -574,21 +574,24 @@ Other Style Guides
 ## Functions
 
   <a name="functions--declarations"></a><a name="7.1"></a>
-  - [7.1](#functions--declarations) Use named function expressions instead of function declarations. eslint: [`func-style`](http://eslint.org/docs/rules/func-style) jscs: [`requireFunctionDeclarations`](http://jscs.info/rule/requireFunctionDeclarations)
+  - [7.1](#functions--declarations) Use named function expressions instead of function declarations. eslint: [`func-style`](http://eslint.org/docs/rules/func-style) jscs: [`disallowFunctionDeclarations`](http://jscs.info/rule/disallowFunctionDeclarations)
 
-    > Why? Function declarations are hoisted, which means that it’s easy - too easy - to reference the function before it is defined in the file. This harms readability and maintainability. If you find that a function’s definition is large or complex enough that it is interfering with understanding the rest of the file, then perhaps it’s time to extract it to its own module! Don’t forget to name the expression - anonymous functions can make it harder to locate the problem in an Error's call stack.
+    > Why? Function declarations are hoisted, which means that it’s easy - too easy - to reference the function before it is defined in the file. This harms readability and maintainability. If you find that a function’s definition is large or complex enough that it is interfering with understanding the rest of the file, then perhaps it’s time to extract it to its own module! Don’t forget to name the expression - anonymous functions can make it harder to locate the problem in an Error's call stack. ([Discussion](https://github.com/airbnb/javascript/issues/794))
 
     ```javascript
     // bad
-    const foo = function () {
-    };
+    function foo() {
+      // ...
+    }
 
     // bad
-    function foo() {
-    }
+    const foo = function () {
+      // ...
+    };
 
     // good
     const foo = function bar() {
+      // ...
     };
     ```
 
@@ -632,13 +635,13 @@ Other Style Guides
 
     ```javascript
     // bad
-    function nope(name, options, arguments) {
-      // ...stuff...
+    function foo(name, options, arguments) {
+      // ...
     }
 
     // good
-    function yup(name, options, args) {
-      // ...stuff...
+    function foo(name, options, args) {
+      // ...
     }
     ```
 
@@ -757,12 +760,12 @@ Other Style Guides
     // bad
     function f1(obj) {
       obj.key = 1;
-    };
+    }
 
     // good
     function f2(obj) {
       const key = Object.prototype.hasOwnProperty.call(obj, 'key') ? obj.key : 1;
-    };
+    }
     ```
 
   <a name="functions--reassign-params"></a><a name="7.13"></a>
@@ -774,18 +777,22 @@ Other Style Guides
     // bad
     function f1(a) {
       a = 1;
+      // ...
     }
 
     function f2(a) {
       if (!a) { a = 1; }
+      // ...
     }
 
     // good
     function f3(a) {
       const b = a || 1;
+      // ...
     }
 
     function f4(a = 1) {
+      // ...
     }
     ```
 
@@ -804,10 +811,43 @@ Other Style Guides
     console.log(...x);
 
     // bad
-    new (Function.prototype.bind.apply(Date, [null, 2016, 08, 05]));
+    new (Function.prototype.bind.apply(Date, [null, 2016, 8, 5]));
 
     // good
-    new Date(...[2016, 08, 05]);
+    new Date(...[2016, 8, 5]);
+    ```
+
+  <a name="functions--signature-invocation-indentation"></a>
+  - [7.15](#functions--signature-invocation-indentation) Functions with multiline signatures, or invocations, should be indented just like every other multiline list in this guide: with each item on a line by itself, with a trailing comma on the last item.
+
+    ```javascript
+    // bad
+    function foo(bar,
+                 baz,
+                 quux) {
+      // ...
+    }
+
+    // good
+    function foo(
+      bar,
+      baz,
+      quux,
+    ) {
+      // ...
+    }
+
+    // bad
+    console.log(foo,
+      bar,
+      baz);
+
+    // good
+    console.log(
+      foo,
+      bar,
+      baz,
+    );
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -858,7 +898,7 @@ Other Style Guides
 
     // good
     [1, 2, 3].map((number, index) => ({
-      [index]: number
+      [index]: number,
     }));
     ```
 
@@ -867,11 +907,11 @@ Other Style Guides
 
     > Why? It shows clearly where the function starts and ends.
 
-    ```js
+    ```javascript
     // bad
     ['get', 'post', 'put'].map(httpMethod => Object.prototype.hasOwnProperty.call(
         httpMagicObjectWithAVeryLongName,
-        httpMethod
+        httpMethod,
       )
     );
 
@@ -879,17 +919,17 @@ Other Style Guides
     ['get', 'post', 'put'].map(httpMethod => (
       Object.prototype.hasOwnProperty.call(
         httpMagicObjectWithAVeryLongName,
-        httpMethod
+        httpMethod,
       )
     ));
     ```
 
   <a name="arrows--one-arg-parens"></a><a name="8.4"></a>
-  - [8.4](#arrows--one-arg-parens) If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html) jscs:  [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam)
+  - [8.4](#arrows--one-arg-parens) If your function takes a single argument and doesn’t use braces, omit the parentheses. Otherwise, always include parentheses around arguments for clarity and consistency. Note: it is also acceptable to always use parentheses, in which case use the ["always" option](http://eslint.org/docs/rules/arrow-parens#always) for eslint or do not include [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam) for jscs. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html) jscs:  [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam)
 
     > Why? Less visual clutter.
 
-    ```js
+    ```javascript
     // bad
     [1, 2, 3].map((x) => x * x);
 
@@ -917,7 +957,7 @@ Other Style Guides
   <a name="arrows--confusing"></a><a name="8.5"></a>
   - [8.5](#arrows--confusing) Avoid confusing arrow function syntax (`=>`) with comparison operators (`<=`, `>=`). eslint: [`no-confusing-arrow`](http://eslint.org/docs/rules/no-confusing-arrow)
 
-    ```js
+    ```javascript
     // bad
     const itemHeight = item => item.height > 256 ? item.largeSize : item.smallSize;
 
@@ -982,13 +1022,13 @@ Other Style Guides
     }
     inherits(PeekableQueue, Queue);
     PeekableQueue.prototype.peek = function () {
-      return this._queue[0];
-    }
+      return this.queue[0];
+    };
 
     // good
     class PeekableQueue extends Queue {
       peek() {
-        return this._queue[0];
+        return this.queue[0];
       }
     }
     ```
@@ -1185,11 +1225,11 @@ Other Style Guides
     ```javascript
     // bad
     let foo = 3;
-    export { foo }
+    export { foo };
 
     // good
     const foo = 3;
-    export { foo }
+    export { foo };
     ```
 
   <a name="modules--prefer-default-export"></a>
@@ -1206,7 +1246,7 @@ Other Style Guides
 
   <a name="modules--imports-first"></a>
   - [10.7](#modules--imports-first) Put all `import`s above non-import statements.
- eslint: [`import/imports-first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md)
+ eslint: [`import/first`](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md)
     > Why? Since `import`s are hoisted, keeping them all at the top prevents surprising behavior.
 
     ```javascript
@@ -1276,7 +1316,6 @@ Other Style Guides
     for (let num of numbers) {
       sum += num;
     }
-
     sum === 15;
 
     // good
@@ -1287,6 +1326,19 @@ Other Style Guides
     // best (use the functional force)
     const sum = numbers.reduce((total, num) => total + num, 0);
     sum === 15;
+
+    // bad
+    const increasedByOne = [];
+    for (let i = 0; i < numbers.length; i++) {
+      increasedByOne.push(numbers[i] + 1);
+    }
+
+    // good
+    const increasedByOne = [];
+    numbers.forEach(num => increasedByOne.push(num + 1));
+
+    // best (keeping it functional)
+    const increasedByOne = numbers.map(num => num + 1);
     ```
 
   <a name="generators--nope"></a><a name="11.2"></a>
@@ -1299,43 +1351,60 @@ Other Style Guides
 
     > Why? `function` and `*` are part of the same conceptual keyword - `*` is not a modifier for `function`, `function*` is a unique construct, different from `function`.
 
-    ```js
+    ```javascript
     // bad
     function * foo() {
+      // ...
     }
 
+    // bad
     const bar = function * () {
-    }
+      // ...
+    };
 
+    // bad
     const baz = function *() {
-    }
+      // ...
+    };
 
+    // bad
     const quux = function*() {
-    }
+      // ...
+    };
 
+    // bad
     function*foo() {
+      // ...
     }
 
+    // bad
     function *foo() {
+      // ...
     }
 
     // very bad
     function
     *
     foo() {
+      // ...
     }
 
+    // very bad
     const wat = function
     *
     () {
-    }
+      // ...
+    };
 
     // good
     function* foo() {
+      // ...
     }
 
+    // good
     const foo = function* () {
-    }
+      // ...
+    };
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -1514,35 +1583,35 @@ Other Style Guides
   <a name="variables--unary-increment-decrement"></a><a name="13.6"></a>
   - [13.6](#variables--unary-increment-decrement) Avoid using unary increments and decrements (++, --). eslint [`no-plusplus`](http://eslint.org/docs/rules/no-plusplus)
 
-    > Why? Per the eslint documentation, unary increment and decrement statements are subject to automatic semicolon insertion and can cause silent errors with incrementing or decrementing values within an application. It is also more expressive to mutate your values with statements like `num += 1` instead of `num ++`. Disallowing unary increment and decrement statements also prevents you from pre-incrementing/pre-decrementing values unintentionally which can also cause unexpected behavior in your programs.
+    > Why? Per the eslint documentation, unary increment and decrement statements are subject to automatic semicolon insertion and can cause silent errors with incrementing or decrementing values within an application. It is also more expressive to mutate your values with statements like `num += 1` instead of `num++` or `num ++`. Disallowing unary increment and decrement statements also prevents you from pre-incrementing/pre-decrementing values unintentionally which can also cause unexpected behavior in your programs.
 
     ```javascript
-      // bad
+    // bad
 
-      let array = [1, 2, 3];
-      let num = 1;
-      num ++;
-      -- num;
+    const array = [1, 2, 3];
+    let num = 1;
+    num++;
+    --num;
 
-      let sum = 0;
-      let truthyCount = 0;
-      for(let i = 0; i < array.length; i++){
-        let value = array[i];
-        sum += value;
-        if (value) {
-          truthyCount++;
-        }
+    let sum = 0;
+    let truthyCount = 0;
+    for (let i = 0; i < array.length; i++) {
+      let value = array[i];
+      sum += value;
+      if (value) {
+        truthyCount++;
       }
+    }
 
-      // good
+    // good
 
-      let array = [1, 2, 3];
-      let num = 1;
-      num += 1;
-      num -= 1;
+    const array = [1, 2, 3];
+    let num = 1;
+    num += 1;
+    num -= 1;
 
-      const sum = array.reduce((a, b) => a + b, 0);
-      const truthyCount = array.filter(Boolean).length;
+    const sum = array.reduce((a, b) => a + b, 0);
+    const truthyCount = array.filter(Boolean).length;
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -1626,7 +1695,7 @@ Other Style Guides
 
       var named = function named() {
         console.log('named');
-      }
+      };
     }
     ```
 
@@ -1676,32 +1745,32 @@ Other Style Guides
     ```javascript
     // bad
     if (isValid === true) {
-      // ...stuff...
+      // ...
     }
 
     // good
     if (isValid) {
-      // ...stuff...
+      // ...
     }
 
     // bad
     if (name) {
-      // ...stuff...
+      // ...
     }
 
     // good
     if (name !== '') {
-      // ...stuff...
+      // ...
     }
 
     // bad
     if (collection.length) {
-      // ...stuff...
+      // ...
     }
 
     // good
     if (collection.length > 0) {
-      // ...stuff...
+      // ...
     }
     ```
 
@@ -1711,9 +1780,9 @@ Other Style Guides
   <a name="comparison--switch-blocks"></a><a name="15.5"></a>
   - [15.5](#comparison--switch-blocks) Use braces to create blocks in `case` and `default` clauses that contain lexical declarations (e.g. `let`, `const`, `function`, and `class`).
 
-  > Why? Lexical declarations are visible in the entire `switch` block but only get initialized when assigned, which only happens when its `case` is reached. This causes problems when multiple `case` clauses attempt to define the same thing.
+    > Why? Lexical declarations are visible in the entire `switch` block but only get initialized when assigned, which only happens when its `case` is reached. This causes problems when multiple `case` clauses attempt to define the same thing.
 
-  eslint rules: [`no-case-declarations`](http://eslint.org/docs/rules/no-case-declarations.html).
+    eslint rules: [`no-case-declarations`](http://eslint.org/docs/rules/no-case-declarations.html).
 
     ```javascript
     // bad
@@ -1725,7 +1794,9 @@ Other Style Guides
         const y = 2;
         break;
       case 3:
-        function f() {}
+        function f() {
+          // ...
+        }
         break;
       default:
         class C {}
@@ -1742,7 +1813,9 @@ Other Style Guides
         break;
       }
       case 3: {
-        function f() {}
+        function f() {
+          // ...
+        }
         break;
       }
       case 4:
@@ -1865,7 +1938,7 @@ Other Style Guides
     // @return {Element} element
     function make(tag) {
 
-      // ...stuff...
+      // ...
 
       return element;
     }
@@ -1877,7 +1950,7 @@ Other Style Guides
      */
     function make(tag) {
 
-      // ...stuff...
+      // ...
 
       return element;
     }
@@ -1898,7 +1971,7 @@ Other Style Guides
     function getType() {
       console.log('fetching type...');
       // set the default type to 'no type'
-      const type = this._type || 'no type';
+      const type = this.type || 'no type';
 
       return type;
     }
@@ -1908,7 +1981,7 @@ Other Style Guides
       console.log('fetching type...');
 
       // set the default type to 'no type'
-      const type = this._type || 'no type';
+      const type = this.type || 'no type';
 
       return type;
     }
@@ -1916,17 +1989,53 @@ Other Style Guides
     // also good
     function getType() {
       // set the default type to 'no type'
-      const type = this._type || 'no type';
+      const type = this.type || 'no type';
 
       return type;
     }
     ```
 
+  - [17.3](#comments--spaces) Start all comments with a space to make it easier to read. eslint: [`spaced-comment`](http://eslint.org/docs/rules/spaced-comment)
+
+    ```javascript
+    // bad
+    //is current tab
+    const active = true;
+
+    // good
+    // is current tab
+    const active = true;
+
+    // bad
+    /**
+     *make() returns a new element
+     *based on the passed-in tag name
+     */
+    function make(tag) {
+
+      // ...
+
+      return element;
+    }
+
+    // good
+    /**
+     * make() returns a new element
+     * based on the passed-in tag name
+     */
+    function make(tag) {
+
+      // ...
+
+      return element;
+    }
+    ```
+
   <a name="comments--actionitems"></a><a name="17.3"></a>
-  - [17.3](#comments--actionitems) Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you're pointing out a problem that needs to be revisited, or if you're suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME: -- need to figure this out` or `TODO: -- need to implement`.
+  - [17.4](#comments--actionitems) Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you're pointing out a problem that needs to be revisited, or if you're suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME: -- need to figure this out` or `TODO: -- need to implement`.
 
   <a name="comments--fixme"></a><a name="17.4"></a>
-  - [17.4](#comments--fixme) Use `// FIXME:` to annotate problems.
+  - [17.5](#comments--fixme) Use `// FIXME:` to annotate problems.
 
     ```javascript
     class Calculator extends Abacus {
@@ -1940,7 +2049,7 @@ Other Style Guides
     ```
 
   <a name="comments--todo"></a><a name="17.5"></a>
-  - [17.5](#comments--todo) Use `// TODO:` to annotate solutions to problems.
+  - [17.6](#comments--todo) Use `// TODO:` to annotate solutions to problems.
 
     ```javascript
     class Calculator extends Abacus {
@@ -1959,22 +2068,22 @@ Other Style Guides
 ## Whitespace
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
-  - [18.1](#whitespace--spaces) Use soft tabs set to 2 spaces. eslint: [`indent`](http://eslint.org/docs/rules/indent.html) jscs: [`validateIndentation`](http://jscs.info/rule/validateIndentation)
+  - [18.1](#whitespace--spaces) Use soft tabs (space character) set to 2 spaces. eslint: [`indent`](http://eslint.org/docs/rules/indent.html) jscs: [`validateIndentation`](http://jscs.info/rule/validateIndentation)
 
     ```javascript
     // bad
     function foo() {
-    ∙∙∙∙const name;
+    ∙∙∙∙let name;
     }
 
     // bad
     function bar() {
-    ∙const name;
+    ∙let name;
     }
 
     // good
     function baz() {
-    ∙∙const name;
+    ∙∙let name;
     }
     ```
 
@@ -2046,24 +2155,24 @@ Other Style Guides
 
     ```javascript
     // bad
-    (function (global) {
-      // ...stuff...
-    })(this);
+    import { es6 } from './AirbnbStyleGuide';
+      // ...
+    export default es6;
     ```
 
     ```javascript
     // bad
-    (function (global) {
-      // ...stuff...
-    })(this);↵
+    import { es6 } from './AirbnbStyleGuide';
+      // ...
+    export default es6;↵
     ↵
     ```
 
     ```javascript
     // good
-    (function (global) {
-      // ...stuff...
-    })(this);↵
+    import { es6 } from './AirbnbStyleGuide';
+      // ...
+    export default es6;↵
     ```
 
   <a name="whitespace--chains"></a><a name="18.6"></a>
@@ -2093,7 +2202,7 @@ Other Style Guides
     // bad
     const leds = stage.selectAll('.led').data(data).enter().append('svg:svg').classed('led', true)
         .attr('width', (radius + margin) * 2).append('svg:g')
-        .attr('transform', 'translate(' + (radius + margin) + ',' + (radius + margin) + ')')
+        .attr('transform', `translate(${radius + margin},${radius + margin})`)
         .call(tron.led);
 
     // good
@@ -2103,7 +2212,7 @@ Other Style Guides
         .classed('led', true)
         .attr('width', (radius + margin) * 2)
       .append('svg:g')
-        .attr('transform', 'translate(' + (radius + margin) + ',' + (radius + margin) + ')')
+        .attr('transform', `translate(${radius + margin},${radius + margin})`)
         .call(tron.led);
 
     // good
@@ -2324,7 +2433,7 @@ Other Style Guides
 
     > Why? This leads to cleaner git diffs. Also, transpilers like Babel will remove the additional trailing comma in the transpiled code which means you don't have to worry about the [trailing comma problem](https://github.com/airbnb/javascript/blob/es5-deprecated/es5/README.md#commas) in legacy browsers.
 
-    ```javascript
+    ```diff
     // bad - git diff without trailing comma
     const hero = {
          firstName: 'Florence',
@@ -2339,7 +2448,9 @@ Other Style Guides
          lastName: 'Nightingale',
     +    inventorOf: ['coxcomb chart', 'modern nursing'],
     };
+    ```
 
+    ```javascript
     // bad
     const hero = {
       firstName: 'Dana',
@@ -2361,6 +2472,56 @@ Other Style Guides
       'Batman',
       'Superman',
     ];
+
+    // bad
+    function createHero(
+      firstName,
+      lastName,
+      inventorOf
+    ) {
+      // does nothing
+    }
+
+    // good
+    function createHero(
+      firstName,
+      lastName,
+      inventorOf,
+    ) {
+      // does nothing
+    }
+
+    // good (note that a comma must not appear after a "rest" element)
+    function createHero(
+      firstName,
+      lastName,
+      inventorOf,
+      ...heroArgs
+    ) {
+      // does nothing
+    }
+
+    // bad
+    createHero(
+      firstName,
+      lastName,
+      inventorOf
+    );
+
+    // good
+    createHero(
+      firstName,
+      lastName,
+      inventorOf,
+    );
+
+    // good (note that a comma must not appear after a "rest" element)
+    createHero(
+      firstName,
+      lastName,
+      inventorOf,
+      ...heroArgs
+    );
     ```
 
 **[⬆ back to top](#table-of-contents)**
@@ -2385,10 +2546,10 @@ Other Style Guides
     }());
 
     // good, but legacy (guards against the function becoming an argument when two files with IIFEs are concatenated)
-    ;(() => {
+    ;((() => {
       const name = 'Skywalker';
       return name;
-    }());
+    })());
     ```
 
     [Read more](https://stackoverflow.com/questions/7365172/semicolon-before-self-invoking-function/7365214%237365214).
@@ -2459,9 +2620,9 @@ Other Style Guides
   - [21.5](#coercion--bitwise) **Note:** Be careful when using bitshift operations. Numbers are represented as [64-bit values](https://es5.github.io/#x4.3.19), but bitshift operations always return a 32-bit integer ([source](https://es5.github.io/#x11.7)). Bitshift can lead to unexpected behavior for integer values larger than 32 bits. [Discussion](https://github.com/airbnb/javascript/issues/109). Largest signed 32-bit Int is 2,147,483,647:
 
     ```javascript
-    2147483647 >> 0 //=> 2147483647
-    2147483648 >> 0 //=> -2147483648
-    2147483649 >> 0 //=> -2147483647
+    2147483647 >> 0; // => 2147483647
+    2147483648 >> 0; // => -2147483648
+    2147483649 >> 0; // => -2147483647
     ```
 
   <a name="coercion--booleans"></a><a name="21.6"></a>
@@ -2491,12 +2652,12 @@ Other Style Guides
     ```javascript
     // bad
     function q() {
-      // ...stuff...
+      // ...
     }
 
     // good
     function query() {
-      // ..stuff..
+      // ...
     }
     ```
 
@@ -2623,6 +2784,7 @@ Other Style Guides
 
     ```javascript
     function makeStyleGuide() {
+      // ...
     }
 
     export default makeStyleGuide;
@@ -2634,12 +2796,42 @@ Other Style Guides
     ```javascript
     const AirbnbStyleGuide = {
       es6: {
-      }
+      },
     };
 
     export default AirbnbStyleGuide;
     ```
 
+  <a name="naming--Acronyms-and-Initialisms"></a>
+  - [22.9](#naming--Acronyms-and-Initialisms) Acronyms and initialisms should always be all capitalized, or all lowercased.
+
+    > Why? Names are for readability, not to appease a computer algorithm.
+
+    ```javascript
+    // bad
+    import SmsContainer from './containers/SmsContainer';
+
+    // bad
+    const HttpRequests = [
+      // ...
+    ];
+
+    // good
+    import SMSContainer from './containers/SMSContainer';
+
+    // good
+    const HTTPRequests = [
+      // ...
+    ];
+
+    // best
+    import TextMessageContainer from './containers/TextMessageContainer';
+
+    // best
+    const Requests = [
+      // ...
+    ];
+    ```
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2723,7 +2915,7 @@ Other Style Guides
     // bad
     $(this).trigger('listingUpdated', listing.id);
 
-    ...
+    // ...
 
     $(this).on('listingUpdated', (e, listingId) => {
       // do something with listingId
@@ -2736,7 +2928,7 @@ Other Style Guides
     // good
     $(this).trigger('listingUpdated', { listingId: listing.id });
 
-    ...
+    // ...
 
     $(this).on('listingUpdated', (e, data) => {
       // do something with data.listingId
@@ -2770,10 +2962,10 @@ Other Style Guides
     function setSidebar() {
       $('.sidebar').hide();
 
-      // ...stuff...
+      // ...
 
       $('.sidebar').css({
-        'background-color': 'pink'
+        'background-color': 'pink',
       });
     }
 
@@ -2782,10 +2974,10 @@ Other Style Guides
       const $sidebar = $('.sidebar');
       $sidebar.hide();
 
-      // ...stuff...
+      // ...
 
       $sidebar.css({
-        'background-color': 'pink'
+        'background-color': 'pink',
       });
     }
     ```
@@ -2906,7 +3098,7 @@ Other Style Guides
   - Code Style Linters
     + [ESlint](http://eslint.org/) - [Airbnb Style .eslintrc](https://github.com/airbnb/javascript/blob/master/linters/.eslintrc)
     + [JSHint](http://jshint.com/) - [Airbnb Style .jshintrc](https://github.com/airbnb/javascript/blob/master/linters/.jshintrc)
-    + [JSCS](https://github.com/jscs-dev/node-jscs) - [Airbnb Style Preset](https://github.com/jscs-dev/node-jscs/blob/master/presets/airbnb.json)
+    + [JSCS](https://github.com/jscs-dev/node-jscs) - [Airbnb Style Preset](https://github.com/jscs-dev/node-jscs/blob/master/presets/airbnb.json) (Deprecated, please use [ESlint](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base))
 
 **Other Style Guides**
 
@@ -2918,7 +3110,7 @@ Other Style Guides
 
   - [Naming this in nested functions](https://gist.github.com/cjohansen/4135065) - Christian Johansen
   - [Conditional Callbacks](https://github.com/airbnb/javascript/issues/52) - Ross Allen
-  - [Popular JavaScript Coding Conventions on Github](http://sideeffect.kr/popularconvention/#javascript) - JeongHoon Byun
+  - [Popular JavaScript Coding Conventions on GitHub](http://sideeffect.kr/popularconvention/#javascript) - JeongHoon Byun
   - [Multiple var statements in JavaScript, not superfluous](http://benalman.com/news/2012/05/multiple-var-statements-javascript/) - Ben Alman
 
 **Further Reading**
@@ -2950,7 +3142,6 @@ Other Style Guides
 
 **Blogs**
 
-  - [DailyJS](http://dailyjs.com/)
   - [JavaScript Weekly](http://javascriptweekly.com/)
   - [JavaScript, JavaScript...](https://javascriptweblog.wordpress.com/)
   - [Bocoup Weblog](https://bocoup.com/weblog)
@@ -2974,6 +3165,7 @@ Other Style Guides
 
   This is a list of organizations that are using this style guide. Send us a pull request and we'll add you to the list.
 
+  - **3blades**: [3Blades/javascript](https://github.com/3blades/javascript)
   - **4Catalyzer**: [4Catalyzer/javascript](https://github.com/4Catalyzer/javascript)
   - **Aan Zee**: [AanZee/javascript](https://github.com/AanZee/javascript)
   - **Adult Swim**: [adult-swim/javascript](https://github.com/adult-swim/javascript)
@@ -2982,10 +3174,12 @@ Other Style Guides
   - **Ascribe**: [ascribe/javascript](https://github.com/ascribe/javascript)
   - **Avalara**: [avalara/javascript](https://github.com/avalara/javascript)
   - **Avant**: [avantcredit/javascript](https://github.com/avantcredit/javascript)
+  - **BashPros**: [BashPros/javascript](https://github.com/BashPros/javascript)
   - **Billabong**: [billabong/javascript](https://github.com/billabong/javascript)
   - **Bisk**: [bisk/javascript](https://github.com/Bisk/javascript/)
-  - **Blendle**: [blendle/javascript](https://github.com/blendle/javascript)
+  - **Bonhomme**: [bonhommeparis/javascript](https://github.com/bonhommeparis/javascript)
   - **Brainshark**: [brainshark/javascript](https://github.com/brainshark/javascript)
+  - **CaseNine**: [CaseNine/javascript](https://github.com/CaseNine/javascript)
   - **Chartboost**: [ChartBoost/javascript-style-guide](https://github.com/ChartBoost/javascript-style-guide)
   - **ComparaOnline**: [comparaonline/javascript](https://github.com/comparaonline/javascript-style-guide)
   - **Compass Learning**: [compasslearning/javascript-style-guide](https://github.com/compasslearning/javascript-style-guide)
@@ -3007,8 +3201,6 @@ Other Style Guides
   - **Huballin**: [huballin/javascript](https://github.com/huballin/javascript)
   - **HubSpot**: [HubSpot/javascript](https://github.com/HubSpot/javascript)
   - **Hyper**: [hyperoslo/javascript-playbook](https://github.com/hyperoslo/javascript-playbook/blob/master/style.md)
-  - **InfoJobs**: [InfoJobs/JavaScript-Style-Guide](https://github.com/InfoJobs/JavaScript-Style-Guide)
-  - **Intent Media**: [intentmedia/javascript](https://github.com/intentmedia/javascript)
   - **Jam3**: [Jam3/Javascript-Code-Conventions](https://github.com/Jam3/Javascript-Code-Conventions)
   - **JeopardyBot**: [kesne/jeopardy-bot](https://github.com/kesne/jeopardy-bot/blob/master/STYLEGUIDE.md)
   - **JSSolutions**: [JSSolutions/javascript](https://github.com/JSSolutions/javascript)
@@ -3023,14 +3215,14 @@ Other Style Guides
   - **Money Advice Service**: [moneyadviceservice/javascript](https://github.com/moneyadviceservice/javascript)
   - **Muber**: [muber/javascript](https://github.com/muber/javascript)
   - **National Geographic**: [natgeo/javascript](https://github.com/natgeo/javascript)
-  - **National Park Service**: [nationalparkservice/javascript](https://github.com/nationalparkservice/javascript)
   - **Nimbl3**: [nimbl3/javascript](https://github.com/nimbl3/javascript)
+  - **Nulogy**: [nulogy/javascript](https://github.com/nulogy/javascript)
   - **Orion Health**: [orionhealth/javascript](https://github.com/orionhealth/javascript)
   - **OutBoxSoft**: [OutBoxSoft/javascript](https://github.com/OutBoxSoft/javascript)
   - **Peerby**: [Peerby/javascript](https://github.com/Peerby/javascript)
   - **Razorfish**: [razorfish/javascript-style-guide](https://github.com/razorfish/javascript-style-guide)
   - **reddit**: [reddit/styleguide/javascript](https://github.com/reddit/styleguide/tree/master/javascript)
-  - **React**: [/facebook/react/blob/master/CONTRIBUTING.md#style-guide](https://github.com/facebook/react/blob/master/CONTRIBUTING.md#style-guide)
+  - **React**: [facebook.github.io/react/contributing/how-to-contribute.html#style-guide](https://facebook.github.io/react/contributing/how-to-contribute.html#style-guide)
   - **REI**: [reidev/js-style-guide](https://github.com/rei/code-style-guides/blob/master/docs/javascript.md)
   - **Ripple**: [ripple/javascript-style-guide](https://github.com/ripple/javascript-style-guide)
   - **SeekingAlpha**: [seekingalpha/javascript-style-guide](https://github.com/seekingalpha/javascript-style-guide)
@@ -3039,6 +3231,7 @@ Other Style Guides
   - **StratoDem Analytics**: [stratodem/javascript](https://github.com/stratodem/javascript)
   - **SteelKiwi Development**: [steelkiwi/javascript](https://github.com/steelkiwi/javascript)
   - **StudentSphere**: [studentsphere/javascript](https://github.com/studentsphere/guide-javascript)
+  - **SwoopApp**: [swoopapp/javascript](https://github.com/swoopapp/javascript)
   - **SysGarage**: [sysgarage/javascript-style-guide](https://github.com/sysgarage/javascript-style-guide)
   - **Syzygy Warsaw**: [syzygypl/javascript](https://github.com/syzygypl/javascript)
   - **Target**: [target/javascript](https://github.com/target/javascript)
@@ -3068,10 +3261,10 @@ Other Style Guides
   - ![jp](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Japan.png) **Japanese**: [mitsuruog/javascript-style-guide](https://github.com/mitsuruog/javascript-style-guide)
   - ![kr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/South-Korea.png) **Korean**: [tipjs/javascript-style-guide](https://github.com/tipjs/javascript-style-guide)
   - ![pl](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Poland.png) **Polish**: [mjurczyk/javascript](https://github.com/mjurczyk/javascript)
-  - ![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Russian**: [uprock/javascript](https://github.com/uprock/javascript)
+  - ![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Russian**: [leonidlebedev/javascript-airbnb](https://github.com/leonidlebedev/javascript-airbnb)
   - ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Spanish**: [paolocarrasco/javascript-style-guide](https://github.com/paolocarrasco/javascript-style-guide)
   - ![th](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Thailand.png) **Thai**: [lvarayut/javascript-style-guide](https://github.com/lvarayut/javascript-style-guide)
-  - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnam**: [giangpii/javascript-style-guide](https://github.com/giangpii/javascript-style-guide)
+  - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnam**: [hngiang/javascript-style-guide](https://github.com/hngiang/javascript-style-guide)
 
 ## The JavaScript Style Guide Guide
 
@@ -3090,7 +3283,7 @@ Other Style Guides
 
 (The MIT License)
 
-Copyright (c) 2014-2016 Airbnb
+Copyright (c) 2014-2017 Airbnb
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

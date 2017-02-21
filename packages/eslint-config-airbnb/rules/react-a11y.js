@@ -9,11 +9,11 @@ module.exports = {
   rules: {
     // Enforce that anchors have content
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
-    'jsx-a11y/anchor-has-content': ['error', ['']],
+    'jsx-a11y/anchor-has-content': ['error', { components: [''] }],
 
     // Require ARIA roles to be valid and non-abstract
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-role.md
-    'jsx-a11y/aria-role': 'error',
+    'jsx-a11y/aria-role': ['error', { ignoreNonDom: false }],
 
     // Enforce all aria-* props are valid.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-props.md
@@ -30,7 +30,7 @@ module.exports = {
 
     // disallow href "#"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/href-no-hash.md
-    'jsx-a11y/href-no-hash': ['error', ['a']],
+    'jsx-a11y/href-no-hash': ['error', { components: ['a'] }],
 
     // Require <img> to have a non-empty `alt` prop, or role="presentation"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-has-alt.md
@@ -42,7 +42,7 @@ module.exports = {
 
     // require that JSX labels use "htmlFor"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
-    'jsx-a11y/label-has-for': ['error', ['label']],
+    'jsx-a11y/label-has-for': ['error', { components: ['label'] }],
 
     // require that mouseover/out come with focus/blur, for keyboard-only users
     // TODO: evaluate
@@ -82,7 +82,7 @@ module.exports = {
 
     // ensure <hX> tags have content and are not aria-hidden
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/heading-has-content.md
-    'jsx-a11y/heading-has-content': ['error', ['']],
+    'jsx-a11y/heading-has-content': ['error', { components: [''] }],
 
     // require HTML elements to have a "lang" prop
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/html-has-lang.md
@@ -92,9 +92,11 @@ module.exports = {
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md
     'jsx-a11y/lang': 'error',
 
-    // prevent marquee elements
-    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-marquee.md
-    'jsx-a11y/no-marquee': 'error',
+    // prevent distracting elements, like <marquee> and <blink>
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-distracting-elements.md
+    'jsx-a11y/no-distracting-elements': ['error', {
+      elements: ['marquee', 'blink'],
+    }],
 
     // only allow <th> to have the "scope" attr
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/scope.md
@@ -108,5 +110,25 @@ module.exports = {
     // Enforce that DOM elements without semantic behavior not have interaction handlers
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-static-element-interactions.md
     'jsx-a11y/no-static-element-interactions': 'error',
+
+    // ensure emoji are accessible
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/accessible-emoji.md
+    'jsx-a11y/accessible-emoji': 'error',
+
+    // elements with aria-activedescendant must be tabbable
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-activedescendant-has-tabindex.md
+    'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
+
+    // ensure iframe elements have a unique title
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/iframe-has-title.md
+    'jsx-a11y/iframe-has-title': 'error',
+
+    // prohibit autoFocus prop
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-autofocus.md
+    'jsx-a11y/no-autofocus': 'error',
+
+    // ensure HTML elements do not specify redundant ARIA roles
+    // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/no-redundant-roles.md
+    'jsx-a11y/no-redundant-roles': 'error',
   },
 };

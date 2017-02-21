@@ -1,3 +1,26 @@
+14.1.0 / 2017-02-05
+==================
+- [patch] allow `eslint-plugin-jsx-a11y` to be v3 or v4. Remove `no-marquee` rule temporarily.
+- [deps] update `eslint-config-airbnb-base`, `babel-preset-airbnb`, `eslint`
+
+14.0.0 / 2017-01-08
+==================
+- [breaking] enable `react/no-array-index-key`, `react/require-default-props`
+- [breaking] [deps] update `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-config-airbnb-base`
+- [breaking] [deps] update `eslint-plugin-jsx-a11y` to v3 (#1166)
+- [docs] add note about `install-peerdeps` (#1234)
+- [docs] Updated instructions to support non-bash users (#1214)
+
+13.0.0 / 2016-11-06
+==================
+- [breaking] Enable `import/no-webpack-loader-syntax` rule (#1123)
+- [patch] `class-methods-use-this`: exempt React `getChildContext` (#1094)
+- [patch] set `react/no-unused-prop-types` skipShapeProps (#1099)
+- [deps] [breaking] update `eslint`, `eslint-config-airbnb-base`, `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, `eslint-plugin-import`
+- [dev deps] update `babel-preset-airbnb`, `eslint`, `eslint-find-rules`, `tape`, `safe-publish-latest`
+- [Tests] on `node` `v7`
+- [docs] ensure latest version of config is installed (#1121)
+
 12.0.0 / 2016-09-24
 ==================
 - [breaking] Enable react rules: `react/no-unescaped-entities`, `react/no-children-prop`
