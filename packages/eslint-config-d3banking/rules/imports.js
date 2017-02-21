@@ -16,6 +16,12 @@ module.exports = {
     // work very well
     'import/no-extraneous-dependencies': [0],
 
+    // Default exports are going out of style and go against the grain of using indexes
+    'import/prefer-default-export': 0,
+
+    // Allow importing the default export as the name of one of the named exports
+    'import/no-named-as-default': 0,
+
     // Temporary Warnings
     'import/no-amd': 1
   }

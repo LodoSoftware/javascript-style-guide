@@ -45,9 +45,11 @@ module.exports = {
 
     'no-prototype-builtins': [0],
 
-    // require parens in arrow function arguments unless only 1 argument
+    // require parens in arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': ['warn', 'as-needed'],
+    'arrow-parens': ['warn', 'as-needed', {
+      requireForBlockBody: true,
+    }],
 
     // allow use of unary operators, ++ and --
     // http://eslint.org/docs/rules/no-plusplus
@@ -58,6 +60,9 @@ module.exports = {
     'class-methods-use-this': ['off', {
       exceptMethods: [],
     }],
+
+    // Allow chaining of assignment of variables
+    'no-multi-assign': ['off'],
 
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
 
