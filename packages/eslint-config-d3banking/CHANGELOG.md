@@ -1,3 +1,9 @@
+10.0.0 / 2017-2-21
+==================
+- [breaking] Update `eslint-config-airbnb-base` to `v11.1.0`
+- [deps] Update `eslint` and dev dependencies
+- [minor] Add updated D3 overrides
+
 9.1.0 / 2016-10-19
 ==================
 - [minor] Added overrides to d3Overrides and imports for new rules

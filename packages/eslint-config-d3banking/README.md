@@ -1,6 +1,6 @@
 # eslint-config-d3banking
 
-[![npm version](https://badge.fury.io/js/eslint-config-airbnb.svg)](http://badge.fury.io/js/eslint-config-airbnb)
+[![npm version](https://badge.fury.io/js/eslint-config-d3banking.svg)](http://badge.fury.io/js/eslint-config-d3banking)
 
 This package provides D3 Banking's .eslintrc as an extensible shared config.
 
@@ -15,7 +15,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
 2. add `"extends": "d3banking/legacy"` to your .eslintrc for ES5 projects
 
 
-See [D3 Banking's Javascript styleguide](https://github.com/LodoSoftware/javascript) and
+See [D3 Banking's Javascript styleguide](https://github.com/LodoSoftware/javascript-style-guide) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
 
