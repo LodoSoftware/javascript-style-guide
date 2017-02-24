@@ -64,6 +64,20 @@ module.exports = {
     // Allow chaining of assignment of variables
     'no-multi-assign': ['off'],
 
+    // disallow certain object properties
+    // http://eslint.org/docs/rules/no-restricted-properties
+    'no-restricted-properties': ['error', {
+      object: 'arguments',
+      property: 'callee',
+      message: 'arguments.callee is deprecated',
+    }, {
+      property: '__defineGetter__',
+      message: 'Please use Object.defineProperty instead.',
+    }, {
+      property: '__defineSetter__',
+      message: 'Please use Object.defineProperty instead.',
+    }],
+
     // TEMPORARY WARNINGS - we will want to remove these settings eventually, but we'll keep them as warnings for now.
 
     // ES6 warnings
