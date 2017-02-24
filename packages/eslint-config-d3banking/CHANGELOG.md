@@ -1,3 +1,7 @@
+10.0.1 / 2017-2-24
+==================
+- [patch] Remove rule property with dependency on ES7 exponentiation feature
+
 10.0.0 / 2017-2-21
 ==================
 - [breaking] Update `eslint-config-airbnb-base` to `v11.1.0`
