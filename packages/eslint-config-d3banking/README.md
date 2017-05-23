@@ -1,18 +1,17 @@
-# eslint-config-d3banking
+# @d3banking/eslint-config
 
-[![npm version](https://badge.fury.io/js/eslint-config-d3banking.svg)](http://badge.fury.io/js/eslint-config-d3banking)
+[![npm version](https://badge.fury.io/js/%40d3banking%2Feslint-config.svg)](https://badge.fury.io/js/%40d3banking%2Feslint-config)
 
 This package provides D3 Banking's .eslintrc as an extensible shared config.
 
 ## Usage
 
-### eslint-config-d3banking
+### @d3banking/eslint-config
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`.
 
-1. `npm install --save-dev eslint-config-d3banking eslint`
-2. add `"extends": "d3banking"` to your .eslintrc
-2. add `"extends": "d3banking/legacy"` to your .eslintrc for ES5 projects
+1. `npm install --save-dev @d3banking/eslint-config eslint`
+2. add `"extends": "@d3banking/eslint-config"` to your .eslintrc
 
 
 See [D3 Banking's Javascript styleguide](https://github.com/LodoSoftware/javascript-style-guide) and

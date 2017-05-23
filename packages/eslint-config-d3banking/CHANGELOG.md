@@ -1,3 +1,10 @@
+11.0.0 / 2017-5-22
+==================
+- [breaking] Remove legacy ES5 support
+- [breaking] Remove warnings for `one-var`, `keyword-spacing`, `comma-spacing`, `quote-props`, `strict`, `prefer-rest-params`, `import/no-amd`
+- [breaking] Rename package to `@d3banking/eslint-config`
+- [deps] Update `eslint-config-airbnb-base` to `v11.2.0`
+
 10.0.1 / 2017-2-24
 ==================
 - [patch] Remove rule property with dependency on ES7 exponentiation feature

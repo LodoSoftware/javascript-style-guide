@@ -86,18 +86,12 @@ module.exports = {
 
     // too many to change all at once
     'space-before-function-paren': [ 1, { 'anonymous': 'always', 'named': 'never' } ],
-    'one-var': [ 1, 'never' ],
     'indent': [ 1, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 } ],
-    'keyword-spacing': [ 1, { before: true, after: true } ],
     'key-spacing': [ 1, { 'beforeColon': false, 'afterColon': true } ],
     'object-curly-spacing': [ 1, 'always' ],
-    'comma-spacing': [ 1, { 'before': false, 'after': true } ],
-    'quote-props': [ 1, 'as-needed', { 'keywords': false, 'unnecessary': true, 'numbers': false } ],
     'no-nested-ternary': 1,
-    'strict': [ 1, 'never' ],
     'prefer-template': 1,
     'prefer-arrow-callback': 1,
-    'prefer-rest-params': 1,
     'one-var-declaration-per-line': 1,
     'newline-per-chained-call': [ 1, { 'ignoreChainWithDepth': 3 } ],
     'global-require': 1,

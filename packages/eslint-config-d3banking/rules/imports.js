@@ -20,10 +20,7 @@ module.exports = {
     'import/prefer-default-export': 0,
 
     // Allow importing the default export as the name of one of the named exports
-    'import/no-named-as-default': 0,
-
-    // Temporary Warnings
-    'import/no-amd': 1
+    'import/no-named-as-default': 0
   }
 
 };
