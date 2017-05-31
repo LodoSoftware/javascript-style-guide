@@ -1,7 +1,12 @@
 # D3 Banking JavaScript Style Guide() {
 
-[![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-config.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
+### eslint-config
+[![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/eslint-config)
 [![Downloads](https://img.shields.io/npm/dm/@d3banking/eslint-config.svg)](https://www.npmjs.com/package/@d3banking/eslint-config)
+
+### tslint-config
+[![NPM version](https://img.shields.io/npm/v/@d3banking/tslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/tslint-config)
+[![Downloads](https://img.shields.io/npm/dm/@d3banking/tslint-config.svg)](https://www.npmjs.com/package/@d3banking/tslint-config)
 
 ## Documentation
 
