@@ -1,12 +1,11 @@
 # @d3banking/eslint-config
 
-[![npm version](https://badge.fury.io/js/%40d3banking%2Feslint-config.svg)](https://badge.fury.io/js/%40d3banking%2Feslint-config)
+[![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/eslint-config)
+[![Downloads](https://img.shields.io/npm/dm/@d3banking/eslint-config.svg)](https://www.npmjs.com/package/@d3banking/eslint-config)
 
 This package provides D3 Banking's .eslintrc as an extensible shared config.
 
 ## Usage
-
-### @d3banking/eslint-config
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`.
 

@@ -1,0 +1,16 @@
+{
+  "name": "@d3banking/tslint-config",
+  "version": "1.0.0",
+  "description": "A mostly reasonable approach to Typescript.",
+  "repository": "https://github.com/LodoSoftware/javascript-style-guide",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "tslint": "^5.3.2",
+    "typescript": "^2.3.4"
+  },
+  "peerDependencies": {
+    "tslint": "^5.3.2",
+    "typescript": "^2.3.4"
+  }
+}

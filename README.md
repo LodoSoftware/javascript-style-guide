@@ -1,7 +1,12 @@
 # D3 Banking JavaScript Style Guide() {
 
-[![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-config.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
+### eslint-config
+[![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/eslint-config)
 [![Downloads](https://img.shields.io/npm/dm/@d3banking/eslint-config.svg)](https://www.npmjs.com/package/@d3banking/eslint-config)
+
+### tslint-config
+[![NPM version](https://img.shields.io/npm/v/@d3banking/tslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/tslint-config)
+[![Downloads](https://img.shields.io/npm/dm/@d3banking/tslint-config.svg)](https://www.npmjs.com/package/@d3banking/tslint-config)
 
 ## Documentation
 
@@ -10,12 +15,12 @@ Our styleguide mostly follows the work of Airbnb's styleguide. See the full docu
 
 ## Amendments
 
-- [3.7](#objects--prototype-builtins) Allow calling `Object.prototype` methods directly, such as `hasOwnProperty`, `propertyIsEnumerable`, and `isPrototypeOf`.
+- [3.7](https://github.com/airbnb/javascript/blob/master/README.md#objects--prototype-builtins) Allow calling `Object.prototype` methods directly, such as `hasOwnProperty`, `propertyIsEnumerable`, and `isPrototypeOf`.
 - [7.12](https://github.com/airbnb/javascript/blob/master/README.md#functions--mutate-params) Allow mutating of parameters. eslint: [`no-param-reassign`](http://eslint.org/docs/rules/no-param-reassign.html)
 - [19.8](https://github.com/airbnb/javascript/blob/master/README.md#whitespace--padded-blocks) Allow blocks to be padded with blank lines. eslint: [`padded-blocks`](http://eslint.org/docs/rules/padded-blocks.html)
-- [19.10](#whitespace--in-brackets) Allow spaces inside brackets. eslint: [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing.html)
+- [19.10](https://github.com/airbnb/javascript/blob/master/README.md#whitespace--in-brackets) Allow spaces inside brackets. eslint: [`array-bracket-spacing`](http://eslint.org/docs/rules/array-bracket-spacing.html)
 - [20.2](https://github.com/airbnb/javascript/blob/master/README.md#commas--dangling) Disallow trailing comma. eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html)
-- [23.4](#naming--leading-underscore) Allow trailing or leading underscores in variable names. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html)
+- [23.4](https://github.com/airbnb/javascript/blob/master/README.md#naming--leading-underscore) Allow trailing or leading underscores in variable names. eslint: [`no-underscore-dangle`](http://eslint.org/docs/rules/no-underscore-dangle.html)
 
 ## License
 
