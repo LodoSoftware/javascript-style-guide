@@ -1,3 +1,7 @@
+11.1.0 / 2017-5-31
+==================
+- [minor] Turn `no-plusplus` into a warning
+
 11.0.0 / 2017-5-22
 ==================
 - [breaking] Remove legacy ES5 support

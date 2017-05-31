@@ -6,9 +6,6 @@ module.exports = {
     // allow trailing commas in object literals
     'comma-dangle': [ 2, 'never' ],
 
-    // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': 1,
-
     // specify the maximum length of a line in your program
     'max-len': [ 1, 200, 2, {
       'ignoreUrls': true,
@@ -51,10 +48,6 @@ module.exports = {
       requireForBlockBody: true,
     }],
 
-    // allow use of unary operators, ++ and --
-    // http://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': 'off',
-
     // enforce that class methods use "this"
     // http://eslint.org/docs/rules/class-methods-use-this
     'class-methods-use-this': ['off', {
@@ -95,6 +88,13 @@ module.exports = {
     'one-var-declaration-per-line': 1,
     'newline-per-chained-call': [ 1, { 'ignoreChainWithDepth': 3 } ],
     'global-require': 1,
+
+    // disallow use of unary operators, ++ and --
+    // http://eslint.org/docs/rules/no-plusplus
+    'no-plusplus': 'warn',
+
+    // enforce newline at the end of file, with no multiple empty lines
+    'eol-last': 1,
 
     // disallow un-paren'd mixes of different operators
     // eventually might want to add this in
