@@ -12,6 +12,8 @@ module.exports = {
       'allow-pascal-case',
       'allow-leading-underscore'
     ],
-    'interface-name': [false]
+    'interface-name': [false],
+    'max-line-length': [true, 200],  // Same as our eslint-config
+    'interface-over-type-literal': false
   }
 }
