@@ -1,3 +1,7 @@
+11.2.0 / 2017-6-2
+=================
+- [minor] Change `no-param-reassign` to a warning
+
 11.1.0 / 2017-5-31
 ==================
 - [minor] Turn `no-plusplus` into a warning

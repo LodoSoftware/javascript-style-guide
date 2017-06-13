@@ -27,10 +27,6 @@ module.exports = {
     // require immediate function invocation to be wrapped in parentheses
     'wrap-iife': [ 2, 'any' ],
 
-    // allow reassignment of function parameters
-    // allow parameter object manipulation
-    'no-param-reassign': 0,
-
     // allow spacing inside array brackets
     'array-bracket-spacing': 0,
 
@@ -88,6 +84,10 @@ module.exports = {
     'one-var-declaration-per-line': 1,
     'newline-per-chained-call': [ 1, { 'ignoreChainWithDepth': 3 } ],
     'global-require': 1,
+
+    // allow reassignment of function parameters
+    // allow parameter object manipulation
+    'no-param-reassign': 'warn',
 
     // disallow use of unary operators, ++ and --
     // http://eslint.org/docs/rules/no-plusplus
