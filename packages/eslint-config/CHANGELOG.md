@@ -1,3 +1,10 @@
+12.0.0 / 2017-8-11
+==================
+- [breaking] Update `eslint-config-airbnb-base` to `v11.3.1`
+- [breaking] Remove `space-before-function-paren` and `indent` warnings
+- [minor] Add support for `eslint v4`
+- [deps] Update all dependencies to latest versions
+
 11.2.0 / 2017-6-2
 =================
 - [minor] Change `no-param-reassign` to a warning

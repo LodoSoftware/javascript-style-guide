@@ -74,8 +74,6 @@ module.exports = {
     'object-shorthand': [ 1, 'always' ],
 
     // too many to change all at once
-    'space-before-function-paren': [ 1, { 'anonymous': 'always', 'named': 'never' } ],
-    'indent': [ 1, 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 } ],
     'key-spacing': [ 1, { 'beforeColon': false, 'afterColon': true } ],
     'object-curly-spacing': [ 1, 'always' ],
     'no-nested-ternary': 1,

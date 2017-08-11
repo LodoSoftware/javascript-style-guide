@@ -29,13 +29,15 @@ module.exports = {
         'member-variable-declaration'
       ]
     },
+    'interface-over-type-literal': {
+      'severity': 'warn'
+    },
 
     // Excludes
     'member-access': false,
     'ordered-imports': [false],
     'object-literal-sort-keys': false,
     'member-ordering': [false],
-    'interface-name': [false],
-    'interface-over-type-literal': false
+    'interface-name': [false]
   }
 }
