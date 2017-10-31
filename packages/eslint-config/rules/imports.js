@@ -1,5 +1,4 @@
 module.exports = {
-
   'rules': {
     // Ignore module resolutions
     'import/no-unresolved': 0,
@@ -20,7 +19,10 @@ module.exports = {
     'import/prefer-default-export': 0,
 
     // Allow importing the default export as the name of one of the named exports
-    'import/no-named-as-default': 0
+    'import/no-named-as-default': 0,
+
+    // Allow exports to be declared higher up in the module
+    'import/exports-last': 0
   }
 
 };

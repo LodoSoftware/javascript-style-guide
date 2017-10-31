@@ -1,3 +1,10 @@
+13.0.0 / 2017-10-19
+===================
+- [breaking] Move old rule warnings to new legacy package
+- [breaking] Added React rules to main package
+- [breaking] Added base package for basic javascript projects
+- [deps] Update to latest version of configs and plugins
+
 12.0.0 / 2017-8-11
 ==================
 - [breaking] Update `eslint-config-airbnb-base` to `v11.3.1`
