@@ -1,8 +1,9 @@
-13.0.0 / 2017-10-19
+13.0.0 / 2017-12-4
 ===================
 - [breaking] Move old rule warnings to new legacy package
 - [breaking] Added React rules to main package
 - [breaking] Added base package for basic javascript projects
+- [breaking] Added flow plugin and package for flow based projects
 - [deps] Update to latest version of configs and plugins
 
 12.0.0 / 2017-8-11

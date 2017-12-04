@@ -4,5 +4,6 @@ module.exports = {
   ],
   plugins: [
     'flowtype'
-  ]
+  ],
+  rules: {}
 };
