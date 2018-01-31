@@ -41,6 +41,13 @@ module.exports = {
     }],
 
     // Allow chaining of assignment of variables
-    'no-multi-assign': ['off']
+    'no-multi-assign': ['off'],
+
+    // enforce line breaks between braces
+    // http://eslint.org/docs/rules/object-curly-newline
+    'object-curly-newline': ['error', {
+      ObjectExpression: { minProperties: 6, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 6, multiline: true, consistent: true }
+    }]
   }
 };
