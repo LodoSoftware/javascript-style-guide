@@ -1,3 +1,7 @@
+13.1.0 / 2018-3-28
+==================
+- [deps] Update version of `eslint-plugin-flowtype` to `v2.46.1`
+
 13.0.0 / 2017-12-4
 ===================
 - [breaking] Move old rule warnings to new legacy package
