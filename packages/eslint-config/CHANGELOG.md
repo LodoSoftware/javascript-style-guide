@@ -1,4 +1,4 @@
-13.1.0 / 2018-3-28
+13.1.1 / 2018-3-28
 ==================
 - [deps] Update version of `eslint-plugin-flowtype` to `v2.46.1`
 
