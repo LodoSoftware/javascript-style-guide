@@ -1,3 +1,8 @@
+14.0.0-rc.1 / 2018-5-3
+=================
+- [breaking] Enable import rules
+- [deps] Update import dependencies
+
 13.1.1 / 2018-3-28
 ==================
 - [deps] Update version of `eslint-plugin-flowtype` to `v2.46.1`

@@ -1,28 +1,48 @@
 module.exports = {
-  'rules': {
-    // Ignore module resolutions
-    'import/no-unresolved': 0,
-
-    // disallow non-import statements appearing before import statements
-    // TODO - get this working
-    'import/first': 'off',
-
-    // Ensure consistent use of file extension within the import path
-    // TODO - get this working
-    'import/extensions': 'off',
-
-    // Forbid the use of extraneous packages - disabling because this rule doesn't
-    // work very well
-    'import/no-extraneous-dependencies': [0],
-
-    // Default exports are going out of style and go against the grain of using indexes
-    'import/prefer-default-export': 0,
-
-    // Allow importing the default export as the name of one of the named exports
-    'import/no-named-as-default': 0,
+  plugins: [
+    'import'
+  ],
+  rules: {
+    // Default exports are optional
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
+    'import/prefer-default-export': 'off',
 
     // Allow exports to be declared higher up in the module
-    'import/exports-last': 0
-  }
+    // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
+    'import/exports-last': 'off',
 
+    // Enforce a convention in module import order
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+    'import/order': ['error', {
+      'groups': [
+        ['builtin', 'external'],
+        ['internal', 'parent', 'sibling', 'index']
+      ],
+      'newlines-between': 'always'
+    }],
+
+    // New rules
+
+    // Reports when named exports are not grouped together in a single export declaration
+    // or when multiple assignments to CommonJS module.exports or exports object are present
+    // in a single file.
+    // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/group-exports.md
+    'import/group-exports': 'off',
+
+    // forbid default exports. this is a terrible rule, do not use it.
+    // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-default-export.md
+    'import/no-default-export': 'off',
+
+    // Forbid a module from importing itself
+    // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-self-import.md
+    'import/no-self-import': 'error',
+
+    // Forbid cyclical dependencies between modules
+    // https://github.com/benmosher/eslint-plugin-import/blob/d81f48a2506182738409805f5272eff4d77c9348/docs/rules/no-cycle.md
+    'import/no-cycle': ['error', { maxDepth: Infinity }],
+
+    // Ensures that there are no useless path segments
+    // https://github.com/benmosher/eslint-plugin-import/issues/1032
+    'import/no-useless-path-segments': 'error'
+  }
 };
