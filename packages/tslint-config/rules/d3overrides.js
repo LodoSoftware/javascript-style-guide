@@ -26,6 +26,9 @@ module.exports = {
     'object-literal-sort-keys': false,
     'member-ordering': [false],
     'interface-name': [false],
-    'jsx-boolean-value': false
+
+    // Excludes - React
+    'jsx-boolean-value': false, // booleans are more concise
+    'jsx-no-lambda': false  // consider using this
   }
 }
