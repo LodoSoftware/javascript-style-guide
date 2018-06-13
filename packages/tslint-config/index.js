@@ -7,7 +7,7 @@ const d3Overrides = require('./rules/d3overrides');
 
 module.exports = {
   rulesDirectory: airbnbConfig.rulesDirectory.concat([
-    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './rules')
+    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
     path.join(path.dirname(require.resolve('tslint-react')), './rules')
   ]),
   rules: Object.assign({},

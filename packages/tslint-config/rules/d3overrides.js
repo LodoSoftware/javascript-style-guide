@@ -1,7 +1,6 @@
 module.exports = {
   rules: {
     // Errors
-    'quotemark': [true, 'single'],
     'trailing-comma': [true, {
       'multiline': 'never',
       'singleline': 'never'
@@ -12,25 +11,13 @@ module.exports = {
       'allow-pascal-case',
       'allow-leading-underscore'
     ],
+    'no-unused-variable': [true, 'React'],
+    'import-name': [true, { 'react': 'React' }],
 
     // Warnings
     'max-line-length': {
       'severity': 'warn',
       'options': 200
-    },
-    'typedef': {
-      'severity': 'warn',
-      'options': [
-        'call-signature',
-        'parameter',
-        'arrow-parameter',
-        'property-declaration',
-        'variable-declaration',
-        'member-variable-declaration'
-      ]
-    },
-    'interface-over-type-literal': {
-      'severity': 'warn'
     },
 
     // Excludes
