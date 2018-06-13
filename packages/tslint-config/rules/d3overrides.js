@@ -38,6 +38,7 @@ module.exports = {
     'ordered-imports': [false],
     'object-literal-sort-keys': false,
     'member-ordering': [false],
-    'interface-name': [false]
+    'interface-name': [false],
+    'jsx-boolean-value': false
   }
 }
