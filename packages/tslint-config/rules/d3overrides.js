@@ -12,6 +12,7 @@ module.exports = {
       'allow-leading-underscore'
     ],
     'no-unused-variable': [true, 'React'],
+    'no-else-return': [true, { allowElseIf: true }],
 
     // Warnings
     'max-line-length': {
