@@ -12,7 +12,6 @@ module.exports = {
       'allow-leading-underscore'
     ],
     'no-unused-variable': [true, 'React'],
-    'import-name': [true, { 'react': 'React' }],
 
     // Warnings
     'max-line-length': {
@@ -26,6 +25,7 @@ module.exports = {
     'object-literal-sort-keys': false,
     'member-ordering': [false],
     'interface-name': [false],
+    'import-name': [false],
 
     // Excludes - React
     'jsx-boolean-value': false, // booleans are more concise

@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/tslint-config",
-  "version": "2.0.0-alpha.5",
+  "version": "2.0.0-alpha.6",
   "description": "A mostly reasonable approach to Typescript.",
   "repository": "https://github.com/LodoSoftware/javascript-style-guide",
   "license": "MIT",
