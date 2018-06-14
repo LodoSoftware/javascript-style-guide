@@ -15,7 +15,7 @@ module.exports = {
     reactConfig.rules,
     d3Overrides.rules,
     prettierConfig.rules, {
-      prettier: [true, { singleQuote: true }]
+      prettier: [true, { singleQuote: true, printWidth: 200 }]
     }
   ),
   jsRules: Object.assign({}, tslintConfig.jsRules)
