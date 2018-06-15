@@ -1,22 +1,13 @@
-const path = require('path');
 const tslintConfig = require('tslint/lib/configs/recommended');
-const airbnbConfig = require('tslint-config-airbnb');
-const reactConfig = require('tslint-react');
-const prettierConfig = require('tslint-config-prettier');
-const d3Overrides = require('./rules/d3overrides');
 
 module.exports = {
-  rulesDirectory: airbnbConfig.rulesDirectory.concat([
-    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
-    path.join(path.dirname(require.resolve('tslint-react')), './rules')
-  ]),
-  rules: Object.assign({},
-    airbnbConfig.rules,
-    reactConfig.rules,
-    d3Overrides.rules,
-    prettierConfig.rules, {
-      prettier: [true, { singleQuote: true, printWidth: 200 }]
-    }
-  ),
+  extends: [
+    'tslint-config-airbnb',
+    'tslint-react',
+    './rules/d3overrides',
+    'tslint-config-prettier',
+    './rules/prettier'
+  ].map(require.resolve),
+  rules: {},
   jsRules: Object.assign({}, tslintConfig.jsRules)
 };
