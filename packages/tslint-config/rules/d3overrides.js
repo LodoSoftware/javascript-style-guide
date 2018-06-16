@@ -27,6 +27,8 @@ module.exports = {
     'member-ordering': [false],
     'interface-name': [false],
     'import-name': [false],
+    'object-shorthand-properties-first': false,
+    'function-name': false, // add eventually, but react needs this off
 
     // Excludes - React
     'jsx-boolean-value': false, // booleans are more concise
