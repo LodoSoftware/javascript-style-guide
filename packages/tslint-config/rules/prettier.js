@@ -7,7 +7,7 @@ module.exports = {
   rules: {
     prettier: [true, {
       singleQuote: true,
-      printWidth: 120
+      printWidth: 100
     }]
   }
 };

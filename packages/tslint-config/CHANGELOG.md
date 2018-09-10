@@ -1,3 +1,14 @@
+3.0.0 / 2018-9-10
+=================
+- [breaking] Set `max-line-length` to `100`
+- [breaking] Enforce `ordered-imports`
+- [minor] Upgrading deps (prettier, airbnb config)
+- [fix] Remove deprecated `no-unused-variable`
+
+2.0.0 / 2018-7-11
+=================
+- [breaking] Refactor all rules using airbnb and prettier configs as a baseline
+
 1.3.0 / 2017-8-11
 =================
 - [minor] Change `interface-over-type-literal` to warning
