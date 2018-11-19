@@ -1,3 +1,7 @@
+3.1.0 / 2018-11-19
+==================
+- [deps] Update all versions to latest.
+
 3.0.0 / 2018-9-10
 =================
 - [breaking] Set `max-line-length` to `100`
