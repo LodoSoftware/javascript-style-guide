@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "14.0.0-rc.3",
+  "version": "14.0.0-rc.9",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/LodoSoftware/javascript-style-guide",
   "dependencies": {
     "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "2.9.0",
+    "eslint-config-prettier": "3.3.0",
     "eslint-import-resolver-webpack": "0.10.1",
     "eslint-plugin-flowtype": "3.2.0",
     "eslint-plugin-import": "2.14.0",
@@ -47,6 +47,7 @@
     "tape": "^4.9.1"
   },
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 5",
+    "eslint-plugin-prettier": "^3.0.0"
   }
 }

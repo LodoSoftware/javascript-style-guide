@@ -2,6 +2,7 @@
   "name": "d3banking-styleguide",
   "version": "1.0.0",
   "description": "A mostly reasonable approach to JavaScript and TypeScript.",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/lodosoftware/javascript-styleguide.git"

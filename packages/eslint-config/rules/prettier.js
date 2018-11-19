@@ -1,5 +1,8 @@
+const path = require('path');
+
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
+  extends: [path.resolve(require.resolve('eslint-config-prettier'))],
+  plugins: ['prettier'],
   rules: {
     'prettier/prettier': [
       'error',
