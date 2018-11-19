@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'import'
-  ],
+  plugins: ['import'],
   rules: {
     // Default exports are optional
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
@@ -13,13 +11,13 @@ module.exports = {
 
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    'import/order': ['error', {
-      'groups': [
-        ['builtin', 'external'],
-        ['internal', 'parent', 'sibling', 'index']
-      ],
-      'newlines-between': 'always'
-    }],
+    // 'import/order': [
+    //   'error',
+    //   {
+    //     groups: [['builtin', 'external'], ['internal', 'parent', 'sibling', 'index']],
+    //     'newlines-between': 'always'
+    //   }
+    // ],
 
     // New rules
 
