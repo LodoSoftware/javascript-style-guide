@@ -4,7 +4,8 @@ module.exports = {
     './rules/imports',
     './rules/react',
     './rules/flow',
-    './rules/d3overrides'
+    './rules/d3overrides',
+    './rules/prettier'
   ].map(require.resolve),
   rules: {}
 };

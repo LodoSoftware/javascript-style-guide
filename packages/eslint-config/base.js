@@ -3,7 +3,8 @@ module.exports = {
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict',
     './rules/imports',
-    './rules/d3overrides'
+    './rules/d3overrides',
+    './rules/prettier'
   ].map(require.resolve),
   rules: {}
 };
