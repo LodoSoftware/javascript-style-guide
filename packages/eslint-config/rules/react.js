@@ -20,6 +20,9 @@ module.exports = {
           'render'
         ]
       }
-    ]
+    ],
+
+    // Enforce fragment shorthand
+    'react/jsx-fragments': ['error']
   }
 };

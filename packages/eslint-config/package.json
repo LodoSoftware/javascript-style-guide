@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "14.0.0-rc.9",
+  "version": "14.0.0-rc.10",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -31,20 +31,19 @@
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "3.3.0",
     "eslint-import-resolver-webpack": "0.10.1",
-    "eslint-plugin-flowtype": "3.2.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
-    "eslint-plugin-prettier": "3.0.0",
-    "eslint-plugin-react": "7.11.1",
-    "prettier": "1.15.2"
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.3",
+    "prettier": "1.15.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "babel-preset-airbnb": "^3.0.1",
+    "@babel/core": "^7.2.2",
+    "babel-preset-airbnb": "^3.2.0",
     "babel-tape-runner": "^3.0.0",
-    "eslint": "5.9.0",
+    "eslint": "5.12.0",
     "eslint-find-rules": "^3.3.1",
-    "tape": "^4.9.1"
+    "tape": "^4.9.2"
   },
   "peerDependencies": {
     "eslint": ">= 5",

@@ -1,7 +1,8 @@
 14.0.0-rc.1 / 2018-5-3
 =================
+- [breaking] Remove flow support
 - [breaking] Enable import rules
-- [deps] Update import dependencies
+- [deps] Update dependencies
 
 13.1.1 / 2018-3-28
 ==================

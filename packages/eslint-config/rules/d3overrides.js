@@ -59,6 +59,9 @@ module.exports = {
         ObjectExpression: { minProperties: 6, multiline: true, consistent: true },
         ObjectPattern: { minProperties: 6, multiline: true, consistent: true }
       }
-    ]
+    ],
+
+    // unused
+    'no-useless-catch': ['off']
   }
 };
