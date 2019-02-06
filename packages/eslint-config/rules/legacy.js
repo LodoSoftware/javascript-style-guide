@@ -69,6 +69,18 @@ module.exports = {
       {
         requireForBlockBody: true
       }
-    ]
+    ],
+
+    // So many breaks, so just disabling to not disrupt legacy setups
+    'import/order': 'off',
+    'import/no-named-as-default': 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'import/no-useless-path-segments': 'off',
+    'lines-between-class-members': 'off',
+    'no-else-return': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'operator-linebreak': 'off',
+    'no-multiple-empty-lines': 'off'
   }
 };
