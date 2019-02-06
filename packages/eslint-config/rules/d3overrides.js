@@ -62,6 +62,7 @@ module.exports = {
     ],
 
     // unused
-    'no-useless-catch': ['off']
+    'no-useless-catch': ['off'],
+    'jsx-a11y/control-has-associated-label': 'off'
   }
 };

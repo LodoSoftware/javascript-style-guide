@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['react-hooks'],
   rules: {
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
@@ -23,6 +24,9 @@ module.exports = {
     ],
 
     // Enforce fragment shorthand
-    'react/jsx-fragments': ['error']
+    'react/jsx-fragments': ['error'],
+
+    // Ensure correct use of hooks
+    'react-hooks/rules-of-hooks': 'error'
   }
 };

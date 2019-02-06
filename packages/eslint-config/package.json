@@ -1,13 +1,13 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "14.0.0-rc.10",
+  "version": "14.0.0-rc.11",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "tests-only": "babel-tape-runner ./test/test-*.js",
     "pretest": "eslint-find-rules --unused",
-    "test": "npm run --silent lint && npm run --silent tests-only"
+    "test": "yarn --silent lint && yarn --silent tests-only"
   },
   "repository": {
     "type": "git",
@@ -29,24 +29,24 @@
   "homepage": "https://github.com/LodoSoftware/javascript-style-guide",
   "dependencies": {
     "eslint-config-airbnb": "17.1.0",
-    "eslint-config-prettier": "3.3.0",
-    "eslint-import-resolver-webpack": "0.10.1",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-import-resolver-webpack": "0.11.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
     "eslint-plugin-prettier": "3.0.1",
-    "eslint-plugin-react": "7.12.3",
-    "prettier": "1.15.3"
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-hooks": "1.0.1",
+    "prettier": "1.16.4"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-preset-airbnb": "^3.2.0",
     "babel-tape-runner": "^3.0.0",
-    "eslint": "5.12.0",
+    "eslint": "5.13.0",
     "eslint-find-rules": "^3.3.1",
     "tape": "^4.9.2"
   },
   "peerDependencies": {
-    "eslint": ">= 5",
-    "eslint-plugin-prettier": "^3.0.0"
+    "eslint": ">= 5"
   }
 }

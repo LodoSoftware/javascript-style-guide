@@ -5,6 +5,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'off',
 
+    // Named exports are fine
+    'import/no-named-export': 'off',
+
     // Allow exports to be declared higher up in the module
     // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
     'import/exports-last': 'off',
