@@ -26,6 +26,12 @@ module.exports = {
     // Enforce fragment shorthand
     'react/jsx-fragments': ['error'],
 
+    // Allow tsx
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
+
+    // Conflicts with prettier
+    'react/jsx-one-expression-per-line': 'off',
+
     // Ensure correct use of hooks
     'react-hooks/rules-of-hooks': 'error'
   }

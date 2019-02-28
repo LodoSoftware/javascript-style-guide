@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "15.0.0-alpha.2",
+  "version": "15.0.0-alpha.7",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -49,7 +49,6 @@
     "tape": "^4.10.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": ">= 1.4",
     "eslint": ">= 5"
   }
 }

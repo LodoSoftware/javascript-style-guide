@@ -61,6 +61,9 @@ module.exports = {
       }
     ],
 
+    // Don't enforce line breaks in classes
+    'lines-between-class-members': 'off',
+
     // unused
     'no-useless-catch': ['off'],
     'jsx-a11y/control-has-associated-label': 'off'

@@ -1,16 +1,23 @@
 module.exports = {
-  parser: require.resolve('@typescript-eslint/parser'),
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json'
   },
   extends: [
     'eslint-config-airbnb',
-    'plugin:@typescript-eslint/recommended',
+    require.resolve('./rules/typescript'),
     require.resolve('./rules/imports'),
     require.resolve('./rules/react'),
     require.resolve('./rules/d3overrides'),
     require.resolve('./rules/prettier')
   ],
-  plugins: ['@typescript-eslint'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs']
+      }
+    },
+    'import/extensions': ['.ts', '.tsx', '.js', '.mjs', '.jsx']
+  },
   rules: {}
 };

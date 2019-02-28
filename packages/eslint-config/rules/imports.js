@@ -40,10 +40,19 @@ module.exports = {
 
     // Forbid cyclical dependencies between modules
     // https://github.com/benmosher/eslint-plugin-import/blob/d81f48a2506182738409805f5272eff4d77c9348/docs/rules/no-cycle.md
-    'import/no-cycle': ['error', { maxDepth: Infinity }],
+    // 'import/no-cycle': ['error', { maxDepth: Infinity }],
+    // Not working quite right with typescript
+    'import/no-cycle': 'off',
 
     // Ensures that there are no useless path segments
     // https://github.com/benmosher/eslint-plugin-import/issues/1032
-    'import/no-useless-path-segments': 'error'
+    'import/no-useless-path-segments': 'error',
+
+    // Not working currently with typescript
+    'import/export': 'off',
+    'import/named': 'off',
+
+    // This is not working for us
+    'import/no-extraneous-dependencies': 'off'
   }
 };
