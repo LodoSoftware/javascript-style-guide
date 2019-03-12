@@ -8,19 +8,23 @@ module.exports = {
     // Named exports are fine
     'import/no-named-export': 'off',
 
+    // Allow named export to be same as default
+    'import/no-named-as-default': 'off',
+    'import/no-named-as-default-member': 'off',
+
     // Allow exports to be declared higher up in the module
     // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
     'import/exports-last': 'off',
 
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    // 'import/order': [
-    //   'error',
-    //   {
-    //     groups: [['builtin', 'external'], ['internal', 'parent', 'sibling', 'index']],
-    //     'newlines-between': 'always'
-    //   }
-    // ],
+    'import/order': [
+      'error',
+      {
+        groups: [['builtin', 'external'], 'internal', ['parent', 'sibling', 'index']],
+        'newlines-between': 'always'
+      }
+    ],
 
     // New rules
 

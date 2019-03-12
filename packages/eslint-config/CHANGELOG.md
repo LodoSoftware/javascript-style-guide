@@ -1,8 +1,15 @@
-14.0.0-rc.1 / 2018-5-3
+15.0.0 / 2019-3-12
+==================
+- [breaking] Reconfigure react and import rules
+- [minor] Add typescript support
+
+14.0.0 / 2019-2-8
 =================
+- [breaking] Add prettier for formatting
 - [breaking] Remove flow support
 - [breaking] Enable import rules
 - [deps] Update dependencies
+- [minor] Support for eslint v5
 
 13.1.1 / 2018-3-28
 ==================
