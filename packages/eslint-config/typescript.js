@@ -5,8 +5,8 @@ module.exports = {
   },
   extends: [
     'eslint-config-airbnb',
-    require.resolve('./rules/typescript'),
     require.resolve('./rules/imports'),
+    require.resolve('./rules/typescript'),
     require.resolve('./rules/react'),
     require.resolve('./rules/d3overrides'),
     require.resolve('./rules/prettier')
@@ -15,7 +15,8 @@ module.exports = {
     'import/resolver': {
       node: {
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs']
-      }
+      },
+      webpack: true
     },
     'import/extensions': ['.ts', '.tsx', '.js', '.mjs', '.jsx']
   },

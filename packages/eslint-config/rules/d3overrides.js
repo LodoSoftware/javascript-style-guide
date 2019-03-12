@@ -64,6 +64,9 @@ module.exports = {
     // Don't enforce line breaks in classes
     'lines-between-class-members': 'off',
 
+    // Allow returning assignment if inside parens
+    'no-return-assign': ['error', 'except-parens'],
+
     // unused
     'no-useless-catch': ['off'],
     'jsx-a11y/control-has-associated-label': 'off'
