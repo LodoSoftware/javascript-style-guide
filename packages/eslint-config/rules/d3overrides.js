@@ -67,6 +67,25 @@ module.exports = {
     // Allow returning assignment if inside parens
     'no-return-assign': ['error', 'except-parens'],
 
+    // Prefer destructuring from arrays and objects
+    // https://eslint.org/docs/rules/prefer-destructuring
+    'prefer-destructuring': [
+      'error',
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true
+        },
+        AssignmentExpression: {
+          array: false,
+          object: false
+        }
+      },
+      {
+        enforceForRenamedProperties: false
+      }
+    ],
+
     // unused
     'no-useless-catch': ['off'],
     'jsx-a11y/control-has-associated-label': 'off'
