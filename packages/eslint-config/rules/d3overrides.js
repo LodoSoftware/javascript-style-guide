@@ -86,6 +86,9 @@ module.exports = {
       }
     ],
 
+    // Allow promise rejections to be strings
+    'prefer-promise-reject-errors': 'off',
+
     // unused
     'no-useless-catch': ['off'],
     'jsx-a11y/control-has-associated-label': 'off'

@@ -16,11 +16,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
 
     // Allow type assertion in call and new expression
-    '@typescript-eslint/no-object-literal-type-assertion': [
-      'error',
-      {
-        allowAsParameter: true
-      }
-    ]
+    '@typescript-eslint/no-object-literal-type-assertion': ['off']
   }
 };
