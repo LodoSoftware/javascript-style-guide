@@ -1,3 +1,7 @@
+15.1.0 / 2019-3-20
+==================
+- [minor] Add typescript import resolver
+
 15.0.0 / 2019-3-12
 ==================
 - [breaking] Reconfigure react and import rules

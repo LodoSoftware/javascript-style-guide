@@ -16,7 +16,8 @@ module.exports = {
       node: {
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs']
       },
-      webpack: true
+      webpack: true,
+      typescript: true
     },
     'import/extensions': ['.ts', '.tsx', '.js', '.mjs', '.jsx']
   },

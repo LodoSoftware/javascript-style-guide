@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "15.0.1",
+  "version": "15.1.0",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "@typescript-eslint/eslint-plugin": "1.4.2",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "4.1.0",
+    "eslint-import-resolver-typescript": "1.1.1",
     "eslint-import-resolver-webpack": "0.11.0",
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
