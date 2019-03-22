@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.2.1](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.2.0...v15.2.1) (2019-03-22)
+
+
+### Bug Fixes
+
+* relax the default-case rule ([1deeaf3](https://github.com/LodoSoftware/javascript-style-guide/commit/1deeaf3))
+
+
+
 # [15.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v13.1.1...v15.2.0) (2019-03-22)
 
 
