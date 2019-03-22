@@ -89,6 +89,9 @@ module.exports = {
     // Allow promise rejections to be strings
     'prefer-promise-reject-errors': 'off',
 
+    // This doesn't really follow our pattern for reducers
+    'default-case': 'off',
+
     // unused
     'no-useless-catch': ['off'],
     'jsx-a11y/control-has-associated-label': 'off'
