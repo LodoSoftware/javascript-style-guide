@@ -1,13 +1,14 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "15.1.1",
+  "version": "15.2.0",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "tests-only": "babel-tape-runner ./test/test-*.js",
     "pretest": "eslint-find-rules --unused",
-    "test": "yarn --silent lint && yarn --silent tests-only"
+    "test": "yarn --silent lint && yarn --silent tests-only",
+    "release": "standard-version -a"
   },
   "repository": {
     "type": "git",
@@ -47,6 +48,7 @@
     "babel-tape-runner": "^3.0.0",
     "eslint": "5.14.1",
     "eslint-find-rules": "^3.3.1",
+    "standard-version": "^5.0.2",
     "tape": "^4.10.1"
   },
   "peerDependencies": {

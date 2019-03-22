@@ -1,3 +1,27 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+# [15.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v13.1.1...v15.2.0) (2019-03-22)
+
+
+### Bug Fixes
+
+* **eslint:** don't require destructuring on assignment ([2b536f4](https://github.com/LodoSoftware/javascript-style-guide/commit/2b536f4))
+* **eslint:** fixing issues with new rules ([cfecbc4](https://github.com/LodoSoftware/javascript-style-guide/commit/cfecbc4))
+* **eslint:** relax some of the rules ([108a211](https://github.com/LodoSoftware/javascript-style-guide/commit/108a211))
+
+
+### Features
+
+* **eslint:** added typescript import resolver ([945bf05](https://github.com/LodoSoftware/javascript-style-guide/commit/945bf05))
+* **eslint:** configuring typescript rules. ([f787d35](https://github.com/LodoSoftware/javascript-style-guide/commit/f787d35))
+* **eslint:** finalizing typescript eslint rules ([b856b3c](https://github.com/LodoSoftware/javascript-style-guide/commit/b856b3c))
+* adding typescript support to eslint-config ([4bb0c88](https://github.com/LodoSoftware/javascript-style-guide/commit/4bb0c88))
+* updating all the deps ([03024f0](https://github.com/LodoSoftware/javascript-style-guide/commit/03024f0))
+
+
+
 15.1.0 / 2019-3-20
 ==================
 - [minor] Add typescript import resolver
