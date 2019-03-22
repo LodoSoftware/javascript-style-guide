@@ -8,7 +8,8 @@
     "tests-only": "babel-tape-runner ./test/test-*.js",
     "pretest": "eslint-find-rules --unused",
     "test": "yarn --silent lint && yarn --silent tests-only",
-    "release": "standard-version -a"
+    "release": "standard-version -a",
+    "postrelease": "git push --follow-tags origin master && npm publish"
   },
   "repository": {
     "type": "git",
