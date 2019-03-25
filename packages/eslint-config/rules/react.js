@@ -39,6 +39,13 @@ module.exports = {
 
     // Ensure correct use of hooks
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 'warn',
+
+    // jsx-a11y
+
+    // Replaced by jsx-a11y/control-has-associated-label
+    'jsx-a11y/label-has-for': 'off',
+    // Enforce label tag has associated control
+    'jsx-a11y/control-has-associated-label': 'warn'
   }
 };
