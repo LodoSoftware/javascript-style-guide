@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.3.2](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.1...v15.3.2) (2019-03-25)
+
+
+### Bug Fixes
+
+* allow using await in a loop ([1492ae2](https://github.com/LodoSoftware/javascript-style-guide/commit/1492ae2))
+
+
+
 ## [15.3.1](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.0...v15.3.1) (2019-03-25)
 
 
