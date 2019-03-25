@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/LodoSoftware/javascript-style-guide",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "1.4.2",
+    "@typescript-eslint/eslint-plugin": "1.5.0",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "4.1.0",
     "eslint-import-resolver-typescript": "1.1.1",
