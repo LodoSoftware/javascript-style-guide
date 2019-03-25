@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.3.1](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.0...v15.3.1) (2019-03-25)
+
+
+### Bug Fixes
+
+* exclude react rules that prettier handles ([712dd4c](https://github.com/LodoSoftware/javascript-style-guide/commit/712dd4c))
+
+
+
 # [15.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.2.1...v15.3.0) (2019-03-25)
 
 
