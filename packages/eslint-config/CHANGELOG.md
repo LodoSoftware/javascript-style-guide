@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [15.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.2.1...v15.3.0) (2019-03-25)
+
+
+### Features
+
+* added additional react-hooks rule ([cac6426](https://github.com/LodoSoftware/javascript-style-guide/commit/cac6426))
+
+
+### Performance Improvements
+
+* upgrade typescript eslint for performance upgrades ([0f4becb](https://github.com/LodoSoftware/javascript-style-guide/commit/0f4becb))
+
+
+
 ## [15.2.1](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.2.0...v15.2.1) (2019-03-22)
 
 
