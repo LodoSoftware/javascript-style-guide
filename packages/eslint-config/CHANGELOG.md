@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.3.3](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.2...v15.3.3) (2019-03-25)
+
+
+### Bug Fixes
+
+* replace deprecated label-has-for with control-has-associated-label as warning ([c5e68e5](https://github.com/LodoSoftware/javascript-style-guide/commit/c5e68e5))
+
+
+
 ## [15.3.2](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.1...v15.3.2) (2019-03-25)
 
 
