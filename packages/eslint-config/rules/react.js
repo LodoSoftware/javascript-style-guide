@@ -38,6 +38,7 @@ module.exports = {
     'react/destructuring-assignment': 'off',
 
     // Ensure correct use of hooks
-    'react-hooks/rules-of-hooks': 'error'
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   }
 };
