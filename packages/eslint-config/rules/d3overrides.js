@@ -92,6 +92,9 @@ module.exports = {
     // This doesn't really follow our pattern for reducers
     'default-case': 'off',
 
+    // Allow using await in a loop
+    'no-await-in-loop': 'off',
+
     // unused
     'no-useless-catch': ['off'],
     'jsx-a11y/control-has-associated-label': 'off'
