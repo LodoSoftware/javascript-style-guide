@@ -53,6 +53,6 @@
     "tape": "^4.10.1"
   },
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 5.14.0"
   }
 }
