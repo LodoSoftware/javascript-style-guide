@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [15.4.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.3...v15.4.0) (2019-04-26)
+
+
+### Bug Fixes
+
+* update eslint peer dep ([677b283](https://github.com/LodoSoftware/javascript-style-guide/commit/677b283))
+
+
+### Features
+
+* updating plugin versions ([70eb998](https://github.com/LodoSoftware/javascript-style-guide/commit/70eb998))
+
+
+
 ## [15.3.3](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.3.2...v15.3.3) (2019-03-25)
 
 
