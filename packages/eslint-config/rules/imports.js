@@ -57,6 +57,9 @@ module.exports = {
     'import/named': 'off',
 
     // This is not working for us
-    'import/no-extraneous-dependencies': 'off'
+    'import/no-extraneous-dependencies': 'off',
+
+    // Unused
+    'import/no-unused-modules': 'off'
   }
 };
