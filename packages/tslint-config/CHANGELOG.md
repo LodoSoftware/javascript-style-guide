@@ -1,3 +1,16 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.4.0...v3.2.0) (2019-05-10)
+
+
+### Features
+
+* upgrade dependencies ([816ccb5](https://github.com/LodoSoftware/javascript-style-guide/commit/816ccb5))
+
+
+
 3.1.0 / 2018-11-19
 ==================
 - [deps] Update all versions to latest.
