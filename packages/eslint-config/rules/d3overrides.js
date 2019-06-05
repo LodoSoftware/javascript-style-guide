@@ -96,6 +96,7 @@ module.exports = {
     'no-await-in-loop': 'off',
 
     // unused
-    'no-useless-catch': ['off']
+    'no-useless-catch': ['off'],
+    'prefer-named-capture-group': ['off']
   }
 };

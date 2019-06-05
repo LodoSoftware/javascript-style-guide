@@ -46,6 +46,12 @@ module.exports = {
     // Replaced by jsx-a11y/control-has-associated-label
     'jsx-a11y/label-has-for': 'off',
     // Enforce label tag has associated control
-    'jsx-a11y/control-has-associated-label': 'warn'
+    'jsx-a11y/control-has-associated-label': 'warn',
+
+    // unused
+    'react/jsx-props-no-spreading': 'off',
+    'react/prefer-read-only-props': 'off',
+    'react/state-in-constructor': 'off',
+    'react/static-property-placement': 'off'
   }
 };
