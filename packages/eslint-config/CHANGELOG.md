@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [15.6.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.5.2...v15.6.0) (2019-06-21)
+
+
+### Features
+
+* **eslint:** update typescript-eslint and prettier ([31f9d75](https://github.com/LodoSoftware/javascript-style-guide/commit/31f9d75))
+
+
 
 ## [15.5.2](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.5.1...v15.5.2) (2019-06-05)
 
