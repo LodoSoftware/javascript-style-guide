@@ -31,6 +31,7 @@
   "homepage": "https://github.com/LodoSoftware/javascript-style-guide",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "1.10.2",
+    "@typescript-eslint/parser": "1.10.2",
     "eslint-config-airbnb": "17.1.0",
     "eslint-config-prettier": "5.0.0",
     "eslint-import-resolver-typescript": "1.1.1",
@@ -44,13 +45,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
-    "@typescript-eslint/parser": "^1.10.2",
     "babel-preset-airbnb": "^3.3.2",
     "babel-tape-runner": "^3.0.0",
     "eslint": "5.16.0",
     "eslint-find-rules": "^3.3.1",
     "standard-version": "^6.0.1",
-    "tape": "^4.10.2"
+    "tape": "^4.10.2",
+    "typescript": "3.5.2"
   },
   "peerDependencies": {
     "eslint": ">= 5.16.0"
