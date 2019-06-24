@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [15.6.2](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.6.1...v15.6.2) (2019-06-24)
+
+
+### Bug Fixes
+
+* add parser as dependency ([2248ead](https://github.com/LodoSoftware/javascript-style-guide/commit/2248ead))
+
+
+
 ### [15.6.1](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.6.0...v15.6.1) (2019-06-21)
 
 
