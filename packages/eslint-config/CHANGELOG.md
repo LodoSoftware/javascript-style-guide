@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [15.6.3](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.6.2...v15.6.3) (2019-06-24)
+
+
+
 ### [15.6.2](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.6.1...v15.6.2) (2019-06-24)
 
 
