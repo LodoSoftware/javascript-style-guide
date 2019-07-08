@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [15.7.0](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.6.3...v15.7.0) (2019-07-08)
+
+
+### Features
+
+* updating typescript-eslint, configs, and plugins ([071fde5](https://github.com/LodoSoftware/javascript-style-guide/commit/071fde5))
+
+
+
 ### [15.6.3](https://github.com/LodoSoftware/javascript-style-guide/compare/v15.6.2...v15.6.3) (2019-06-24)
 
 
