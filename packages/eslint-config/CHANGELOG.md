@@ -1,3 +1,175 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 16.0.0 (2019-07-16)
+
+
+### Features
+
+* **eslint:** extract prettier configs into their own configuration ([cb63212](https://github.com/LodoSoftware/javascript-style-guide/commit/cb63212))
+
+
+### BREAKING CHANGES
+
+* **eslint:** - Prettier was removed from ESLint package and is now a separate package "@d3banking/prettier-config"
+- Prettier configs to disable conflicting rules are now part of their own eslint config file that can be extended "@d3banking/eslint-config/prettier"
+
+
+
+# 15.7.0 (2019-07-08)
+
+
+### Features
+
+* updating typescript-eslint, configs, and plugins ([071fde5](https://github.com/LodoSoftware/javascript-style-guide/commit/071fde5))
+
+
+
+## 15.6.3 (2019-06-24)
+
+
+
+## 15.6.2 (2019-06-24)
+
+
+### Bug Fixes
+
+* add parser as dependency ([2248ead](https://github.com/LodoSoftware/javascript-style-guide/commit/2248ead))
+
+
+
+## 15.6.1 (2019-06-21)
+
+
+
+# 15.6.0 (2019-06-21)
+
+
+### Features
+
+* **eslint:** update typescript-eslint and prettier ([31f9d75](https://github.com/LodoSoftware/javascript-style-guide/commit/31f9d75))
+
+
+
+## 15.5.2 (2019-06-05)
+
+
+
+## 15.5.1 (2019-06-05)
+
+
+
+# 15.5.0 (2019-06-05)
+
+
+### Features
+
+* **eslint:** upgrade dependencies ([5280277](https://github.com/LodoSoftware/javascript-style-guide/commit/5280277))
+
+
+
+# 15.4.0 (2019-04-26)
+
+
+### Bug Fixes
+
+* update eslint peer dep ([677b283](https://github.com/LodoSoftware/javascript-style-guide/commit/677b283))
+
+
+### Features
+
+* updating plugin versions ([70eb998](https://github.com/LodoSoftware/javascript-style-guide/commit/70eb998))
+
+
+
+## 15.3.3 (2019-03-25)
+
+
+### Bug Fixes
+
+* replace deprecated label-has-for with control-has-associated-label as warning ([c5e68e5](https://github.com/LodoSoftware/javascript-style-guide/commit/c5e68e5))
+
+
+
+## 15.3.2 (2019-03-25)
+
+
+### Bug Fixes
+
+* allow using await in a loop ([1492ae2](https://github.com/LodoSoftware/javascript-style-guide/commit/1492ae2))
+
+
+
+## 15.3.1 (2019-03-25)
+
+
+### Bug Fixes
+
+* exclude react rules that prettier handles ([712dd4c](https://github.com/LodoSoftware/javascript-style-guide/commit/712dd4c))
+
+
+
+# 15.3.0 (2019-03-25)
+
+
+### Features
+
+* added additional react-hooks rule ([cac6426](https://github.com/LodoSoftware/javascript-style-guide/commit/cac6426))
+
+
+### Performance Improvements
+
+* upgrade typescript eslint for performance upgrades ([0f4becb](https://github.com/LodoSoftware/javascript-style-guide/commit/0f4becb))
+
+
+
+## 15.2.1 (2019-03-22)
+
+
+### Bug Fixes
+
+* relax the default-case rule ([1deeaf3](https://github.com/LodoSoftware/javascript-style-guide/commit/1deeaf3))
+
+
+
+# 15.2.0 (2019-03-22)
+
+
+### Bug Fixes
+
+* **eslint:** don't require destructuring on assignment ([2b536f4](https://github.com/LodoSoftware/javascript-style-guide/commit/2b536f4))
+* **eslint:** fixing issues with new rules ([cfecbc4](https://github.com/LodoSoftware/javascript-style-guide/commit/cfecbc4))
+* **eslint:** relax some of the rules ([108a211](https://github.com/LodoSoftware/javascript-style-guide/commit/108a211))
+
+
+### Features
+
+* adding typescript support to eslint-config ([4bb0c88](https://github.com/LodoSoftware/javascript-style-guide/commit/4bb0c88))
+* updating all the deps ([03024f0](https://github.com/LodoSoftware/javascript-style-guide/commit/03024f0))
+* **eslint:** added typescript import resolver ([945bf05](https://github.com/LodoSoftware/javascript-style-guide/commit/945bf05))
+* **eslint:** configuring typescript rules. ([f787d35](https://github.com/LodoSoftware/javascript-style-guide/commit/f787d35))
+* **eslint:** finalizing typescript eslint rules ([b856b3c](https://github.com/LodoSoftware/javascript-style-guide/commit/b856b3c))
+
+
+
+## 13.1.1 (2018-03-28)
+
+
+
+## 13.0.1 (2018-01-31)
+
+
+### Features
+
+* **REL31-1114:** Added typescript linting configuration. ([#4](https://github.com/LodoSoftware/javascript-style-guide/issues/4)) ([a015516](https://github.com/LodoSoftware/javascript-style-guide/commit/a015516))
+* change no-param-reassign to a warning. ([561643d](https://github.com/LodoSoftware/javascript-style-guide/commit/561643d))
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

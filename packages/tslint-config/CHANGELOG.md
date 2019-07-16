@@ -1,3 +1,31 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 3.3.0 (2019-07-16)
+
+
+### Features
+
+* **prettier:** added prettier config package with existing configuration ([547bf8a](https://github.com/LodoSoftware/javascript-style-guide/commit/547bf8a))
+
+
+
+# 3.2.0 (2019-05-10)
+
+
+### Features
+
+* **REL31-1114:** Added typescript linting configuration. ([#4](https://github.com/LodoSoftware/javascript-style-guide/issues/4)) ([a015516](https://github.com/LodoSoftware/javascript-style-guide/commit/a015516))
+* relaxing max-line and interface-over-type-literal rules. ([5b6a5fd](https://github.com/LodoSoftware/javascript-style-guide/commit/5b6a5fd))
+* upgrade dependencies ([816ccb5](https://github.com/LodoSoftware/javascript-style-guide/commit/816ccb5))
+* warnings for max-line-length and type-def ([9b769dd](https://github.com/LodoSoftware/javascript-style-guide/commit/9b769dd))
+
+
+
+
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
