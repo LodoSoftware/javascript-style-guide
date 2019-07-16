@@ -12,9 +12,21 @@ yarn add -D @d3banking/prettier-config
 ```
 
 ```
+// package.json
 {
   "name": "my-cool-library",
   "version": "1.0.0",
   "prettier": "@d3banking/prettier-config"
+}
+```
+
+If using with ESLint, be sure to extend the prettier eslint config package in .eslintrc
+```
+// .eslintrc
+{
+  "extends": [
+    "@d3banking/eslint-config",
+    "@d3banking/eslint-config/prettier"
+  ]
 }
 ```
