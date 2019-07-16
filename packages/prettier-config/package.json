@@ -8,14 +8,9 @@
     "linting",
     "javascript"
   ],
-  "author": "Jacob Parish <jparish@d3banking.com>",
   "homepage": "https://github.com/lodosoftware/javascript-styleguide/tree/master/packages/prettier-config#readme",
   "license": "MIT",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
     "index.js"
   ],
@@ -28,5 +23,8 @@
   },
   "bugs": {
     "url": "https://github.com/LodoSoftware/javascript-style-guide/issues"
+  },
+  "dependencies": {
+    "prettier": "^1.18.2"
   }
 }
