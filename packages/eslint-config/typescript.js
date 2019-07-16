@@ -8,8 +8,7 @@ module.exports = {
     require.resolve('./rules/imports'),
     require.resolve('./rules/typescript'),
     require.resolve('./rules/react'),
-    require.resolve('./rules/d3overrides'),
-    require.resolve('./rules/prettier')
+    require.resolve('./rules/d3overrides')
   ],
   settings: {
     'import/resolver': {
