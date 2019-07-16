@@ -5,12 +5,7 @@
   "repository": "https://github.com/LodoSoftware/javascript-style-guide",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "release": "standard-version -a",
-    "postrelease": "git push --follow-tags origin master && npm publish"
-  },
   "devDependencies": {
-    "standard-version": "^6.0.1",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
   },

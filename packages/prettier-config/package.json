@@ -1,0 +1,32 @@
+{
+  "name": "@d3banking/prettier-config",
+  "version": "0.0.0",
+  "description": "D3 Banking Prettier Config",
+  "keywords": [
+    "d3banking",
+    "prettier",
+    "linting",
+    "javascript"
+  ],
+  "author": "Jacob Parish <jparish@d3banking.com>",
+  "homepage": "https://github.com/lodosoftware/javascript-styleguide/tree/master/packages/prettier-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://jrparish@github.com/LodoSoftware/javascript-style-guide.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/LodoSoftware/javascript-style-guide/issues"
+  }
+}

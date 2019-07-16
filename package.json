@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A mostly reasonable approach to JavaScript and TypeScript.",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lodosoftware/javascript-styleguide.git"
@@ -21,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/lodosoftware/javascript-styleguide/issues"
   },
-  "homepage": "https://github.com/lodosoftware/javascript-styleguide"
+  "homepage": "https://github.com/lodosoftware/javascript-styleguide",
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  },
+  "scripts": {
+    "release": "lerna publish",
+    "postrelease": "git push --follow-tags origin master"
+  }
 }
