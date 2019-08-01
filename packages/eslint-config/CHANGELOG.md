@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [16.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@16.0.1...@d3banking/eslint-config@16.1.0) (2019-08-01)
+
+
+### Features
+
+* **deps:** upgrade eslint plugins ([922f668](https://github.com/LodoSoftware/javascript-style-guide/commit/922f668))
+
+
+
+
+
 ## [16.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@16.0.0...@d3banking/eslint-config@16.0.1) (2019-07-16)
 
 

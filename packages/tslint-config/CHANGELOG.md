@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/tslint-config@3.3.0...@d3banking/tslint-config@4.0.0) (2019-08-01)
+
+
+### Features
+
+* **prettier:** remove prettier from main configuration ([cd72291](https://github.com/LodoSoftware/javascript-style-guide/commit/cd72291))
+
+
+### BREAKING CHANGES
+
+* **prettier:** Prettier was removed. Please use @d3banking/prettier-config instead.
+
+
+
+
+
 # 3.3.0 (2019-07-16)
 
 

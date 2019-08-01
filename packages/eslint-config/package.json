@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "16.0.1",
+  "version": "16.1.0",
   "description": "D3 Banking fork of Airbnb's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
