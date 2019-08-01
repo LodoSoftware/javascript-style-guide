@@ -20,13 +20,23 @@ yarn add -D @d3banking/prettier-config
 }
 ```
 
-If using with ESLint, be sure to extend the prettier eslint config package in .eslintrc
+If using with ESLint or TSLint, be sure to extend the prettier eslint config package in .eslintrc
 ```
 // .eslintrc
 {
   "extends": [
     "@d3banking/eslint-config",
     "@d3banking/eslint-config/prettier"
+  ]
+}
+```
+
+```
+// tslint.json
+{
+  "extends": [
+    "@d3banking/tslint-config",
+    "@d3banking/tslint-config/prettier"
   ]
 }
 ```
