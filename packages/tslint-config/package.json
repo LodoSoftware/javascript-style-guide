@@ -6,18 +6,16 @@
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.5"
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "tslint": "^5.16.0",
+    "tslint": "^5.18.0",
     "typescript": "^2.8.0 || ^3.0.0"
   },
   "dependencies": {
-    "prettier": "1.17.0",
     "tslint-config-airbnb": "5.11.1",
     "tslint-config-prettier": "1.18.0",
-    "tslint-plugin-prettier": "2.0.1",
     "tslint-react": "4.0.0"
   }
 }

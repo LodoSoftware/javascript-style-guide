@@ -4,9 +4,7 @@ module.exports = {
   extends: [
     'tslint-config-airbnb',
     'tslint-react',
-    './rules/d3overrides',
-    'tslint-config-prettier',
-    './rules/prettier'
+    './rules/d3overrides'
   ].map(require.resolve),
   rules: {},
   jsRules: Object.assign({}, tslintConfig.jsRules)
