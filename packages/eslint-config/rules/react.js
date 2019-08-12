@@ -37,6 +37,12 @@ module.exports = {
     // Don't require props/state to be destructured
     'react/destructuring-assignment': 'off',
 
+    // Allow props to be spread
+    'react/jsx-props-no-spreading': 'off',
+
+    // Not really relevant with hooks
+    'react/static-property-placement': 'off',
+
     // Ensure correct use of hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
@@ -46,12 +52,6 @@ module.exports = {
     // Replaced by jsx-a11y/control-has-associated-label
     'jsx-a11y/label-has-for': 'off',
     // Enforce label tag has associated control
-    'jsx-a11y/control-has-associated-label': 'warn',
-
-    // unused
-    'react/jsx-props-no-spreading': 'off',
-    'react/prefer-read-only-props': 'off',
-    'react/state-in-constructor': 'off',
-    'react/static-property-placement': 'off'
+    'jsx-a11y/control-has-associated-label': 'warn'
   }
 };
