@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@16.1.0...@d3banking/eslint-config@17.0.0) (2019-08-12)
+
+
+### Features
+
+* **eslint:** upgrade to eslint 6 ([6fa2efd](https://github.com/LodoSoftware/javascript-style-guide/commit/6fa2efd))
+
+
+### BREAKING CHANGES
+
+* **eslint:** - upgraded to eslint 6
+- new version of eslint-config-airbnb
+
+
+
+
+
 # [16.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@16.0.1...@d3banking/eslint-config@16.1.0) (2019-08-01)
 
 
