@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/lodosoftware/javascript-styleguide",
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.5"
   },
   "scripts": {
     "release": "lerna publish",
