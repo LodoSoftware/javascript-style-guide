@@ -18,9 +18,6 @@
     "type": "git",
     "url": "git+https://jrparish@github.com/LodoSoftware/javascript-style-guide.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/LodoSoftware/javascript-style-guide/issues"
   },
