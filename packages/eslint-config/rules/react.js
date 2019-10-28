@@ -43,6 +43,10 @@ module.exports = {
     // Not really relevant with hooks
     'react/static-property-placement': 'off',
 
+    // Enforce state initialization style
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
+    'react/state-in-constructor': ['error', 'never'],
+
     // Ensure correct use of hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
