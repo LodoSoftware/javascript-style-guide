@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/prettier-config@0.1.1...@d3banking/prettier-config@0.1.2) (2019-10-28)
+
+**Note:** Version bump only for package @d3banking/prettier-config
+
+
+
+
+
 ## [0.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/prettier-config@0.1.0...@d3banking/prettier-config@0.1.1) (2019-08-01)
 
 **Note:** Version bump only for package @d3banking/prettier-config
