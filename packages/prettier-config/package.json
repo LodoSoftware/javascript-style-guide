@@ -21,7 +21,10 @@
   "bugs": {
     "url": "https://github.com/LodoSoftware/javascript-style-guide/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "prettier": "^1.18"
   }
 }
