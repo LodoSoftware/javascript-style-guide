@@ -95,6 +95,29 @@ module.exports = {
     // Allow using await in a loop
     'no-await-in-loop': 'off',
 
+    // specify the max number of lines in a file
+    // https://eslint.org/docs/rules/max-lines
+    'max-lines': [
+      'warn',
+      {
+        max: 500,
+        skipBlankLines: true,
+        skipComments: true
+      }
+    ],
+
+    // enforce a maximum function length
+    // https://eslint.org/docs/rules/max-lines-per-function
+    'max-lines-per-function': [
+      'warn',
+      {
+        max: 300,
+        skipBlankLines: true,
+        skipComments: true,
+        IIFEs: false
+      }
+    ],
+
     // unused
     'no-useless-catch': ['off'],
     'prefer-named-capture-group': ['off']
