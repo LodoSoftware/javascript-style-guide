@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@17.3.0...@d3banking/eslint-config@18.0.0) (2019-12-12)
+
+### Features
+
+- **eslint-config:** upgrading all dependencies ([87bbd41](https://github.com/LodoSoftware/javascript-style-guide/commit/87bbd41))
+- **rules:** add max-lines and max-lines-per-function as warnings ([137a531](https://github.com/LodoSoftware/javascript-style-guide/commit/137a531))
+
+### BREAKING CHANGES
+
+- **eslint-config:** releasing as a major version due to all the dependency changes
+
 # [17.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@17.2.0...@d3banking/eslint-config@17.3.0) (2019-11-08)
 
 ### Features
