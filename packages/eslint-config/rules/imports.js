@@ -26,10 +26,11 @@ module.exports = {
       }
     ],
 
+    // TODO: Enable this. Seems to be having some issues when importing from nested node_modules packages
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
     'import/extensions': [
-      'error',
+      'off',
       'ignorePackages',
       {
         js: 'never',
