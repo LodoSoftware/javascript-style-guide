@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.0.0...@d3banking/eslint-config@18.0.1) (2020-01-21)
+
+### Bug Fixes
+
+- add ts and tsx to import/extensions rule ([0667c33](https://github.com/LodoSoftware/javascript-style-guide/commit/0667c33))
+
 # [18.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@17.3.0...@d3banking/eslint-config@18.0.0) (2019-12-12)
 
 ### Features
