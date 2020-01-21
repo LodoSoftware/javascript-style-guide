@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.0.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.0.1...@d3banking/eslint-config@18.0.2) (2020-01-21)
+
+### Bug Fixes
+
+- temp disable import/extensions due to some issues with node modules ([3521b44](https://github.com/LodoSoftware/javascript-style-guide/commit/3521b44))
+
 ## [18.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.0.0...@d3banking/eslint-config@18.0.1) (2020-01-21)
 
 ### Bug Fixes
