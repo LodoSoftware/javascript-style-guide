@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.1.0...@d3banking/eslint-config@18.1.1) (2020-02-18)
+
+### Bug Fixes
+
+- **eslint-config:** port options over to new `no-empty-function` rule ([a37fc7a](https://github.com/LodoSoftware/javascript-style-guide/commit/a37fc7a))
+
 # [18.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.0.2...@d3banking/eslint-config@18.1.0) (2020-02-18)
 
 ### Features
