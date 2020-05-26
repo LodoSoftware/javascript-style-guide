@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.2.0...@d3banking/eslint-config@18.3.0) (2020-05-26)
+
+### Features
+
+- update dependencies ([eb805df](https://github.com/LodoSoftware/javascript-style-guide/commit/eb805df))
+
 # [18.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.1.1...@d3banking/eslint-config@18.2.0) (2020-03-24)
 
 ### Features

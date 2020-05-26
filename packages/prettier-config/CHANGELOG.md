@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/prettier-config@2.0.0...@d3banking/prettier-config@2.1.0) (2020-05-26)
+
+### Features
+
+- Ignore html whitespace ([844a2c5](https://github.com/LodoSoftware/javascript-style-guide/commit/844a2c5))
+
 # [2.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/prettier-config@1.1.0...@d3banking/prettier-config@2.0.0) (2020-04-04)
 
 ### Features
