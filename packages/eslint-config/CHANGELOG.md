@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.4.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.3.0...@d3banking/eslint-config@18.4.0) (2020-06-12)
+
+### Features
+
+- Added testing-library rules ([c97bcca](https://github.com/LodoSoftware/javascript-style-guide/commit/c97bcca))
+- adjusting dependencies ([cb49ea9](https://github.com/LodoSoftware/javascript-style-guide/commit/cb49ea9))
+- moving testing-library into its own config for first cut ([4289409](https://github.com/LodoSoftware/javascript-style-guide/commit/4289409))
+
 # [18.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.2.0...@d3banking/eslint-config@18.3.0) (2020-05-26)
 
 ### Features
