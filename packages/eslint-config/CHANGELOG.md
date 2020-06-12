@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.4.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.4.0...@d3banking/eslint-config@18.4.1) (2020-06-12)
+
+### Bug Fixes
+
+- updated testing library config due to bug with empty wait() ([e683fc1](https://github.com/LodoSoftware/javascript-style-guide/commit/e683fc1))
+
 # [18.4.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.3.0...@d3banking/eslint-config@18.4.0) (2020-06-12)
 
 ### Features
