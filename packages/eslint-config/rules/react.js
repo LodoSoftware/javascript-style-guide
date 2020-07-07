@@ -47,6 +47,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
     'react/state-in-constructor': ['error', 'never'],
 
+    // Doesn't work well with functional components
+    'react/require-default-props': 'off',
+
     // Ensure correct use of hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
