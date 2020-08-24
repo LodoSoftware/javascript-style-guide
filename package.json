@@ -27,17 +27,19 @@
   "homepage": "https://github.com/lodosoftware/javascript-styleguide",
   "prettier": "@d3banking/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.2.5",
-    "lerna": "^3.22.1",
-    "pretty-quick": "^2.0.1"
+    "@commitlint/cli": "9.1.2",
+    "@commitlint/config-conventional": "9.1.2",
+    "husky": "4.2.5",
+    "lerna": "3.22.1",
+    "pretty-quick": "3.0.0"
   },
   "scripts": {
     "lint": "eslint packages",
-    "prerelease": "yarn lint",
+    "test": "lerna run test",
+    "prerelease": "yarn lint && yarn test",
     "release": "lerna publish",
-    "postrelease": "git push --follow-tags origin master"
+    "postrelease": "git push --follow-tags origin master",
+    "release:next": "yarn release --dist-tag next"
   },
   "husky": {
     "hooks": {

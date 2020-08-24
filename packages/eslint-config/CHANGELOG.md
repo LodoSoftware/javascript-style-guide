@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.1.0...@d3banking/eslint-config@19.1.1) (2020-08-24)
+
+### Bug Fixes
+
+- allow description when using ts comments ([846592f](https://github.com/LodoSoftware/javascript-style-guide/commit/846592f))
+
+# [19.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.0.1...@d3banking/eslint-config@19.1.0) (2020-08-24)
+
+### Features
+
+- added new rules 'no-promise-executor-return', 'no-unreachable-loop', 'id-denylist' ([ba195c2](https://github.com/LodoSoftware/javascript-style-guide/commit/ba195c2))
+
+## [19.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.0.0...@d3banking/eslint-config@19.0.1) (2020-07-07)
+
+### Bug Fixes
+
+- rule adjustments ([ae3c30e](https://github.com/LodoSoftware/javascript-style-guide/commit/ae3c30e))
+
+# [19.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.4.1...@d3banking/eslint-config@19.0.0) (2020-07-07)
+
+### Features
+
+- Upgraded all packages to support eslint 7 ([afa3263](https://github.com/LodoSoftware/javascript-style-guide/commit/afa3263))
+
+### BREAKING CHANGES
+
+- Users are now required to use ESLint 7
+
 ## [18.4.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@18.4.0...@d3banking/eslint-config@18.4.1) (2020-06-12)
 
 ### Bug Fixes
