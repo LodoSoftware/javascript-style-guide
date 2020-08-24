@@ -19,24 +19,30 @@ module.exports = {
     '@typescript-eslint/no-object-literal-type-assertion': ['off'],
 
     // Warn on ts-ignore
-    '@typescript-eslint/ban-ts-comment': ['error', {
-      'ts-expect-error': true,
-      'ts-ignore': true,
-      'ts-nocheck': true,
-      'ts-check': false
-    }],
+    '@typescript-eslint/ban-ts-comment': [
+      'error',
+      {
+        'ts-expect-error': 'allow-with-description',
+        'ts-ignore': 'allow-with-description',
+        'ts-nocheck': true,
+        'ts-check': false
+      }
+    ],
 
     // disallow empty functions, except for standalone funcs/arrows
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-function.md
-    '@typescript-eslint/no-empty-function': ['error', {
-      allow: [
-        'arrowFunctions',
-        'functions',
-        'methods',
-        'protected-constructors',
-        'private-constructors'
-      ]
-    }],
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      {
+        allow: [
+          'arrowFunctions',
+          'functions',
+          'methods',
+          'protected-constructors',
+          'private-constructors'
+        ]
+      }
+    ],
 
     // This rule goes against typescripts inference and adds friction to devs
     '@typescript-eslint/explicit-module-boundary-types': 'off'
