@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.0.1...@d3banking/eslint-config@19.1.0) (2020-08-24)
+
+### Features
+
+- added new rules 'no-promise-executor-return', 'no-unreachable-loop', 'id-denylist' ([ba195c2](https://github.com/LodoSoftware/javascript-style-guide/commit/ba195c2))
+
 ## [19.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.0.0...@d3banking/eslint-config@19.0.1) (2020-07-07)
 
 ### Bug Fixes
