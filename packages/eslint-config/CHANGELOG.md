@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.1.0...@d3banking/eslint-config@19.1.1) (2020-08-24)
+
+### Bug Fixes
+
+- allow description when using ts comments ([846592f](https://github.com/LodoSoftware/javascript-style-guide/commit/846592f))
+
 # [19.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.0.1...@d3banking/eslint-config@19.1.0) (2020-08-24)
 
 ### Features
