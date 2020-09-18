@@ -27,11 +27,11 @@
   "homepage": "https://github.com/lodosoftware/javascript-styleguide",
   "prettier": "@d3banking/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "9.1.2",
-    "@commitlint/config-conventional": "9.1.2",
-    "husky": "4.2.5",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "husky": "4.3.0",
     "lerna": "3.22.1",
-    "pretty-quick": "3.0.0"
+    "pretty-quick": "3.0.2"
   },
   "scripts": {
     "lint": "eslint packages",
