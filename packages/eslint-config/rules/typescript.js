@@ -45,6 +45,18 @@ module.exports = {
     ],
 
     // This rule goes against typescripts inference and adds friction to devs
-    '@typescript-eslint/explicit-module-boundary-types': 'off'
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+
+    // The object recommendation of using Record is not working as expected
+    // and prevents using interfaces
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        types: {
+          object: undefined
+        },
+        extendDefaults: true
+      }
+    ]
   }
 };
