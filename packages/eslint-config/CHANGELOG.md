@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.1.3](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.1.2...@d3banking/eslint-config@19.1.3) (2020-09-18)
+
+### Bug Fixes
+
+- use false instead of undefined for ban-types rule ([d4a97ab](https://github.com/LodoSoftware/javascript-style-guide/commit/d4a97ab))
+
 ## [19.1.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@19.1.1...@d3banking/eslint-config@19.1.2) (2020-09-18)
 
 ### Bug Fixes
