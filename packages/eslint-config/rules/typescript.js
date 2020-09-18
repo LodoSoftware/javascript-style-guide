@@ -53,7 +53,7 @@ module.exports = {
       'error',
       {
         types: {
-          object: undefined
+          object: false
         },
         extendDefaults: true
       }
