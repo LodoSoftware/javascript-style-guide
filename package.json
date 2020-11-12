@@ -31,7 +31,7 @@
     "@commitlint/config-conventional": "11.0.0",
     "husky": "4.3.0",
     "lerna": "3.22.1",
-    "pretty-quick": "3.0.2"
+    "pretty-quick": "3.1.0"
   },
   "scripts": {
     "lint": "eslint packages",
