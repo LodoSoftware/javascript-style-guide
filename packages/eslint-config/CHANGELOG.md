@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [20.1.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.1...@d3banking/eslint-config@20.1.2) (2020-11-13)
+
+### Bug Fixes
+
+- **typescript:** Switch to typescript no-use-before-define rule ([8c89e61](https://github.com/LodoSoftware/javascript-style-guide/commit/8c89e61))
+
 ## [20.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.0...@d3banking/eslint-config@20.1.1) (2020-11-13)
 
 ### Bug Fixes
