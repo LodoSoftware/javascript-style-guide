@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [20.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.0...@d3banking/eslint-config@20.1.1) (2020-11-13)
+
+### Bug Fixes
+
+- **typescript:** Turn off no-shadow in favor of typescript no-shadow ([a0cd05b](https://github.com/LodoSoftware/javascript-style-guide/commit/a0cd05b))
+
 # [20.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.0.0...@d3banking/eslint-config@20.1.0) (2020-11-12)
 
 ### Features
