@@ -6,9 +6,9 @@ module.exports = {
   extends: [
     'eslint-config-airbnb',
     require.resolve('./rules/imports'),
-    require.resolve('./rules/typescript'),
     require.resolve('./rules/react'),
-    require.resolve('./rules/d3overrides')
+    require.resolve('./rules/d3overrides'),
+    require.resolve('./rules/typescript')
   ],
   settings: {
     'import/resolver': {

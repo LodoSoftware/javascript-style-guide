@@ -59,8 +59,12 @@ module.exports = {
       }
     ],
 
-    // Eslint's base no-shadow does not work well with typescript enums
+    // Use typescript version of this rule
     'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': 'error'
+    '@typescript-eslint/no-shadow': 'error',
+
+    // Use typescript version of this rule
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['warn', { classes: false, functions: false }]
   }
 };
