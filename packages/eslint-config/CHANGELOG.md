@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [20.1.3](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.2...@d3banking/eslint-config@20.1.3) (2020-11-23)
+
+### Bug Fixes
+
+- Reverted version of eslint-plugin-import since it has the windows import/order bug ([77309fd](https://github.com/LodoSoftware/javascript-style-guide/commit/77309fd))
+
 ## [20.1.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.1...@d3banking/eslint-config@20.1.2) (2020-11-13)
 
 ### Bug Fixes
