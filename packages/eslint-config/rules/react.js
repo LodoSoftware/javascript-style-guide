@@ -50,6 +50,12 @@ module.exports = {
     // Doesn't work well with functional components
     'react/require-default-props': 'off',
 
+    // Prevent unstable use of context values (consider turning this on)
+    'react/jsx-no-constructed-context-values': 'off',
+
+    // Require spacing between JSX elements and expressions, not important
+    'react/jsx-newline': 'off',
+
     // Ensure correct use of hooks
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
