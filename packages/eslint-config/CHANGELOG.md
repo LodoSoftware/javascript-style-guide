@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [20.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.2.0...@d3banking/eslint-config@20.3.0) (2021-01-22)
+
+### Features
+
+- refactored all react and imports rules ([02b5f85](https://github.com/LodoSoftware/javascript-style-guide/commit/02b5f85))
+
 # [20.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.3...@d3banking/eslint-config@20.2.0) (2021-01-22)
 
 ### Features
