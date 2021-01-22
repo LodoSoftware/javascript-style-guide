@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [20.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.3...@d3banking/eslint-config@20.2.0) (2021-01-22)
+
+### Features
+
+- Added 2 new jsx rules ([6ee27be](https://github.com/LodoSoftware/javascript-style-guide/commit/6ee27be))
+- Added new typescript package without airbnb rules ([3c23540](https://github.com/LodoSoftware/javascript-style-guide/commit/3c23540))
+
 ## [20.1.3](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.1.2...@d3banking/eslint-config@20.1.3) (2020-11-23)
 
 ### Bug Fixes
