@@ -1,6 +1,5 @@
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript'],
-  plugins: ['@typescript-eslint'],
   rules: {
     // Allow return type to be inferred
     '@typescript-eslint/explicit-function-return-type': 'off',
@@ -65,6 +64,9 @@ module.exports = {
 
     // Use typescript version of this rule
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['warn', { classes: false, functions: false }]
+    '@typescript-eslint/no-use-before-define': ['warn', { classes: false, functions: false }],
+
+    // Typescript handles this
+    'import/no-unresolved': 'off'
   }
 };
