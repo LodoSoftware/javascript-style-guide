@@ -1,5 +1,14 @@
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs']
+      },
+      webpack: true,
+      typescript: true
+    }
+  },
   rules: {
     // Allow return type to be inferred
     '@typescript-eslint/explicit-function-return-type': 'off',
