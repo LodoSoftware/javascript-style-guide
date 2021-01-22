@@ -67,6 +67,10 @@ module.exports = {
       }
     ],
 
+    // Prevents conditionals where the type is always truthy or always falsy
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-condition.md
+    '@typescript-eslint/no-unnecessary-condition': 'warn',
+
     // Use typescript version of this rule
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
