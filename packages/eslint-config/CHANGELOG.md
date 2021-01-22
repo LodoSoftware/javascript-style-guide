@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [20.3.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.3.0...@d3banking/eslint-config@20.3.1) (2021-01-22)
+
+### Bug Fixes
+
+- Added support for node in imports plugin ([f448d6a](https://github.com/LodoSoftware/javascript-style-guide/commit/f448d6a))
+
 # [20.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.2.0...@d3banking/eslint-config@20.3.0) (2021-01-22)
 
 ### Features
