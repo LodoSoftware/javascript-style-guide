@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [20.5.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.4.1...@d3banking/eslint-config@20.5.0) (2021-02-03)
+
+### Bug Fixes
+
+- Removed file extension from require statement ([6b5cb89](https://github.com/LodoSoftware/javascript-style-guide/commit/6b5cb89))
+
+### Features
+
+- **typescript-typechecking:** add naming-convention enum case and boolean var name rules ([#9](https://github.com/LodoSoftware/javascript-style-guide/issues/9)) ([0bce5ec](https://github.com/LodoSoftware/javascript-style-guide/commit/0bce5ec))
+- Added typescript-with-typechecking config ([dc4b1bd](https://github.com/LodoSoftware/javascript-style-guide/commit/dc4b1bd))
+
 ## [20.4.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.4.0...@d3banking/eslint-config@20.4.1) (2021-01-22)
 
 ### Bug Fixes
