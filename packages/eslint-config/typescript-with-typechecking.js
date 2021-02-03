@@ -9,7 +9,7 @@ module.exports = {
     require.resolve('./rules/d3overrides'),
     require.resolve('./rules/ncr'),
     require.resolve('./rules/typescript'),
-    require.resolve('./rules/typescript-typechecking.js')
+    require.resolve('./rules/typescript-typechecking')
   ],
   settings: {
     'import/resolver': {
