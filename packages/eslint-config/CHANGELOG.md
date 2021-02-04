@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [20.6.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.5.0...@d3banking/eslint-config@20.6.0) (2021-02-04)
+
+### Bug Fixes
+
+- updated typescript-eslint versions to get fixes ([38889be](https://github.com/LodoSoftware/javascript-style-guide/commit/38889be))
+
+### Features
+
+- **typescript-typechecking:** reduce rules to warn or off ([#10](https://github.com/LodoSoftware/javascript-style-guide/issues/10)) ([bf74de9](https://github.com/LodoSoftware/javascript-style-guide/commit/bf74de9))
+
 # [20.5.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.4.1...@d3banking/eslint-config@20.5.0) (2021-02-03)
 
 ### Bug Fixes
