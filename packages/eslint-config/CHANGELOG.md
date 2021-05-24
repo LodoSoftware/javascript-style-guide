@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.7.0...@d3banking/eslint-config@21.0.0) (2021-05-24)
+
+### Features
+
+- Removed airbnb configs ([cac1753](https://github.com/LodoSoftware/javascript-style-guide/commit/cac1753))
+- Removed React import requirement ([d414454](https://github.com/LodoSoftware/javascript-style-guide/commit/d414454))
+- Upgraded all dependencies ([a6e0d1f](https://github.com/LodoSoftware/javascript-style-guide/commit/a6e0d1f))
+
+### BREAKING CHANGES
+
+- Removed airbnb base configs in favor of eslint recommended
+
+Removed old legacy configs
+Promoted typescript-next to typescript
+
 # [20.7.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.6.0...@d3banking/eslint-config@20.7.0) (2021-04-01)
 
 ### Features
