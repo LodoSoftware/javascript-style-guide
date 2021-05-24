@@ -1,12 +1,13 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb',
-    './rules/imports',
-    './rules/react',
-    './rules/react-a11y',
-    './rules/react-hooks',
-    './rules/d3overrides',
-    './rules/ncr'
-  ].map(require.resolve),
+    'eslint:recommended',
+    require.resolve('./rules/strict'),
+    require.resolve('./rules/imports'),
+    require.resolve('./rules/react'),
+    require.resolve('./rules/react-a11y'),
+    require.resolve('./rules/react-hooks'),
+    require.resolve('./rules/d3overrides'),
+    require.resolve('./rules/ncr')
+  ],
   rules: {}
 };

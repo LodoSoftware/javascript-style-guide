@@ -1,9 +1,10 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
-    'eslint-config-airbnb-base/rules/strict',
-    './rules/imports',
-    './rules/d3overrides'
-  ].map(require.resolve),
+    'eslint:recommended',
+    require.resolve('./rules/strict'),
+    require.resolve('./rules/imports'),
+    require.resolve('./rules/d3overrides'),
+    require.resolve('./rules/ncr')
+  ],
   rules: {}
 };
