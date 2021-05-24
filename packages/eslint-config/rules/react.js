@@ -166,9 +166,9 @@ module.exports = {
       }
     ],
 
-    // Prevent React to be incorrectly marked as unused
+    // Prevent React to be incorrectly marked as unused - Not needed in React 17
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': ['error'],
+    'react/jsx-uses-react': ['off'],
 
     // Prevent variables used in JSX to be incorrectly marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
@@ -238,9 +238,9 @@ module.exports = {
       }
     ],
 
-    // Prevent missing React when using JSX
+    // Prevent missing React when using JSX - Not needed in React 17
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-    'react/react-in-jsx-scope': 'error',
+    'react/react-in-jsx-scope': 'off',
 
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
