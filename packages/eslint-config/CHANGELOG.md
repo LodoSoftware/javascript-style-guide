@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.0.0...@d3banking/eslint-config@21.0.1) (2021-05-25)
+
+### Bug Fixes
+
+- **testing-library:** Add warnings to a couple rules ([de634f2](https://github.com/LodoSoftware/javascript-style-guide/commit/de634f2))
+
 # [21.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@20.7.0...@d3banking/eslint-config@21.0.0) (2021-05-24)
 
 ### Features
