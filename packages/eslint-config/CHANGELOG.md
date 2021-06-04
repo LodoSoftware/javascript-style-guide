@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [21.0.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.0.1...@d3banking/eslint-config@21.0.2) (2021-06-04)
+
+### Bug Fixes
+
+- Disabled slow import/no-duplicates rule ([69e4fe0](https://github.com/LodoSoftware/javascript-style-guide/commit/69e4fe0))
+
 ## [21.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.0.0...@d3banking/eslint-config@21.0.1) (2021-05-25)
 
 ### Bug Fixes
