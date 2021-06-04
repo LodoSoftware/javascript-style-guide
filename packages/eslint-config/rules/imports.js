@@ -127,7 +127,7 @@ module.exports = {
 
     // disallow duplicate imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-    'import/no-duplicates': 'error',
+    'import/no-duplicates': 'off',
 
     // disallow namespace imports
     // TODO: enable?
@@ -237,7 +237,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/group-exports.md
     'import/group-exports': 'off',
 
-    // forbid default exports. this is a terrible rule, do not use it.
+    // forbid default exports.
     // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-default-export.md
     'import/no-default-export': 'off',
 
