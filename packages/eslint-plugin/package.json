@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "D3 Banking's ESLint plugin containing additional rules",
   "main": "index.js",
   "repository": {
