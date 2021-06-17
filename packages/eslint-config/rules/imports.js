@@ -127,7 +127,7 @@ module.exports = {
 
     // disallow duplicate imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-    'import/no-duplicates': 'off',
+    'import/no-duplicates': 'error',
 
     // disallow namespace imports
     // TODO: enable?
