@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.0.3...@d3banking/eslint-config@21.1.0) (2021-06-23)
+
+### Features
+
+- upgrade to latest typescript-eslint packages ([baebc47](https://github.com/LodoSoftware/javascript-style-guide/commit/baebc47))
+
 ## [21.0.3](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.0.2...@d3banking/eslint-config@21.0.3) (2021-06-17)
 
 ### Bug Fixes
