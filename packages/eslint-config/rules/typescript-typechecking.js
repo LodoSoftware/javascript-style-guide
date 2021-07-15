@@ -25,6 +25,9 @@ module.exports = {
     '@typescript-eslint/restrict-template-expressions': 'warn',
 
     // We basically never bind our methods, and it's not very applicable as we move away from class components
-    '@typescript-eslint/unbound-method': 'off'
+    '@typescript-eslint/unbound-method': 'off',
+
+    // Incorrectly detects whether a regex includes the g flag
+    '@typescript-eslint/prefer-regexp-exec': 'off'
   }
 };
