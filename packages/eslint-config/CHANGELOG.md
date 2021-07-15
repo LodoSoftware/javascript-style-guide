@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.1.0...@d3banking/eslint-config@21.2.0) (2021-07-15)
+
+### Features
+
+- **lint:** disable @typescript-eslint/prefer-regexp-exec ([#11](https://github.com/LodoSoftware/javascript-style-guide/issues/11)) ([549c02c](https://github.com/LodoSoftware/javascript-style-guide/commit/549c02c))
+- added additional prefixes to naming-convention rule ([06fac5b](https://github.com/LodoSoftware/javascript-style-guide/commit/06fac5b))
+
 # [21.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.0.3...@d3banking/eslint-config@21.1.0) (2021-06-23)
 
 ### Features
