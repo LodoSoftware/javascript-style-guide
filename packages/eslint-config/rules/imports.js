@@ -15,7 +15,7 @@ module.exports = {
       },
       webpack: true
     },
-    'import/extensions': ['.ts', '.tsx', '.js', '.mjs', '.jsx'],
+    'import/extensions': ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs'],
     'import/core-modules': [],
     'import/ignore': ['node_modules', '\\.(coffee|scss|css|less|hbs|svg|json)$']
   },

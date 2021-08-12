@@ -10,15 +10,5 @@ module.exports = {
     require.resolve('./rules/ncr'),
     require.resolve('./rules/typescript')
   ],
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs']
-      },
-      webpack: true,
-      typescript: true
-    },
-    'import/extensions': ['.ts', '.tsx', '.js', '.mjs', '.jsx']
-  },
   rules: {}
 };
