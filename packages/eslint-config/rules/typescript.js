@@ -1,13 +1,22 @@
 module.exports = {
   extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript'],
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    },
     'import/resolver': {
+      typescript: {
+        alwaysTryTypes: true,
+        project: ['./tsconfig.json']
+      },
       node: {
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs']
       },
-      webpack: true,
-      typescript: true
-    }
+      webpack: true
+    },
+    'import/extensions': ['.ts', '.tsx', '.js', '.jsx', '.json', '.mjs'],
+    'import/core-modules': [],
+    'import/ignore': ['node_modules', '\\.(coffee|scss|css|less|hbs|svg|json)$']
   },
   rules: {
     // Allow return type to be inferred
