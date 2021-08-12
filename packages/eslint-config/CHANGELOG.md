@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.4.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.3.0...@d3banking/eslint-config@21.4.0) (2021-08-12)
+
+### Features
+
+- upgraded dependencies ([676fc22](https://github.com/LodoSoftware/javascript-style-guide/commit/676fc22))
+- **imports:** add shared import settings ([#12](https://github.com/LodoSoftware/javascript-style-guide/issues/12)) ([4ef86e1](https://github.com/LodoSoftware/javascript-style-guide/commit/4ef86e1))
+
 # [21.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.2.0...@d3banking/eslint-config@21.3.0) (2021-07-26)
 
 ### Features
