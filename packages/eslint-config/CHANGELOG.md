@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.5.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.4.0...@d3banking/eslint-config@21.5.0) (2021-09-03)
+
+### Features
+
+- **deps:** upgrade typescript-eslint ([#13](https://github.com/LodoSoftware/javascript-style-guide/issues/13)) ([ee5d82d](https://github.com/LodoSoftware/javascript-style-guide/commit/ee5d82d))
+- **linting:** disallow bracketless if, else if, else, for, while, do ([#14](https://github.com/LodoSoftware/javascript-style-guide/issues/14)) ([fbab090](https://github.com/LodoSoftware/javascript-style-guide/commit/fbab090))
+
 # [21.4.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.3.0...@d3banking/eslint-config@21.4.0) (2021-08-12)
 
 ### Features
