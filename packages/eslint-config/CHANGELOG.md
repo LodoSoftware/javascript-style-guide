@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.6.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.5.0...@d3banking/eslint-config@21.6.0) (2021-09-03)
+
+### Features
+
+- **linting:** ensure ncr rules are always applied ([#15](https://github.com/LodoSoftware/javascript-style-guide/issues/15)) ([b5e81f1](https://github.com/LodoSoftware/javascript-style-guide/commit/b5e81f1))
+
 # [21.5.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.4.0...@d3banking/eslint-config@21.5.0) (2021-09-03)
 
 ### Features
