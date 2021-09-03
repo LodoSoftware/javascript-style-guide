@@ -7,9 +7,9 @@ module.exports = {
     require.resolve('./rules/react-a11y'),
     require.resolve('./rules/react-hooks'),
     require.resolve('./rules/d3overrides'),
-    require.resolve('./rules/ncr'),
     require.resolve('./rules/typescript'),
-    require.resolve('./rules/typescript-typechecking')
+    require.resolve('./rules/typescript-typechecking'),
+    require.resolve('./rules/ncr')
   ],
   rules: {}
 };
