@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [21.7.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.6.0...@d3banking/eslint-config@21.7.0) (2021-09-03)
+
+### Features
+
+- **linting:** add curly rule to prettier config ([#16](https://github.com/LodoSoftware/javascript-style-guide/issues/16)) ([8d3abb5](https://github.com/LodoSoftware/javascript-style-guide/commit/8d3abb5))
+
 # [21.6.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.5.0...@d3banking/eslint-config@21.6.0) (2021-09-03)
 
 ### Features
