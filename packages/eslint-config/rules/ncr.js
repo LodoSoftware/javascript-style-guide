@@ -14,6 +14,9 @@ module.exports = {
     'no-unreachable-loop': 'error',
 
     // Currently not enforcing strong variable names
-    'id-denylist': 'off'
+    'id-denylist': 'off',
+
+    // Disallow bracket-less if, else if, else, for, while, do
+    curly: 'error'
   }
 };
