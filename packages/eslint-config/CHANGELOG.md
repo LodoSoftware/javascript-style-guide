@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.8.0...@d3banking/eslint-config@22.0.0) (2021-11-01)
+
+### Features
+
+- Updated deps ([10ebf37](https://github.com/LodoSoftware/javascript-style-guide/commit/10ebf37))
+
+### BREAKING CHANGES
+
+- typescript-eslint and testing-library both change the recommended rules
+
 # [21.8.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.7.0...@d3banking/eslint-config@21.8.0) (2021-10-05)
 
 ### Features
