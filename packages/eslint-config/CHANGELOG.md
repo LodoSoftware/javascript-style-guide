@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.0.0...@d3banking/eslint-config@22.0.1) (2021-11-01)
+
+### Bug Fixes
+
+- changed @typescript-eslint/no-unsafe-argument to warning ([abd17cf](https://github.com/LodoSoftware/javascript-style-guide/commit/abd17cf))
+
 # [22.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@21.8.0...@d3banking/eslint-config@22.0.0) (2021-11-01)
 
 ### Features
