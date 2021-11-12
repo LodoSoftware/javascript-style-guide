@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.0.1...@d3banking/eslint-config@22.1.0) (2021-11-12)
+
+### Features
+
+- support for eslint 8 ([06f638a](https://github.com/LodoSoftware/javascript-style-guide/commit/06f638a))
+
 ## [22.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.0.0...@d3banking/eslint-config@22.0.1) (2021-11-01)
 
 ### Bug Fixes
