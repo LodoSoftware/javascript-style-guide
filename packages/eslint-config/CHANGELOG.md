@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.2.0...@d3banking/eslint-config@22.3.0) (2021-12-10)
+
+### Features
+
+- upgraded deps, fixed react plugin version ([640208d](https://github.com/LodoSoftware/javascript-style-guide/commit/640208d))
+
 # [22.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.1.0...@d3banking/eslint-config@22.2.0) (2021-11-29)
 
 ### Features
