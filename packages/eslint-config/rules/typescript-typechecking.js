@@ -16,14 +16,16 @@ module.exports = {
     ],
 
     // Warnings related to unexpected usages of the 'any' type
-    '@typescript-eslint/no-unsafe-assignment': 'warn',
-    '@typescript-eslint/no-unsafe-return': 'warn',
-    '@typescript-eslint/no-unsafe-call': 'warn',
-    '@typescript-eslint/no-unsafe-member-access': 'warn',
-    '@typescript-eslint/no-unsafe-argument': 'warn',
+    // Disabled because they are not quite useful
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    '@typescript-eslint/no-unsafe-return': 'off',
+    '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
+    '@typescript-eslint/no-unsafe-argument': 'off',
 
     // Helps to catch unhandled nullability in string templates
-    '@typescript-eslint/restrict-template-expressions': 'warn',
+    // Disabled because they are not quite useful
+    '@typescript-eslint/restrict-template-expressions': 'off',
 
     // We basically never bind our methods, and it's not very applicable as we move away from class components
     '@typescript-eslint/unbound-method': 'off',
