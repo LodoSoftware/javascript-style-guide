@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.4.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.4.0...@d3banking/eslint-config@22.4.1) (2022-02-09)
+
+### Bug Fixes
+
+- do not ignore case in react/jsx-no-duplicate-props ([5038b88](https://github.com/LodoSoftware/javascript-style-guide/commit/5038b88))
+
 # [22.4.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.3.0...@d3banking/eslint-config@22.4.0) (2022-02-07)
 
 ### Features
