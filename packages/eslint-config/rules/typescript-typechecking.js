@@ -31,6 +31,14 @@ module.exports = {
     '@typescript-eslint/unbound-method': 'off',
 
     // Incorrectly detects whether a regex includes the g flag
-    '@typescript-eslint/prefer-regexp-exec': 'off'
+    '@typescript-eslint/prefer-regexp-exec': 'off',
+
+    // Allow returning promises for props like onClick
+    '@typescript-eslint/no-misused-promises': [
+      'error',
+      {
+        checksVoidReturn: false
+      }
+    ]
   }
 };
