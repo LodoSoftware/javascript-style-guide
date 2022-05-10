@@ -1,16 +1,29 @@
 # D3 Banking JavaScript Style Guide() {
 
 ### eslint-config
+
 [![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/eslint-config)
 [![Downloads](https://img.shields.io/npm/dm/@d3banking/eslint-config.svg)](https://www.npmjs.com/package/@d3banking/eslint-config)
 
+### eslint-plugin
+
+[![NPM version](https://img.shields.io/npm/v/@d3banking/eslint-plugin.svg?style=flat)](https://www.npmjs.com/package/@d3banking/eslint-plugin)
+[![Downloads](https://img.shields.io/npm/dm/@d3banking/eslint-plugin.svg)](https://www.npmjs.com/package/@d3banking/eslint-plugin)
+
+### prettier-config
+
+[![NPM version](https://img.shields.io/npm/v/@d3banking/prettier-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/prettier-config)
+[![Downloads](https://img.shields.io/npm/dm/@d3banking/prettier-config.svg)](https://www.npmjs.com/package/@d3banking/prettier-config)
+
 ### tslint-config
+
 [![NPM version](https://img.shields.io/npm/v/@d3banking/tslint-config.svg?style=flat)](https://www.npmjs.com/package/@d3banking/tslint-config)
 [![Downloads](https://img.shields.io/npm/dm/@d3banking/tslint-config.svg)](https://www.npmjs.com/package/@d3banking/tslint-config)
 
 ## Documentation
 
 Our styleguide mostly follows the work of Airbnb's styleguide. See the full documentation here:
+
 - [Airbnb Styleguide](https://github.com/airbnb/javascript/blob/master/README.md)
 
 ## Amendments
