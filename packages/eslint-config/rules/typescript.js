@@ -85,6 +85,13 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['warn', { classes: false, functions: false }],
 
     // Typescript handles this
-    'import/no-unresolved': 'off'
+    'import/no-unresolved': 'off',
+
+    '@typescript-eslint/no-misused-promises': [
+      'error',
+      {
+        checksVoidReturn: false
+      }
+    ]
   }
 };
