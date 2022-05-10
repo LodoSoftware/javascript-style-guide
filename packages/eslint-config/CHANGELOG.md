@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.6.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.6.1...@d3banking/eslint-config@22.6.2) (2022-05-10)
+
+### Bug Fixes
+
+- **eslint-config:** moved @typescript-eslint/no-misused-promises to config with typechecking ([6525bc0](https://github.com/LodoSoftware/javascript-style-guide/commit/6525bc0a6057275cfeb9b16da29e2fc5cdd53113))
+
 ## [22.6.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.6.0...@d3banking/eslint-config@22.6.1) (2022-05-10)
 
 ### Bug Fixes
