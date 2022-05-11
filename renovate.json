@@ -4,5 +4,6 @@
   "prConcurrentLimit": 3,
   "prHourlyLimit": 2,
   "stabilityDays": 3,
-  "prCreation": "not-pending"
+  "prCreation": "not-pending",
+  "includeForks": true
 }
