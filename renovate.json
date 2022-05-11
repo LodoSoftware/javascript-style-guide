@@ -5,5 +5,6 @@
   "prHourlyLimit": 2,
   "stabilityDays": 3,
   "prCreation": "not-pending",
-  "includeForks": true
+  "includeForks": true,
+  "ignorePaths": ["packages/tslint-config"]
 }
