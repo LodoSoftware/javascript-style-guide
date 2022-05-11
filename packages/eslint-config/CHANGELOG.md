@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.6.3](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.6.2...@d3banking/eslint-config@22.6.3) (2022-05-11)
+
+### Bug Fixes
+
+- **eslint-config:** pinned eslint-plugin-react to working version ([9e42e93](https://github.com/LodoSoftware/javascript-style-guide/commit/9e42e933545e4548c282951d608552ac690906c9))
+
 ## [22.6.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.6.1...@d3banking/eslint-config@22.6.2) (2022-05-10)
 
 ### Bug Fixes
