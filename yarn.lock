@@ -739,12 +739,66 @@
     write-pkg "^4.0.0"
     yargs "^17.4.1"
 
-"@lerna-lite/exec-run-common@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@lerna-lite/exec-run-common/-/exec-run-common-1.1.0.tgz#0eae444bfb64291ef1bc60dfb58646315c94e770"
-  integrity sha512-x8PZGq0pE9vVjTVv4i8M+CX185BX2Dff9RuHP5Rx9khAU+6Rng7tNdv5EE/0S9Dpkvx0Qdmj0aomcTeWIyXnVQ==
+"@lerna-lite/core@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@lerna-lite/core/-/core-1.3.0.tgz#2d7f25e8649631dde40f7220b56a39f2ec820e22"
+  integrity sha512-HsB4h12sGdPMKnrnB0+muy6iHOPGRFO6N5NBruQ5qQp1DqcIeTTC9ANb6RNTRoiQ/YWFoUkNnveJFZ/ryk4lhA==
   dependencies:
-    "@lerna-lite/core" "^1.1.0"
+    "@octokit/plugin-enterprise-rest" "^6.0.1"
+    "@octokit/rest" "^18.12.0"
+    async "^3.2.3"
+    chalk "^4.1.2"
+    clone-deep "^4.0.1"
+    config-chain "^1.1.13"
+    conventional-changelog-angular "^5.0.13"
+    conventional-changelog-core "^4.2.4"
+    conventional-recommended-bump "^6.1.0"
+    cosmiconfig "^7.0.1"
+    dedent "^0.7.0"
+    execa "^5.1.1"
+    fs-extra "^10.1.0"
+    get-stream "^6.0.1"
+    git-url-parse "^11.6.0"
+    glob-parent "^6.0.2"
+    globby "^11.1.0"
+    inquirer "^8.2.4"
+    is-ci "^3.0.1"
+    libnpmaccess "^6.0.3"
+    libnpmpublish "^6.0.4"
+    load-json-file "^6.2.0"
+    minimatch "^5.0.1"
+    node-fetch "^2.6.7"
+    npm-lifecycle "^3.1.5"
+    npm-package-arg "^9.0.2"
+    npm-packlist "^5.0.3"
+    npm-registry-fetch "^13.1.1"
+    npmlog "^6.0.2"
+    os "^0.1.2"
+    p-map "^4.0.0"
+    p-pipe "^3.1.0"
+    p-queue "^6.6.2"
+    p-reduce "^2.1.0"
+    pacote "^13.3.0"
+    path "^0.12.7"
+    resolve-from "^5.0.0"
+    semver "^7.3.7"
+    slash "^3.0.0"
+    ssri "^9.0.0"
+    strong-log-transformer "^2.1.0"
+    tar "^6.1.11"
+    temp-write "^4.0.0"
+    whatwg-url "^11.0.0"
+    write-file-atomic "^4.0.1"
+    write-json-file "^4.3.0"
+    write-pkg "^4.0.0"
+    yargs "^17.4.1"
+
+"@lerna-lite/exec-run-common@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@lerna-lite/exec-run-common/-/exec-run-common-1.3.0.tgz#31e20f27fb67f8f7c8c8eb65b74124532f5b181c"
+  integrity sha512-bIi6TLCN17E8qDUsQMY5f0GFOnudZeqJppPj77wz6G4ymadnnuGjr3Y8trSlGt1hqkHU7Be9di13vxVT/nEQCg==
+  dependencies:
+    "@lerna-lite/core" "^1.3.0"
     fs-extra "^10.1.0"
     multimatch "^5.0.0"
     npmlog "^6.0.2"
@@ -799,13 +853,13 @@
     write-pkg "^4.0.0"
     yargs "^17.4.1"
 
-"@lerna-lite/run@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@lerna-lite/run/-/run-1.1.1.tgz#f659c388935ff8e85438bb360a07657329f9955f"
-  integrity sha512-nBTF5FinCUBfQ1tKZUHTTAPwO+D1YYrUJCMdGXwdCLdTjNYe4mHo2DlCbkz8HsJ3ccz7owMqpNgsYPzeWXUP6g==
+"@lerna-lite/run@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@lerna-lite/run/-/run-1.3.0.tgz#4ed718b4ecaa691a094f0db176ebd1ebf0b4f259"
+  integrity sha512-5M1+tt8UE5fafYCGUlnChiVc9vUi2sRlYwWc6sc6BcWmR5Gfijr+np161G3v3lhMiZXSFSX6qV+kBjou1aLgnQ==
   dependencies:
-    "@lerna-lite/core" "^1.1.0"
-    "@lerna-lite/exec-run-common" "^1.1.0"
+    "@lerna-lite/core" "^1.3.0"
+    "@lerna-lite/exec-run-common" "^1.3.0"
     fs-extra "^10.1.0"
     multimatch "^5.0.0"
     npmlog "^6.0.2"
@@ -4886,7 +4940,7 @@ npm-package-arg@^9.0.0, npm-package-arg@^9.0.1, npm-package-arg@^9.0.2:
     semver "^7.3.5"
     validate-npm-package-name "^4.0.0"
 
-npm-packlist@^5.0.0, npm-packlist@^5.0.2:
+npm-packlist@^5.0.0, npm-packlist@^5.0.2, npm-packlist@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-5.0.3.tgz#0aec03bc2d6d488ca71396d7afb463563c3274f7"
   integrity sha512-KuSbzgejxdsAWbNNyEs8EsyDHsO+nJF6k+9WuWzFbSNh5tFHs4lDApXw7kntKpuehfp8lKRzJkMtz0+WmGvTIw==
@@ -5218,7 +5272,7 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pacote@^13.1.1:
+pacote@^13.1.1, pacote@^13.3.0:
   version "13.3.0"
   resolved "https://registry.yarnpkg.com/pacote/-/pacote-13.3.0.tgz#e221febc17ce2435ce9f31de411832327a34c5ad"
   integrity sha512-auhJAUlfC2TALo6I0s1vFoPvVFgWGx+uz/PnIojTTgkGwlK3Np8sGJ0ghfFhiuzJXTZoTycMLk8uLskdntPbDw==
