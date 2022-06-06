@@ -1,10 +1,5 @@
 {
-  "extends": ["config:base"],
-  "suppressNotifications": ["prIgnoreNotification"],
-  "prConcurrentLimit": 3,
-  "prHourlyLimit": 2,
-  "stabilityDays": 3,
-  "prCreation": "not-pending",
+  "extends": ["github>LodoSoftware/renovate-config"],
   "includeForks": true,
   "ignorePaths": ["packages/tslint-config"]
 }
