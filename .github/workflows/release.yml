@@ -11,9 +11,20 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{secrets.NPM_TOKEN}}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+          token: ${{secrets.GRGIT_USER}}
+
+      - name: Configure Git
+        run: |
+          git config --global user.email "UITeam.D3@ncr.com"
+          git config --global user.name "Cranjis"
+          git fetch --prune --unshallow
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -26,3 +37,5 @@ jobs:
 
       - name: Run Release
         run: yarn release --yes
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
