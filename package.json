@@ -39,7 +39,6 @@
     "test": "lerna run test",
     "prerelease": "yarn lint && yarn test",
     "release": "lerna publish",
-    "postrelease": "git push --follow-tags origin master",
     "release:next": "yarn release --dist-tag next",
     "prepare": "husky install"
   }
