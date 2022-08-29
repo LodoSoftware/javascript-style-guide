@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.8.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.7.1...@d3banking/eslint-config@22.8.0) (2022-08-29)
+
+### Features
+
+* **deps:** update dependency eslint-import-resolver-typescript to v3 ([#71](https://github.com/LodoSoftware/javascript-style-guide/issues/71)) ([a0ee7cb](https://github.com/LodoSoftware/javascript-style-guide/commit/a0ee7cbe6142290546cde75a91a8c81a43978fc3))
+* **deps:** update dependency eslint-plugin-testing-library to ~5.6.0 ([#70](https://github.com/LodoSoftware/javascript-style-guide/issues/70)) ([8902d66](https://github.com/LodoSoftware/javascript-style-guide/commit/8902d663e1a67308c1dce93400ccd0898d92bd84))
+* **deps:** update typescript-eslint monorepo to ~5.35.0 ([#72](https://github.com/LodoSoftware/javascript-style-guide/issues/72)) ([c75dfbf](https://github.com/LodoSoftware/javascript-style-guide/commit/c75dfbf3be405e119abdc331e9f7be105dc69f3d))
+
 ## [22.7.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.7.0...@d3banking/eslint-config@22.7.1) (2022-08-17)
 
 **Note:** Version bump only for package @d3banking/eslint-config
