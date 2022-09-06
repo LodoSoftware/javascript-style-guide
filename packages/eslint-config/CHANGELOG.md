@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [22.9.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.8.1...@d3banking/eslint-config@22.9.1) (2022-09-06)
+
+**Note:** Version bump only for package @d3banking/eslint-config
+
 # [22.9.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.6.3...@d3banking/eslint-config@22.9.0) (2022-09-06)
 
 ### Features
