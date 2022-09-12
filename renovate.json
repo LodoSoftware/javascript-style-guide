@@ -13,5 +13,6 @@
       "matchPackagePatterns": "@lerna-lite/*"
     }
   ],
-  "ignorePaths": ["packages/tslint-config"]
+  "ignorePaths": ["packages/tslint-config"],
+  "npmrc": ""
 }
