@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/LodoSoftware/javascript-style-guide",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "~5.36.0",
-    "@typescript-eslint/parser": "~5.36.0",
+    "@typescript-eslint/eslint-plugin": "~5.37.0",
+    "@typescript-eslint/parser": "~5.37.0",
     "eslint-config-prettier": "~8.5.0",
     "eslint-import-resolver-typescript": "~3.5.0",
     "eslint-import-resolver-webpack": "~0.13.2",
