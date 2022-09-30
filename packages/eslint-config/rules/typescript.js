@@ -85,6 +85,15 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['warn', { classes: false, functions: false }],
 
     // Typescript handles this
-    'import/no-unresolved': 'off'
+    'import/no-unresolved': 'off',
+
+    // Enforce PascalCase for interfaces, classes and types
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: ['class', 'interface', 'typeAlias'],
+        format: ['PascalCase']
+      }
+    ]
   }
 };
