@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [22.11.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.10.0...@d3banking/eslint-config@22.11.0) (2022-09-30)
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to ~5.36.0 ([#79](https://github.com/LodoSoftware/javascript-style-guide/issues/79)) ([b9c37cb](https://github.com/LodoSoftware/javascript-style-guide/commit/b9c37cb6b197cfc47a8c138d3f142a3c0ae12c4e))
+* **deps:** update typescript-eslint monorepo to ~5.37.0 ([#84](https://github.com/LodoSoftware/javascript-style-guide/issues/84)) ([5e46a06](https://github.com/LodoSoftware/javascript-style-guide/commit/5e46a067a1f1dd81714b27af1b138e9eb3ca366b))
+* Enforce PascalCase for interfaces, classes and types ([#88](https://github.com/LodoSoftware/javascript-style-guide/issues/88)) ([d3244d0](https://github.com/LodoSoftware/javascript-style-guide/commit/d3244d0e64cfe0e683b11a723348074b8b151a87))
+
 # [22.10.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.6.3...@d3banking/eslint-config@22.10.0) (2022-09-06)
 
 ### Features
