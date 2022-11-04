@@ -29,8 +29,8 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
-    "@lerna-lite/cli": "1.11.3",
-    "@lerna-lite/run": "1.11.3",
+    "@lerna-lite/cli": "1.12.0",
+    "@lerna-lite/run": "1.12.0",
     "husky": "8.0.1",
     "pretty-quick": "3.1.3"
   },
