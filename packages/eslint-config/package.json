@@ -29,7 +29,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "~5.47.0",
     "@typescript-eslint/parser": "~5.47.0",
-    "eslint-config-prettier": "~8.5.0",
+    "eslint-config-prettier": "~8.6.0",
     "eslint-import-resolver-typescript": "~3.5.0",
     "eslint-import-resolver-webpack": "~0.13.2",
     "eslint-plugin-import": "~2.26.0",
