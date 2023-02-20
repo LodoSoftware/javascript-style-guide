@@ -27,8 +27,8 @@
   "homepage": "https://github.com/lodosoftware/javascript-styleguide",
   "prettier": "@d3banking/prettier-config",
   "devDependencies": {
-    "@commitlint/cli": "17.4.2",
-    "@commitlint/config-conventional": "17.4.2",
+    "@commitlint/cli": "17.4.4",
+    "@commitlint/config-conventional": "17.4.4",
     "@lerna-lite/cli": "1.15.1",
     "@lerna-lite/run": "1.15.1",
     "husky": "8.0.3",
