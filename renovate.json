@@ -1,3 +1,17 @@
 {
-  "extends": ["github>LodoSoftware/renovate-config"]
+  "extends": ["config:base"],
+  "suppressNotifications": ["prIgnoreNotification"],
+  "prConcurrentLimit": 3,
+  "prHourlyLimit": 2,
+  "stabilityDays": 3,
+  "includeForks": true,
+  "schedule": ["every weekend"],
+  "packageRules": [
+    {
+      "groupName": "lerna-lite",
+      "matchPackagePatterns": "@lerna-lite/*"
+    }
+  ],
+  "ignorePaths": ["packages/tslint-config"],
+  "npmrc": ""
 }
