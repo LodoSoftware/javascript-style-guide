@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "tests-only": "babel-tape-runner ./test/test-*.js",
     "pretest": "eslint-find-rules --unused --no-error",
-    "test": "yarn --silent lint && yarn --silent tests-only"
+    "test": "yarn pretest && yarn lint && yarn tests-only"
   },
   "repository": {
     "type": "git",
