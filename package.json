@@ -34,6 +34,7 @@
     "@lerna-lite/run": "2.0.0",
     "@lerna-lite/version": "2.0.0",
     "husky": "8.0.3",
+    "normalize-path": "3.0.0",
     "pretty-quick": "3.1.3"
   },
   "scripts": {
@@ -43,5 +44,6 @@
     "release": "lerna publish",
     "release:next": "yarn release --dist-tag next",
     "prepare": "husky install"
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }
