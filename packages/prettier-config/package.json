@@ -22,7 +22,7 @@
     "url": "https://github.com/LodoSoftware/javascript-style-guide/issues"
   },
   "devDependencies": {
-    "prettier": "2.8.7"
+    "prettier": "2.8.8"
   },
   "peerDependencies": {
     "prettier": "^2"
