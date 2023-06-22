@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [23.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.18.0...@d3banking/eslint-config@23.0.0) (2023-06-22)
+
+### Features
+
+* removed webpack import resolver ([26850a4](https://github.com/LodoSoftware/javascript-style-guide/commit/26850a4ed4aef050ad168bb0e581b3582757de72))
+
+### BREAKING CHANGES
+
+* Removed webpack import resolver
+
 # [22.18.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@22.17.0...@d3banking/eslint-config@22.18.0) (2023-05-31)
 
 ### Features
