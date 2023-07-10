@@ -43,5 +43,5 @@
     "release:next": "yarn release --dist-tag next",
     "prepare": "husky install"
   },
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.1"
 }
