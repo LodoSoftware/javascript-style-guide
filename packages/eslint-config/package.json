@@ -38,7 +38,7 @@
     "eslint-plugin-testing-library": "~5.11.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.5",
+    "@babel/core": "7.22.8",
     "@babel/plugin-transform-modules-commonjs": "7.22.5",
     "babel-tape-runner": "3.0.0",
     "eslint": "8.43.0",
