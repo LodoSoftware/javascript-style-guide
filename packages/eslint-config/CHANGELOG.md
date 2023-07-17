@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [23.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@23.1.0...@d3banking/eslint-config@23.2.0) (2023-07-17)
+
+### Features
+
+* **deps:** update typescript-eslint monorepo to ~5.62.0 ([#194](https://github.com/LodoSoftware/javascript-style-guide/issues/194)) ([da5a950](https://github.com/LodoSoftware/javascript-style-guide/commit/da5a950bafb640d2acf392ae3738327554f2e70b))
+
 # [23.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@23.0.0...@d3banking/eslint-config@23.1.0) (2023-06-30)
 
 ### Features
