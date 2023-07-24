@@ -8,6 +8,10 @@
   "schedule": ["every weekend"],
   "packageRules": [
     {
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    },
+    {
       "groupName": "lerna-lite",
       "matchPackagePatterns": "@lerna-lite/*"
     }
