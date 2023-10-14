@@ -739,7 +739,7 @@ __metadata:
     eslint-plugin-react: 7.33.2
     eslint-plugin-react-hooks: ~4.6.0
     eslint-plugin-testing-library: ~6.0.0
-    tape: 5.7.0
+    tape: 5.7.1
     typescript: 5.2.2
   peerDependencies:
     eslint: ">= 7.5.0"
@@ -1192,6 +1192,15 @@ __metadata:
   dependencies:
     "@ljharb/through": ^2.3.9
   checksum: 1cff0a485cb857933d2921cb05a349f8fe894fa2bb6b31a347010ecccc4a2b369e43ebe5383a32a60ee6c9572d2c83fcab383eb01727e1507bf29c59f312dae6
+  languageName: node
+  linkType: hard
+
+"@ljharb/through@npm:^2.3.11":
+  version: 2.3.11
+  resolution: "@ljharb/through@npm:2.3.11"
+  dependencies:
+    call-bind: ^1.0.2
+  checksum: 10502726028b8a4e0b270a2213e546821c04ed8d7fe411009a8e47497e4ae99c57eeb9ff3d13620ebdefd7c856b16fc873f27c433cad60465dc132fb4b997233
   languageName: node
   linkType: hard
 
@@ -8320,6 +8329,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve@npm:^2.0.0-next.5":
+  version: 2.0.0-next.5
+  resolution: "resolve@npm:2.0.0-next.5"
+  dependencies:
+    is-core-module: ^2.13.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: a73ac69a1c4bd34c56b213d91f5b17ce390688fdb4a1a96ed3025cc7e08e7bfb90b3a06fcce461780cb0b589c958afcb0080ab802c71c01a7ecc8c64feafc89f
+  languageName: node
+  linkType: hard
+
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>":
   version: 1.11.1
   resolution: "resolve@patch:resolve@npm%3A1.11.1#~builtin<compat/resolve>::version=1.11.1&hash=c3c19d"
@@ -8352,6 +8374,19 @@ __metadata:
   bin:
     resolve: bin/resolve
   checksum: 4bf9f4f8a458607af90518ff73c67a4bc1a38b5a23fef2bb0ccbd45e8be89820a1639b637b0ba377eb2be9eedfb1739a84cde24fe4cd670c8207d8fea922b011
+  languageName: node
+  linkType: hard
+
+"resolve@patch:resolve@^2.0.0-next.5#~builtin<compat/resolve>":
+  version: 2.0.0-next.5
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.5#~builtin<compat/resolve>::version=2.0.0-next.5&hash=c3c19d"
+  dependencies:
+    is-core-module: ^2.13.0
+    path-parse: ^1.0.7
+    supports-preserve-symlinks-flag: ^1.0.0
+  bin:
+    resolve: bin/resolve
+  checksum: 064d09c1808d0c51b3d90b5d27e198e6d0c5dad0eb57065fd40803d6a20553e5398b07f76739d69cbabc12547058bec6b32106ea66622375fb0d7e8fca6a846c
   languageName: node
   linkType: hard
 
@@ -9125,12 +9160,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.7.0":
-  version: 5.7.0
-  resolution: "tape@npm:5.7.0"
+"tape@npm:5.7.1":
+  version: 5.7.1
+  resolution: "tape@npm:5.7.1"
   dependencies:
     "@ljharb/resumer": ^0.0.1
-    "@ljharb/through": ^2.3.9
+    "@ljharb/through": ^2.3.11
     array.prototype.every: ^1.1.5
     call-bind: ^1.0.2
     deep-equal: ^2.2.2
@@ -9149,11 +9184,11 @@ __metadata:
     object-is: ^1.1.5
     object-keys: ^1.1.1
     object.assign: ^4.1.4
-    resolve: ^2.0.0-next.4
+    resolve: ^2.0.0-next.5
     string.prototype.trim: ^1.2.8
   bin:
     tape: bin/tape
-  checksum: 06685c4e4e4e061f2d632310fa4289a8bdf20a184155039c4df475d08831f3c3658bd9c76b0c6929b988cfa029f5da9f3af9623c8d9a16022281150439eb7958
+  checksum: abba6c5d83d6cba58ab5e0233dc8d68a9414a6d750401a8124da1622cb797cb96b5d68edc3d166984c6926affec33a4aa4782da7c64665f3d531e605769ad72f
   languageName: node
   linkType: hard
 
