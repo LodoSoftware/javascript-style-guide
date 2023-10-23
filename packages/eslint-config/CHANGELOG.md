@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [25.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@25.0.0...@d3banking/eslint-config@25.1.0) (2023-10-23)
+
+### Features
+
+* **deps:** update dependency eslint-plugin-testing-library to ~6.1.0 ([#245](https://github.com/LodoSoftware/javascript-style-guide/issues/245)) ([3371923](https://github.com/LodoSoftware/javascript-style-guide/commit/33719234226c929cfbb79abc0c93e6de8f09dc93))
+
 # [25.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@24.2.0...@d3banking/eslint-config@25.0.0) (2023-09-19)
 
 ### Features
