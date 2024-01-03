@@ -32,7 +32,7 @@
     "@lerna-lite/cli": "2.7.2",
     "@lerna-lite/publish": "2.7.2",
     "@lerna-lite/run": "2.7.2",
-    "eslint": "8.55.0",
+    "eslint": "8.56.0",
     "husky": "8.0.3",
     "pretty-quick": "3.1.3"
   },
