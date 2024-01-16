@@ -29,9 +29,9 @@
   "devDependencies": {
     "@commitlint/cli": "18.4.4",
     "@commitlint/config-conventional": "18.4.4",
-    "@lerna-lite/cli": "3.1.0",
-    "@lerna-lite/publish": "3.1.0",
-    "@lerna-lite/run": "3.1.0",
+    "@lerna-lite/cli": "3.2.1",
+    "@lerna-lite/publish": "3.2.1",
+    "@lerna-lite/run": "3.2.1",
     "eslint": "8.56.0",
     "husky": "8.0.3",
     "pretty-quick": "3.1.3"
