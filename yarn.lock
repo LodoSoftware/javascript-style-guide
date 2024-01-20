@@ -758,7 +758,7 @@ __metadata:
     eslint-plugin-react: "npm:7.33.2"
     eslint-plugin-react-hooks: "npm:~4.6.0"
     eslint-plugin-testing-library: "npm:~6.2.0"
-    tape: "npm:5.7.2"
+    tape: "npm:5.7.3"
     typescript: "npm:5.3.3"
   peerDependencies:
     eslint: ">= 7.5.0"
@@ -2658,7 +2658,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"call-bind@npm:^1.0.5":
+"call-bind@npm:^1.0.4, call-bind@npm:^1.0.5":
   version: 1.0.5
   resolution: "call-bind@npm:1.0.5"
   dependencies:
@@ -3296,14 +3296,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-equal@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "deep-equal@npm:2.2.2"
+"deep-equal@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "deep-equal@npm:2.2.3"
   dependencies:
     array-buffer-byte-length: "npm:^1.0.0"
-    call-bind: "npm:^1.0.2"
+    call-bind: "npm:^1.0.5"
     es-get-iterator: "npm:^1.1.3"
-    get-intrinsic: "npm:^1.2.1"
+    get-intrinsic: "npm:^1.2.2"
     is-arguments: "npm:^1.1.1"
     is-array-buffer: "npm:^3.0.2"
     is-date-object: "npm:^1.0.5"
@@ -3313,12 +3313,12 @@ __metadata:
     object-is: "npm:^1.1.5"
     object-keys: "npm:^1.1.1"
     object.assign: "npm:^4.1.4"
-    regexp.prototype.flags: "npm:^1.5.0"
+    regexp.prototype.flags: "npm:^1.5.1"
     side-channel: "npm:^1.0.4"
     which-boxed-primitive: "npm:^1.0.2"
     which-collection: "npm:^1.0.1"
-    which-typed-array: "npm:^1.1.9"
-  checksum: 07b46a9a848efdab223abc7e3ba612ef9168d88970c3400df185d5840a30ca384749c996ae5d7af844d6b27c42587fb73a4445c63e38aac77c2d0ed9a63faa87
+    which-typed-array: "npm:^1.1.13"
+  checksum: a48244f90fa989f63ff5ef0cc6de1e4916b48ea0220a9c89a378561960814794a5800c600254482a2c8fd2e49d6c2e196131dc983976adb024c94a42dfe4949f
   languageName: node
   linkType: hard
 
@@ -4731,6 +4731,18 @@ __metadata:
     has-proto: "npm:^1.0.1"
     has-symbols: "npm:^1.0.3"
   checksum: 49eab47f9de8f1a4f9b458b8b74ee5199fb2614414a91973eb175e07db56b52b6df49b255cc7ff704cb0786490fb93bfe8f2ad138b590a8de09b47116a366bc9
+  languageName: node
+  linkType: hard
+
+"get-intrinsic@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "get-intrinsic@npm:1.2.2"
+  dependencies:
+    function-bind: "npm:^1.1.2"
+    has-proto: "npm:^1.0.1"
+    has-symbols: "npm:^1.0.3"
+    hasown: "npm:^2.0.0"
+  checksum: 4e7fb8adc6172bae7c4fe579569b4d5238b3667c07931cd46b4eee74bbe6ff6b91329bec311a638d8e60f5b51f44fe5445693c6be89ae88d4b5c49f7ff12db0b
   languageName: node
   linkType: hard
 
@@ -6890,7 +6902,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mock-property@npm:^1.0.2":
+"mock-property@npm:^1.0.3":
   version: 1.0.3
   resolution: "mock-property@npm:1.0.3"
   dependencies:
@@ -7370,6 +7382,18 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     object-keys: "npm:^1.1.1"
   checksum: 2f286118c023e557757620e647b02e7c88d3d417e0c568fca0820de8ec9cca68928304854d5b03e99763eddad6e78a6716e2930f7e6372e4b9b843f3fd3056f3
+  languageName: node
+  linkType: hard
+
+"object.assign@npm:^4.1.5":
+  version: 4.1.5
+  resolution: "object.assign@npm:4.1.5"
+  dependencies:
+    call-bind: "npm:^1.0.5"
+    define-properties: "npm:^1.2.1"
+    has-symbols: "npm:^1.0.3"
+    object-keys: "npm:^1.1.1"
+  checksum: 60108e1fa2706f22554a4648299b0955236c62b3685c52abf4988d14fffb0e7731e00aa8c6448397e3eb63d087dcc124a9f21e1980f36d0b2667f3c18bacd469
   languageName: node
   linkType: hard
 
@@ -9155,15 +9179,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.7.2":
-  version: 5.7.2
-  resolution: "tape@npm:5.7.2"
+"tape@npm:5.7.3":
+  version: 5.7.3
+  resolution: "tape@npm:5.7.3"
   dependencies:
     "@ljharb/resumer": "npm:^0.0.1"
     "@ljharb/through": "npm:^2.3.11"
     array.prototype.every: "npm:^1.1.5"
     call-bind: "npm:^1.0.5"
-    deep-equal: "npm:^2.2.2"
+    deep-equal: "npm:^2.2.3"
     defined: "npm:^1.0.1"
     dotignore: "npm:^0.1.2"
     for-each: "npm:^0.3.3"
@@ -9174,16 +9198,16 @@ __metadata:
     inherits: "npm:^2.0.4"
     is-regex: "npm:^1.1.4"
     minimist: "npm:^1.2.8"
-    mock-property: "npm:^1.0.2"
+    mock-property: "npm:^1.0.3"
     object-inspect: "npm:^1.13.1"
     object-is: "npm:^1.1.5"
     object-keys: "npm:^1.1.1"
-    object.assign: "npm:^4.1.4"
+    object.assign: "npm:^4.1.5"
     resolve: "npm:^2.0.0-next.5"
     string.prototype.trim: "npm:^1.2.8"
   bin:
     tape: bin/tape
-  checksum: 6ad94d67c1c23ba13404f4d491aea3c3696ef4badab143fbac4d49cffdc1de1e3da3fd8dd9cb219cd67fffca63278c83773e7301219b5125bc831316561a5104
+  checksum: b3de48ef9276e6002bc3fc63908ceacf55933fb60a382574b5d52d8de1b87cbffb78f7fb2d99fdb25664fa34dfc1d962fb9a9f5e4c2fe03b641b71c254480a73
   languageName: node
   linkType: hard
 
@@ -9895,6 +9919,19 @@ __metadata:
     gopd: "npm:^1.0.1"
     has-tostringtag: "npm:^1.0.0"
   checksum: 2cf4ce417beb50ae0ec3b1b479ea6d72d3e71986462ebd77344ca6398f77c7c59804eebe88f4126ce79f85edbcaa6c7783f54b0a5bf34f785eab7cbb35c30499
+  languageName: node
+  linkType: hard
+
+"which-typed-array@npm:^1.1.13":
+  version: 1.1.13
+  resolution: "which-typed-array@npm:1.1.13"
+  dependencies:
+    available-typed-arrays: "npm:^1.0.5"
+    call-bind: "npm:^1.0.4"
+    for-each: "npm:^0.3.3"
+    gopd: "npm:^1.0.1"
+    has-tostringtag: "npm:^1.0.0"
+  checksum: 9f5f1c42918df3d5b91c4315ed0051d5d874370998bf095c9ae0df374f0881f85094e3c384b8fb08ab7b4d4f54ba81c0aff75da6226e7c0589b83dfbec1cd4c9
   languageName: node
   linkType: hard
 
