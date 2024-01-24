@@ -1,0 +1,9 @@
+{
+  "name": "@d3banking/biome-config",
+  "version": "0.0.0",
+  "description": "D3 Banking's Biome config, following our styleguide",
+  "license": "MIT",
+  "peerDependencies": {
+    "@biomejs/biome": "^1.5.3"
+  }
+}

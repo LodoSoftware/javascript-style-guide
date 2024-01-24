@@ -740,6 +740,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@d3banking/biome-config@workspace:packages/biome-config":
+  version: 0.0.0-use.local
+  resolution: "@d3banking/biome-config@workspace:packages/biome-config"
+  peerDependencies:
+    "@biomejs/biome": ^1.5.3
+  languageName: unknown
+  linkType: soft
+
 "@d3banking/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@d3banking/eslint-config@workspace:packages/eslint-config"
