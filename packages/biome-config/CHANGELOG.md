@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@0.1.0...@d3banking/biome-config@0.1.1) (2024-01-24)
+
+### Bug Fixes
+
+* adjusted formatter ignore pattern ([a3c0bbc](https://github.com/LodoSoftware/javascript-style-guide/commit/a3c0bbc1f4b654ab955729c468a5c92bab123898))
+
 # 0.1.0 (2024-01-24)
 
 ### Features
