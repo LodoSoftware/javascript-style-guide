@@ -15,7 +15,7 @@
   "formatter": {
     "indentStyle": "space",
     "lineWidth": 100,
-    "ignore": ["package.json"]
+    "ignore": ["**/package.json"]
   },
   "javascript": {
     "formatter": {
