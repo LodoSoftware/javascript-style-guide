@@ -28,7 +28,7 @@
   "prettier": "@d3banking/prettier-config",
   "devDependencies": {
     "@commitlint/cli": "18.6.1",
-    "@commitlint/config-conventional": "18.6.1",
+    "@commitlint/config-conventional": "18.6.2",
     "@lerna-lite/cli": "3.2.1",
     "@lerna-lite/publish": "3.2.1",
     "@lerna-lite/run": "3.2.1",
