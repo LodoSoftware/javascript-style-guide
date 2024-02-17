@@ -789,7 +789,7 @@ __metadata:
     eslint-plugin-react: "npm:7.33.2"
     eslint-plugin-react-hooks: "npm:~4.6.0"
     eslint-plugin-testing-library: "npm:~6.2.0"
-    tape: "npm:5.7.3"
+    tape: "npm:5.7.4"
     typescript: "npm:5.3.3"
   peerDependencies:
     eslint: ">= 7.5.0"
@@ -5072,13 +5072,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"has-dynamic-import@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "has-dynamic-import@npm:2.0.1"
+"has-dynamic-import@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "has-dynamic-import@npm:2.1.0"
   dependencies:
-    call-bind: "npm:^1.0.2"
-    get-intrinsic: "npm:^1.1.1"
-  checksum: db7d817cf9d4ddd8f98343e297ca40c0bf8d01b8e04397b72a5cf801928ac0b97ba26bf372451bcec4bcb8fef557935d5fc7e5b62b9c00fc55d48c5972015135
+    call-bind: "npm:^1.0.5"
+    get-intrinsic: "npm:^1.2.2"
+  checksum: 28faf3ae3538a198202c9e5b6c9a1071f0a16df2ff748440525fd30f6485e8532a4d205e2c21f4013d6663730f9d3b44dcae1519d20f946a223b3763118db653
   languageName: node
   linkType: hard
 
@@ -9133,9 +9133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.7.3":
-  version: 5.7.3
-  resolution: "tape@npm:5.7.3"
+"tape@npm:5.7.4":
+  version: 5.7.4
+  resolution: "tape@npm:5.7.4"
   dependencies:
     "@ljharb/resumer": "npm:^0.0.1"
     "@ljharb/through": "npm:^2.3.11"
@@ -9147,7 +9147,7 @@ __metadata:
     for-each: "npm:^0.3.3"
     get-package-type: "npm:^0.1.0"
     glob: "npm:^7.2.3"
-    has-dynamic-import: "npm:^2.0.1"
+    has-dynamic-import: "npm:^2.1.0"
     hasown: "npm:^2.0.0"
     inherits: "npm:^2.0.4"
     is-regex: "npm:^1.1.4"
@@ -9161,7 +9161,7 @@ __metadata:
     string.prototype.trim: "npm:^1.2.8"
   bin:
     tape: bin/tape
-  checksum: b3de48ef9276e6002bc3fc63908ceacf55933fb60a382574b5d52d8de1b87cbffb78f7fb2d99fdb25664fa34dfc1d962fb9a9f5e4c2fe03b641b71c254480a73
+  checksum: c7cb6bb82aa571c0138b56116cdf9c36d78b505ee057156827e41aee5b92b99ea5155b85d366ad2701df2ae8190192287fb36e2c3e04a3a2fd704bd10ad9bd5e
   languageName: node
   linkType: hard
 
