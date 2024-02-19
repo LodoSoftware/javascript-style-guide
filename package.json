@@ -33,7 +33,7 @@
     "@lerna-lite/publish": "3.3.0",
     "@lerna-lite/run": "3.3.0",
     "eslint": "8.56.0",
-    "husky": "8.0.3",
+    "husky": "9.0.11",
     "pretty-quick": "4.0.0"
   },
   "scripts": {
@@ -42,7 +42,7 @@
     "prerelease": "yarn lint && yarn test",
     "release": "lerna publish",
     "release:next": "yarn release --dist-tag next",
-    "prepare": "husky install"
+    "postinstall": "husky"
   },
   "packageManager": "yarn@4.1.0"
 }
