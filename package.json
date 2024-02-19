@@ -42,7 +42,7 @@
     "prerelease": "yarn lint && yarn test",
     "release": "lerna publish",
     "release:next": "yarn release --dist-tag next",
-    "prepare": "husky install"
+    "postinstall": "husky"
   },
   "packageManager": "yarn@4.1.0"
 }
