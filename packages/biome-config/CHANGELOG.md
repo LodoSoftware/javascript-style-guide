@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@0.1.2...@d3banking/biome-config@0.2.0) (2024-03-19)
+
+### Features
+
+- disable nodejs protocol in imports ([3f25369](https://github.com/LodoSoftware/javascript-style-guide/commit/3f25369547a44cbfdd145d27ba0e07a0fee3ad50))
+
 ## [0.1.2](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@0.1.1...@d3banking/biome-config@0.1.2) (2024-03-18)
 
 **Note:** Version bump only for package @d3banking/biome-config
