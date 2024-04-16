@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@0.2.0...@d3banking/biome-config@0.3.0) (2024-04-16)
+
+### Features
+
+- **biome-config:** added override for handling package.json ([91d5f14](https://github.com/LodoSoftware/javascript-style-guide/commit/91d5f14376446e0001f0d3760c4085d367af58ca))
+
 # [0.2.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@0.1.2...@d3banking/biome-config@0.2.0) (2024-03-19)
 
 ### Features
