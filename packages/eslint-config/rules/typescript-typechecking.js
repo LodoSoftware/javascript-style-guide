@@ -23,6 +23,9 @@ module.exports = {
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-argument': 'off',
 
+    // Allow checking enums against primitives
+    '@typescript-eslint/no-unsafe-enum-comparison': 'off',
+
     // Helps to catch unhandled nullability in string templates
     // Disabled because they are not quite useful
     '@typescript-eslint/restrict-template-expressions': 'off',
