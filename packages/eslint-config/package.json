@@ -43,7 +43,7 @@
     "babel-tape-runner": "3.0.0",
     "eslint": "8.57.0",
     "eslint-find-rules": "4.1.0",
-    "tape": "5.7.5",
+    "tape": "5.8.1",
     "typescript": "5.4.5"
   },
   "peerDependencies": {
