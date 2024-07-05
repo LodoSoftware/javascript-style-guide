@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [26.6.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@26.5.0...@d3banking/eslint-config@26.6.0) (2024-07-05)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react to v7.34.3 ([#341](https://github.com/LodoSoftware/javascript-style-guide/issues/341)) ([ee6b50c](https://github.com/LodoSoftware/javascript-style-guide/commit/ee6b50c0ac498b2ea1ab86bed231e58cb18cf9c3))
+- **eslint-config:** allow checking enums against primitives ([3eb2e7b](https://github.com/LodoSoftware/javascript-style-guide/commit/3eb2e7bd8551fb3d6d6cad311739bb4678e98799))
+
+### Features
+
+- **deps:** update dependency eslint-plugin-jsx-a11y to ~6.9.0 ([#350](https://github.com/LodoSoftware/javascript-style-guide/issues/350)) ([cc05055](https://github.com/LodoSoftware/javascript-style-guide/commit/cc0505514bad08b8506340ccd5785f9fc5e8188e))
+- **deps:** update typescript-eslint monorepo to ~7.10.0 ([#339](https://github.com/LodoSoftware/javascript-style-guide/issues/339)) ([ca4844d](https://github.com/LodoSoftware/javascript-style-guide/commit/ca4844d931ef2e5337874617b43b81c48f1fe13e))
+- **deps:** update typescript-eslint monorepo to ~7.11.0 ([#342](https://github.com/LodoSoftware/javascript-style-guide/issues/342)) ([4207e9c](https://github.com/LodoSoftware/javascript-style-guide/commit/4207e9cdf7c3d0707aef5c4b9002544bfd7e6ad1))
+- **deps:** update typescript-eslint monorepo to ~7.15.0 ([#351](https://github.com/LodoSoftware/javascript-style-guide/issues/351)) ([16b55a5](https://github.com/LodoSoftware/javascript-style-guide/commit/16b55a502cdc8c3ab958a58083f9dbdd10037c39))
+
 # [26.5.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@26.4.0...@d3banking/eslint-config@26.5.0) (2024-05-23)
 
 ### Features
