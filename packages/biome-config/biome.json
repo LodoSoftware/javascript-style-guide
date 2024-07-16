@@ -11,7 +11,8 @@
         "noExplicitAny": "off"
       },
       "style": {
-        "useNodejsImportProtocol": "off"
+        "useNodejsImportProtocol": "off",
+        "useBlockStatements": "error"
       }
     }
   },
