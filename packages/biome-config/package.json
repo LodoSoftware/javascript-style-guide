@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/biome-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "D3 Banking's Biome config, following our styleguide",
   "license": "MIT",
   "type": "module",

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@1.0.1...@d3banking/biome-config@1.1.0) (2024-07-16)
+
+### Features
+
+- **biome:** enabled linter/style/useBlockStatements ([02ec33a](https://github.com/LodoSoftware/javascript-style-guide/commit/02ec33a21613678a014b3a09e5eb227d729507f8))
+
 ## [1.0.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/biome-config@0.3.1...@d3banking/biome-config@1.0.1) (2024-07-05)
 
 **Note:** Version bump only for package @d3banking/biome-config
