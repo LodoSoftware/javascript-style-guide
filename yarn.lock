@@ -958,12 +958,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna-lite/cli@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/cli@npm:3.8.0"
+"@lerna-lite/cli@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/cli@npm:3.9.0"
   dependencies:
-    "@lerna-lite/core": "npm:3.8.0"
-    "@lerna-lite/init": "npm:3.8.0"
+    "@lerna-lite/core": "npm:3.9.0"
+    "@lerna-lite/init": "npm:3.9.0"
     "@lerna-lite/npmlog": "npm:3.8.0"
     dedent: "npm:^1.5.3"
     dotenv: "npm:^16.4.5"
@@ -985,13 +985,13 @@ __metadata:
       optional: true
   bin:
     lerna: dist/cli.js
-  checksum: 10c0/71c7014b72d86ba4cf081c4d4656748d32e8c913d45bef538605712b5f2d88bb9e1ab71511485e133b31cfe94b4d6608d9cfa7a482708a28125e5a05b405dcca
+  checksum: 10c0/2c81ecb3a3e35ff98f01f533a383ca96bb74a5e4cc96dccc40ba5baea1d5cbb2d7222d977d013f17c8906d6681326e90802f42016da1246576feb6a3f8449ba3
   languageName: node
   linkType: hard
 
-"@lerna-lite/core@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/core@npm:3.8.0"
+"@lerna-lite/core@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/core@npm:3.9.0"
   dependencies:
     "@inquirer/expand": "npm:^2.1.22"
     "@inquirer/input": "npm:^2.2.9"
@@ -1021,30 +1021,30 @@ __metadata:
     write-file-atomic: "npm:^5.0.1"
     write-json-file: "npm:^6.0.0"
     write-package: "npm:^7.1.0"
-  checksum: 10c0/73aabead7138951c5a23ffeaaae078be0c49aa2cc7c9058b425a7c930876a9d3a38f93cb9a4aea3482dee445a8cafbd91afbde7ec764f0f90b24daab4cbdaa80
+  checksum: 10c0/0b54125c76b76b3ddf15515bbe12553bb949ab62b65c654d8ea92983f0cd255ee56b1669575a4876830433a59ed80c2ef91946453024a1aa2e52bdd13507a38c
   languageName: node
   linkType: hard
 
-"@lerna-lite/filter-packages@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/filter-packages@npm:3.8.0"
+"@lerna-lite/filter-packages@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/filter-packages@npm:3.9.0"
   dependencies:
-    "@lerna-lite/core": "npm:3.8.0"
+    "@lerna-lite/core": "npm:3.9.0"
     "@lerna-lite/npmlog": "npm:^3.8.0"
     multimatch: "npm:^7.0.0"
-  checksum: 10c0/b2fb96ab682c214fc9f091df969830cdca3d49d031b5c854e8322a7237d32b4587805c90208b9827e97e2752b58f6203af60dbaba03f3c9d2f6ee0232ba085e2
+  checksum: 10c0/40c8ac2b33e3e7af9b09aede3039df8b80206f228b61ff80bae59f795e26007bdbc0a69a7ec9b6e9c993b5820c083ecfd7ac370d32e5dbc557ad59050bb705d3
   languageName: node
   linkType: hard
 
-"@lerna-lite/init@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/init@npm:3.8.0"
+"@lerna-lite/init@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/init@npm:3.9.0"
   dependencies:
-    "@lerna-lite/core": "npm:3.8.0"
+    "@lerna-lite/core": "npm:3.9.0"
     fs-extra: "npm:^11.2.0"
     p-map: "npm:^7.0.2"
     write-json-file: "npm:^6.0.0"
-  checksum: 10c0/a6474b914bf41f132ac9337a0e2e7e255e6631d0675722c98ee9240535190cc92f31249885f76a14d661817b6427de22edbe0af1e38eda307679edc8d1d1b83e
+  checksum: 10c0/2f19d383086e0fed1c2d599b9534e54f5a03c95475c92c63c564377fe8976d523d5a3f7fc483950a6f4c6311e6f35fd1b8b9e88d0e0be9867e4e4876c060562e
   languageName: node
   linkType: hard
 
@@ -1065,26 +1065,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna-lite/profiler@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/profiler@npm:3.8.0"
+"@lerna-lite/profiler@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/profiler@npm:3.9.0"
   dependencies:
-    "@lerna-lite/core": "npm:3.8.0"
+    "@lerna-lite/core": "npm:3.9.0"
     "@lerna-lite/npmlog": "npm:3.8.0"
     fs-extra: "npm:^11.2.0"
     upath: "npm:^2.0.1"
-  checksum: 10c0/ec1121d78a53a421493a174078db1d76bd698185200ec3d643131930ba40e525507d7f712df575bfe1187e7bc21c6df960fb921263c6ab87f41538f86476e758
+  checksum: 10c0/a568110ced74a37a441d2993a3b3732bd3323fa179355ab62e8bf85e70013c693876a5df345aa687e1268987964e30b1ed5ae88567f07713d57fcd0e09f5367c
   languageName: node
   linkType: hard
 
-"@lerna-lite/publish@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/publish@npm:3.8.0"
+"@lerna-lite/publish@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/publish@npm:3.9.0"
   dependencies:
-    "@lerna-lite/cli": "npm:3.8.0"
-    "@lerna-lite/core": "npm:3.8.0"
+    "@lerna-lite/cli": "npm:3.9.0"
+    "@lerna-lite/core": "npm:3.9.0"
     "@lerna-lite/npmlog": "npm:^3.8.0"
-    "@lerna-lite/version": "npm:3.8.0"
+    "@lerna-lite/version": "npm:3.9.0"
     "@npmcli/arborist": "npm:^7.5.4"
     "@npmcli/package-json": "npm:^5.2.0"
     byte-size: "npm:^9.0.0"
@@ -1106,35 +1106,35 @@ __metadata:
     ssri: "npm:^10.0.6"
     tar: "npm:^6.2.1"
     temp-dir: "npm:^3.0.0"
-  checksum: 10c0/32770d87fc435480c5cace41c871123d10393fbbae8ec2fa827c572ec8a574d6519993411f04a7dc8a9172d290dac754bfb73d78e733a230b137a7b267a33025
+  checksum: 10c0/c55f734829001ed228da684436da9f9d060e964e6e6613bffa357ed78c6b5dca9ea7b874c700043d92d85d7c41f1230549547a7f1f75c39545a179c2be06f86a
   languageName: node
   linkType: hard
 
-"@lerna-lite/run@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/run@npm:3.8.0"
+"@lerna-lite/run@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/run@npm:3.9.0"
   dependencies:
-    "@lerna-lite/cli": "npm:3.8.0"
-    "@lerna-lite/core": "npm:3.8.0"
-    "@lerna-lite/filter-packages": "npm:3.8.0"
+    "@lerna-lite/cli": "npm:3.9.0"
+    "@lerna-lite/core": "npm:3.9.0"
+    "@lerna-lite/filter-packages": "npm:3.9.0"
     "@lerna-lite/npmlog": "npm:3.8.0"
-    "@lerna-lite/profiler": "npm:3.8.0"
+    "@lerna-lite/profiler": "npm:3.9.0"
     chalk: "npm:^5.3.0"
     fs-extra: "npm:^11.2.0"
     p-map: "npm:^7.0.2"
-  checksum: 10c0/438868b21f15ce996c366f75d8e22919a73caca749550be7208fe78652052a6e27caddc0cf6fc178fdf14b7a24fc2f98ae0e691281bb9003ce065408c46e8e26
+  checksum: 10c0/362a493a96409765c172ed5f67cb85cffba6d806ae28d873be08735547e0bff44b68a01136c04a460c35a1333820db002a4a506d81b59401a212e0c68a6b8c28
   languageName: node
   linkType: hard
 
-"@lerna-lite/version@npm:3.8.0":
-  version: 3.8.0
-  resolution: "@lerna-lite/version@npm:3.8.0"
+"@lerna-lite/version@npm:3.9.0":
+  version: 3.9.0
+  resolution: "@lerna-lite/version@npm:3.9.0"
   dependencies:
-    "@lerna-lite/cli": "npm:3.8.0"
-    "@lerna-lite/core": "npm:3.8.0"
+    "@lerna-lite/cli": "npm:3.9.0"
+    "@lerna-lite/core": "npm:3.9.0"
     "@lerna-lite/npmlog": "npm:^3.8.0"
     "@octokit/plugin-enterprise-rest": "npm:^6.0.1"
-    "@octokit/rest": "npm:^21.0.1"
+    "@octokit/rest": "npm:^21.0.2"
     chalk: "npm:^5.3.0"
     conventional-changelog-angular: "npm:^7.0.0"
     conventional-changelog-core: "npm:^7.0.0"
@@ -1144,7 +1144,7 @@ __metadata:
     dedent: "npm:^1.5.3"
     fs-extra: "npm:^11.2.0"
     get-stream: "npm:^9.0.1"
-    git-url-parse: "npm:^14.1.0"
+    git-url-parse: "npm:^15.0.0"
     graceful-fs: "npm:^4.2.11"
     is-stream: "npm:^4.0.1"
     load-json-file: "npm:^7.0.1"
@@ -1163,7 +1163,7 @@ __metadata:
     temp-dir: "npm:^3.0.0"
     uuid: "npm:^10.0.0"
     write-json-file: "npm:^6.0.0"
-  checksum: 10c0/57a5bb2586c862133039b2397755b076790a8671f756874c2a587fca81efd12be5c4be628f9950509dc4609394cf081a6bcec9d9561c5ee9e7fd0cdee8a91f95
+  checksum: 10c0/64c8f3e595875b94c5ff9c3bc206a0e88228fb264b543572a69b6c6ea5f6c6b7335c32b83c6bb2ebec0a5cf7aa91ebfc290f2a4b315b551a9b468cf069f66b6f
   languageName: node
   linkType: hard
 
@@ -1552,15 +1552,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/rest@npm:^21.0.1":
-  version: 21.0.1
-  resolution: "@octokit/rest@npm:21.0.1"
+"@octokit/rest@npm:^21.0.2":
+  version: 21.0.2
+  resolution: "@octokit/rest@npm:21.0.2"
   dependencies:
     "@octokit/core": "npm:^6.1.2"
     "@octokit/plugin-paginate-rest": "npm:^11.0.0"
     "@octokit/plugin-request-log": "npm:^5.3.1"
     "@octokit/plugin-rest-endpoint-methods": "npm:^13.0.0"
-  checksum: 10c0/b1d54fa564ef2a96f9d25f17df6bbc845aa4a10eec7dd810b65ed616755a24c5cc9d98ad20cf9ba61eb0c9d8cf5ce44814e544f4247d0c1e4d2fc74f265188d2
+  checksum: 10c0/4c7f0cf2797a7da5a6e3d8d7a7cfcc47b36de20a8d3e23289cc5dff2a32228254a6db459b0196f71efe229ef59fa6696591182c6c3bee7a4d658f2a0ef4c26bc
   languageName: node
   linkType: hard
 
@@ -2897,9 +2897,9 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:19.4.1"
     "@commitlint/config-conventional": "npm:19.4.1"
-    "@lerna-lite/cli": "npm:3.8.0"
-    "@lerna-lite/publish": "npm:3.8.0"
-    "@lerna-lite/run": "npm:3.8.0"
+    "@lerna-lite/cli": "npm:3.9.0"
+    "@lerna-lite/publish": "npm:3.9.0"
+    "@lerna-lite/run": "npm:3.9.0"
     eslint: "npm:8.57.0"
     husky: "npm:9.1.5"
     pretty-quick: "npm:4.0.0"
@@ -4176,12 +4176,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-url-parse@npm:^14.1.0":
-  version: 14.1.0
-  resolution: "git-url-parse@npm:14.1.0"
+"git-url-parse@npm:^15.0.0":
+  version: 15.0.0
+  resolution: "git-url-parse@npm:15.0.0"
   dependencies:
     git-up: "npm:^7.0.0"
-  checksum: 10c0/cd91547210eccdfaca92c41c5ab018c23a75e881f36aa8d7c46cef8e10dea790a455aeb4ca91426109fd5f645c6e874c0cf80a38be6a8675ed91abb08ed904d4
+  checksum: 10c0/1813a3ac8e97d348e46471db4710d776cc7b24a56a432339ab0c0f4f2323525a8627a1891aa80a53fd9be973191fe2902c0af8e17fb9b04f29445a83fbef3a4e
   languageName: node
   linkType: hard
 
