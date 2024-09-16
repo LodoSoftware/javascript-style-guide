@@ -1,6 +1,6 @@
 {
   "name": "@d3banking/eslint-config",
-  "version": "27.2.0",
+  "version": "27.3.0",
   "description": "D3 Banking's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
