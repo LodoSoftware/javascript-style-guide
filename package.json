@@ -33,7 +33,7 @@
     "@lerna-lite/publish": "3.9.1",
     "@lerna-lite/run": "3.9.1",
     "eslint": "8.57.1",
-    "husky": "9.1.5",
+    "husky": "9.1.6",
     "pretty-quick": "4.0.0"
   },
   "scripts": {
