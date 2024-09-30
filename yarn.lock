@@ -648,7 +648,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@d3banking/biome-config@workspace:packages/biome-config"
   peerDependencies:
-    "@biomejs/biome": ^1.7.0
+    "@biomejs/biome": ^1.8.0
   languageName: unknown
   linkType: soft
 
