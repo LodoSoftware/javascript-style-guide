@@ -6,6 +6,9 @@
   "stabilityDays": 3,
   "includeForks": true,
   "schedule": ["every weekend"],
+  "timezone": "America/Chicago",
+  "automergeStrategy": "squash",
+  "addLabels": ["dependencies"],
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],
