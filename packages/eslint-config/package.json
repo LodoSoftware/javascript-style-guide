@@ -44,7 +44,7 @@
     "eslint": "8.57.1",
     "eslint-find-rules": "4.2.0",
     "tape": "5.9.0",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   },
   "peerDependencies": {
     "eslint": ">= 7.5.0"
