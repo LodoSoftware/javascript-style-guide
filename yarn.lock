@@ -709,7 +709,7 @@ __metadata:
     babel-tape-runner: "npm:3.0.0"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:~9.1.0"
-    eslint-find-rules: "npm:4.2.0"
+    eslint-find-rules: "npm:5.0.0"
     eslint-import-resolver-typescript: "npm:~3.7.0"
     eslint-plugin-import: "npm:~2.31.0"
     eslint-plugin-jsx-a11y: "npm:~6.10.0"
@@ -3579,9 +3579,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-find-rules@npm:4.2.0":
-  version: 4.2.0
-  resolution: "eslint-find-rules@npm:4.2.0"
+"eslint-find-rules@npm:5.0.0":
+  version: 5.0.0
+  resolution: "eslint-find-rules@npm:5.0.0"
   dependencies:
     cliui: "npm:^7.0.4"
     eslint-rule-documentation: "npm:^1.0.23"
@@ -3589,11 +3589,11 @@ __metadata:
     window-size: "npm:^0.3.0"
     yargs: "npm:^16.2.0"
   peerDependencies:
-    eslint: ^7 || ^8.2.0
+    eslint: ^8.57.1 || ^9.18.0
   bin:
     eslint-diff-rules: dist/bin/diff.js
     eslint-find-rules: dist/bin/find.js
-  checksum: 10c0/fdd48f2b061c426f758f13de758a93054f76cc241a48618fdaf6d9ddc02b694062a4fe60e808746bff23dfe72cb557b9e1ef8cbb7f458ea1cd733894e2d0d11f
+  checksum: 10c0/d5a54195f5a2e01d52eeeaddb9e36fc0c35ca28a527bb22f6aebd2a41f0fd8778a267c47e80dd54c22ec5419b5957fb3c2372a63a8cf75bc17e0a6014941afef
   languageName: node
   linkType: hard
 
