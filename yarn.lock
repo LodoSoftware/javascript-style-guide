@@ -1166,14 +1166,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna-lite/publish@npm:3.12.1":
-  version: 3.12.1
-  resolution: "@lerna-lite/publish@npm:3.12.1"
+"@lerna-lite/publish@npm:3.12.2":
+  version: 3.12.2
+  resolution: "@lerna-lite/publish@npm:3.12.2"
   dependencies:
     "@lerna-lite/cli": "npm:3.12.1"
     "@lerna-lite/core": "npm:3.12.1"
     "@lerna-lite/npmlog": "npm:3.12.1"
-    "@lerna-lite/version": "npm:3.12.1"
+    "@lerna-lite/version": "npm:3.12.2"
     "@npmcli/arborist": "npm:^7.5.4"
     "@npmcli/package-json": "npm:^5.2.1"
     byte-size: "npm:^9.0.1"
@@ -1193,9 +1193,9 @@ __metadata:
     ssri: "npm:^11.0.0"
     tar: "npm:^6.2.1"
     temp-dir: "npm:^3.0.0"
-    tinyglobby: "npm:^0.2.11"
+    tinyglobby: "npm:^0.2.12"
     tinyrainbow: "npm:^2.0.0"
-  checksum: 10c0/2f165d1e725183a7dfc2e0a8f01bbe471f3c1578765c874f181f4b462394a04f56eb7f3d2db7d41970b8b26bda25e62509495f356cb6c00ce4310c4bc0a43d28
+  checksum: 10c0/5fced6ef1bb822234ef00337bbf14b046f84e9c353d1add77aea7b79507164b1a45b534074417bdaef426a047d5f46a3ba34f953be7c00f542663e4f77777f6c
   languageName: node
   linkType: hard
 
@@ -1214,9 +1214,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lerna-lite/version@npm:3.12.1":
-  version: 3.12.1
-  resolution: "@lerna-lite/version@npm:3.12.1"
+"@lerna-lite/version@npm:3.12.2":
+  version: 3.12.2
+  resolution: "@lerna-lite/version@npm:3.12.2"
   dependencies:
     "@lerna-lite/cli": "npm:3.12.1"
     "@lerna-lite/core": "npm:3.12.1"
@@ -1249,9 +1249,9 @@ __metadata:
     slash: "npm:^5.1.0"
     temp-dir: "npm:^3.0.0"
     tinyrainbow: "npm:^2.0.0"
-    uuid: "npm:^11.0.5"
+    uuid: "npm:^11.1.0"
     write-json-file: "npm:^6.0.0"
-  checksum: 10c0/6929bf298756cf6376b2d3dc9aec69c815e3d92360b852ec257e289a0f282f4cce0c11da8c5cdeb2fda0e69711cf0243bc075666766973496f68bf44a9d5ff17
+  checksum: 10c0/13b206fe3e420e4204ec99a7e665ddd77abff1204cb9d12237699488cf86a7e3a8d9f41f92ffc65b477587dcde1b49b1c815c01c49ec45164820dada34d5769c
   languageName: node
   linkType: hard
 
@@ -2980,7 +2980,7 @@ __metadata:
     "@commitlint/cli": "npm:19.7.1"
     "@commitlint/config-conventional": "npm:19.7.1"
     "@lerna-lite/cli": "npm:3.12.1"
-    "@lerna-lite/publish": "npm:3.12.1"
+    "@lerna-lite/publish": "npm:3.12.2"
     "@lerna-lite/run": "npm:3.12.1"
     eslint: "npm:8.57.1"
     husky: "npm:9.1.7"
@@ -4034,18 +4034,6 @@ __metadata:
   dependencies:
     reusify: "npm:^1.0.4"
   checksum: 10c0/d5855c5220629bc3507d1b5c24555139b4412f715ca887ede0ce42dbf67b58efc3e2642d2e1ee50ea24d5ae0faa217e06b97d7a94cf5c5167ae13917049fed36
-  languageName: node
-  linkType: hard
-
-"fdir@npm:^6.4.3":
-  version: 6.4.3
-  resolution: "fdir@npm:6.4.3"
-  peerDependencies:
-    picomatch: ^3 || ^4
-  peerDependenciesMeta:
-    picomatch:
-      optional: true
-  checksum: 10c0/d13c10120e9625adf21d8d80481586200759928c19405a816b77dd28eaeb80e7c59c5def3e2941508045eb06d34eb47fad865ccc8bf98e6ab988bb0ed160fb6f
   languageName: node
   linkType: hard
 
@@ -8063,17 +8051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.11":
-  version: 0.2.12
-  resolution: "tinyglobby@npm:0.2.12"
-  dependencies:
-    fdir: "npm:^6.4.3"
-    picomatch: "npm:^4.0.2"
-  checksum: 10c0/7c9be4fd3625630e262dcb19015302aad3b4ba7fc620f269313e688f2161ea8724d6cb4444baab5ef2826eb6bed72647b169a33ec8eea37501832a2526ff540f
-  languageName: node
-  linkType: hard
-
-"tinyglobby@npm:^0.2.12":
+"tinyglobby@npm:^0.2.11, tinyglobby@npm:^0.2.12":
   version: 0.2.12
   resolution: "tinyglobby@npm:0.2.12"
   dependencies:
@@ -8633,12 +8611,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^11.0.5":
-  version: 11.0.5
-  resolution: "uuid@npm:11.0.5"
+"uuid@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "uuid@npm:11.1.0"
   bin:
     uuid: dist/esm/bin/uuid
-  checksum: 10c0/6f59f0c605e02c14515401084ca124b9cb462b4dcac866916a49862bcf831874508a308588c23a7718269226ad11a92da29b39d761ad2b86e736623e3a33b6e7
+  checksum: 10c0/34aa51b9874ae398c2b799c88a127701408cd581ee89ec3baa53509dd8728cbb25826f2a038f9465f8b7be446f0fbf11558862965b18d21c993684297628d4d3
   languageName: node
   linkType: hard
 
