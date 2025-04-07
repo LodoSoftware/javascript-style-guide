@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [30.0.0](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@29.2.1...@d3banking/eslint-config@30.0.0) (2025-04-07)
+
+### Features
+
+- **deps:** update dependency eslint-config-prettier to v10 ([#446](https://github.com/LodoSoftware/javascript-style-guide/issues/446)) ([26dc15c](https://github.com/LodoSoftware/javascript-style-guide/commit/26dc15c1ce01054caece0604d92fb218ceb7d4d3))
+- **deps:** update dependency eslint-import-resolver-typescript to ~3.10.0 ([#476](https://github.com/LodoSoftware/javascript-style-guide/issues/476)) ([328a7f4](https://github.com/LodoSoftware/javascript-style-guide/commit/328a7f437b49566146233ff03267108d255c3549))
+- **deps:** update dependency eslint-import-resolver-typescript to v4 ([#478](https://github.com/LodoSoftware/javascript-style-guide/issues/478)) ([ff437af](https://github.com/LodoSoftware/javascript-style-guide/commit/ff437af7b11c1270c7b063d35f8ea91c338e3592))
+- **deps:** update typescript-eslint monorepo to ~8.28.0 ([#477](https://github.com/LodoSoftware/javascript-style-guide/issues/477)) ([4bac43e](https://github.com/LodoSoftware/javascript-style-guide/commit/4bac43e33f961d253e4d885dc5d09d3a2b8098dc))
+- **deps:** update typescript-eslint monorepo to ~8.29.0 ([#480](https://github.com/LodoSoftware/javascript-style-guide/issues/480)) ([5ba9ede](https://github.com/LodoSoftware/javascript-style-guide/commit/5ba9edecf495e8baed42f8a3abfa6cde6289c981))
+
+### BREAKING CHANGES
+
+- **deps:** update dependency eslint-import-resolver-typescript to v4
+- **deps:** Potential breaking changes with update to eslint-config-prettier to v10
+
 ## [29.2.1](https://github.com/LodoSoftware/javascript-style-guide/compare/@d3banking/eslint-config@29.2.0...@d3banking/eslint-config@29.2.1) (2025-03-28)
 
 **Note:** Version bump only for package @d3banking/eslint-config
